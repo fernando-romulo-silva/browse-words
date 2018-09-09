@@ -1,0 +1,51 @@
+# Rename this file to .gitignore and enjoy it!
+# https://github.com/github/gitignore/tree/master/Global
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+.loadpath
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.recommenders
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Ant files
+.ant-targets-build.xml
+build.properties
+
