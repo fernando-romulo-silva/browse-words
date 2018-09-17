@@ -1,264 +1,189 @@
-military
-Refreshments
-stay away
-establish
-ground
-achievement
-achieve
-Highland
-Briefly
-tentative
-Highland
-footage
-region
-interior
-Troublesome
-moreover
-zealots
-adherents
-thresholds
-lenient
-knowledgeable
-leftmost
-currying
-clumsier
-ruggedness
-misleading
-resembles
-slightly
-downplays
-constituent
-recurring
-Furthermore
-meaningless
-further
-predicament 
-toughening
-outweigh 
-scrubbed 
-remaining 
-hire
-related
-eager
-frightened
-square
-harness
-capable
-scarce
-underutilized
-regard
-threshold
-compute-bound
-trend
-Quote
-getaway
-
-
-beverage -> bebida
-
-bother -> you don’t have to bother working through the logic)
-
-havoc -> Imagine the havoc if you couldn’t guarantee how a String object would work on any given system your application is running on!
-
-sole -> Its sole purpose, mission in life, is to be extended.
-
-spoil -> One abstract method spoils the whole bunch.
-
-bounce -> You might want both a Ball and a Tire to have bounce behavior
-
-breeze -> But before you breeze past the rest of this discussion
-
-fuzzy -> Has gotten a little fuzzy with it
-
-quite -> There will be quite a few questions in which access control plays a role
-
-misunderstood -> The most misunderstood modifier in Java.
-
-boatload -> That still leaves a boatload of other modifiers you can use on member declarations
-
-enforce ->
-
-tune ->
-
-straightforward ->
-
-wire ->
-
-wrap ->
-
-wrap up ->
-
-overwhelm ->
-
-enclosed ->
-
-lie down -> 
-
-downhill ->
-
-cram ->
-
-roughly -> 
-
-caveats
-retrieve
-afoul
-nifty
-enforces
-heading
-snapshot
-bear
-likewise
-tie
-mere
-lurk
-squawk
-flipping
-painstaking
-twiddle
-tweak
-queue
-terse
-pile
-ordered
-sorted
-aside
-holdover
-sleek
-handy
-shaved
-sneaky
-
-gotcha
-predictable
-predicted
-predict
-
-vary
-terse
-ferry
-spot
-clunky
-
-Stubs
+straightforward
 tray
-saucer
-enclosed
-placeholder
-
-strap
-bumpy
-guaranteed
-enchanted
-blown up
-vanishes
-lull
-
-gotchas
+slightly
+boatload
+achievement
+bounce
+vary
+toughening
+infeasible
+handy
+squawk
+predictable
 heck
-erasure
-swar
-slew
-
-leap year
-leap
-shout out
-kiddo
-rejoins
-tailor
-aside
-muck
-stick
-bundle
-fledged
-amend
-stand
-assumptions
-assertions
-colon
-
-enforce
-madden
-defeat
-
-heighten
-contrive
-leverage
-asset
-foreword
-
-tempting
-brittle
-whim
-
-stuff
-glance
-wrinkle
-dandy
-
-flush
-stub
-path
-
-scratch
-wound
-Notice
 hoop
 wrath
-
-
-anchor
-infeasible
-rationale
-rational
+assertions
 meaningless
-thus
-halter
-betrayed
-rogue
-burden
-masquerading
-despite
-maddening
-adhere
-meltdown
-
-giveaway
-riddle
-mileage
+foreword
 proposal
-spits
-
-misnomer
-terse
-tuck
-profound
-boil
-grasp
-
-
-
-scatter
-hoopla
-so far
-outside
-spot
-sizzle
+predicament 
+muck
+downplays
 savvy
-seal
+scratch
+sizzle
+Refreshments
+thresholds
+sorted
+spot
+betrayed
+stay away
+so far
+flipping
+madden
+brittle
+snapshot
+blown up
+zealots
 fate
-
-scrap
+roughly 
+heighten
+dandy
+tailor
+outweigh 
+shaved
+interior
+misnomer
+defeat
+meltdown
 scrape
-
-caveat
-caveat time
+knowledgeable
+scrap
+sleek
+hoopla
+moreover
+glance
+beverage
+leap
+stand
+holdover
+bundle
+rational
+giveaway
+ordered
+bother
+masquerading
+heading
+twiddle
+tentative
+contrive
+wrinkle
+rationale
+likewise
+leftmost
+overwhelm
+enchanted
+tweak
+regard
+anchor
 shallow
-daunting
+misunderstood
+asset
+scarce
+queue
+gotchas
+stuff
+whim
+erasure
+eager
+fledged
+gotcha
+afoul
+threshold
+assumptions
+enclosed
+tie
+Notice
+bumpy
+stub
+quite
+military
+bear
+predicted
+sneaky
+mileage
+tuck
+rogue
+terse
+spits
+swar
 footage
-
-
-
+recurring
+amend
+clunky
+guaranteed
+breeze
+strap
+adhere
+Stubs
+establish
+currying
+Furthermore
+halter
+lurk
+profound
+misleading
+square
+wire
+aside
+outside
+enforce
+retrieve
+ground
+region
+Briefly
+frightened
+painstaking
+adherents
+saucer
+kiddo
+seal
+capable
+Troublesome
+lenient
+tune
+caveats
+maddening
+getaway
+burden
+riddle
+vanishes
+wound
+compute-bound
+related
+flush
+constituent
+clumsier
+havoc
+remaining 
+ferry
+predict
+daunting
+placeholder
+spoil
+ruggedness
+fuzzy
+Highland
+rejoins
+sole
+underutilized
+nifty
+enforces
+cram
+harness
+mere
+colon
+downhill
+lull
+scrubbed 
+tempting
+caveat
+slew
+----------------------------------------------------------------------
+caveat time
+leap year
+shout out
 wrap up
 end up
 mash-up
@@ -281,3 +206,5 @@ even though
 screw up
 spits out
 dead giveaway
+lie down
+found out
