@@ -180,6 +180,9 @@ scrubbed
 tempting
 caveat
 slew
+twofold
+winnowed
+peek
 ----------------------------------------------------------------------
 caveat time
 leap year
