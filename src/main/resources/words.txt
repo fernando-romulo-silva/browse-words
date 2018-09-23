@@ -183,6 +183,7 @@ slew
 twofold
 winnowed
 peek
+mottled
 ----------------------------------------------------------------------
 caveat time
 leap year
