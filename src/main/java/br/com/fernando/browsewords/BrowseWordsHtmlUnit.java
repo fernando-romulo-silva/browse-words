@@ -2,10 +2,12 @@ package br.com.fernando.browsewords;
 
 import java.net.URL;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
@@ -22,20 +24,20 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
+	final WebClient webClient = new WebClient(BrowserVersion.FIREFOX_60);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
 	// final Multimap<String, String> map = ArrayListMultimap.create();
-	final var map = ArrayListMultimap.<String, String>create();
+	final ArrayListMultimap<String, String> map = ArrayListMultimap.create();
 
 	try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL("https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=100&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator"), HttpMethod.GET);
+	    final WebRequest webRequest = new WebRequest(new URL("https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=100&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator"), HttpMethod.GET);
 	    webRequest.setAdditionalHeader("Accept", "*/*");
 	    webRequest.setAdditionalHeader("Content-Type", "application/json");
 
-	    final var jsonString = webClient.<UnexpectedPage>getPage(webRequest) //
+	    final String jsonString = webClient.<UnexpectedPage>getPage(webRequest) //
 	        .getWebResponse() //
 	        .getContentAsString();
 
@@ -68,7 +70,7 @@ public class BrowseWordsHtmlUnit {
 	     *    }
 	     * </pre>
 	     */
-	    final var urlStudySets = JsonPath.<List<String>>read(jsonString, "$..set[*]._webUrl");
+	    final List<String> urlStudySets = JsonPath.read(jsonString, "$..set[*]._webUrl");
 
 	    for (final String urlStudySet : urlStudySets) {
 
@@ -98,9 +100,9 @@ public class BrowseWordsHtmlUnit {
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Check if words on 'words.txt' are on the site");
 
-	final var words = Paths.get(BrowseWordsHtmlUnit.class.getClassLoader().getResource("words.txt").toURI());
+	final Path words = Paths.get(BrowseWordsHtmlUnit.class.getClassLoader().getResource("words.txt").toURI());
 
-	final var wordsOnSite = map.keySet();
+	final Set<String> wordsOnSite = map.keySet();
 
 	Files.lines(words) // reading file
 	    .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
