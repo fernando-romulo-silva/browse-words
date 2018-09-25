@@ -184,6 +184,7 @@ twofold
 winnowed
 peek
 mottled
+whimsical
 ----------------------------------------------------------------------
 caveat time
 leap year
