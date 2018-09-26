@@ -78,13 +78,19 @@ public class BrowseWordsHtmlUnit {
 		    .getByXPath("//span[contains(@class,'lang-en')]");
 
 		spans.stream() //
-		    .map(elt -> elt.getTextContent()) //
+		    .map(HtmlSpan::getTextContent) //
 		    .collect(Collectors.toList())//
 		    .forEach(w -> map.put(w, urlStudySet));
 
-		// map.putAll(spans.stream() //
-		// .collect(Collectors //
-		// .toMap(k -> k, urlStudySet)));
+		spans.stream() //
+		    .map(HtmlSpan::getTextContent) //
+		    .collect(Collectors //
+		        .toMap(k -> k, v -> urlStudySet));
+
+		// spans.stream() //
+		// .map(HtmlSpan::getTextContent) //
+		// .collect(ImmutableListMultimap.flatteningToImmutableListMultimap(k -> k, v -> v.strea));
+
 	    }
 	}
 
