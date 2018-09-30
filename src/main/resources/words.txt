@@ -198,7 +198,15 @@ yield
 hammer
 assemble
 caution
+expenses
+havoc
+starvation
+withdrawal
+overdrawn
+tweak
+acquire
 ----------------------------------------------------------------------
+mess up
 your behalf
 caveat time
 leap year
@@ -227,3 +235,5 @@ spits out
 dead giveaway
 lie down
 found out
+I know of
+Our lease ends

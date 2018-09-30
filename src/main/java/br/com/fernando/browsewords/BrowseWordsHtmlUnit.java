@@ -4,9 +4,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -28,7 +26,6 @@ public class BrowseWordsHtmlUnit {
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
-	// final Multimap<String, String> map = ArrayListMultimap.create();
 	final ArrayListMultimap<String, String> map = ArrayListMultimap.create();
 
 	try (webClient) {
@@ -82,14 +79,10 @@ public class BrowseWordsHtmlUnit {
 		    .collect(Collectors.toList())//
 		    .forEach(w -> map.put(w, urlStudySet));
 
-		spans.stream() //
-		    .map(HtmlSpan::getTextContent) //
-		    .collect(Collectors //
-		        .toMap(k -> k, v -> urlStudySet));
-
 		// spans.stream() //
 		// .map(HtmlSpan::getTextContent) //
-		// .collect(ImmutableListMultimap.flatteningToImmutableListMultimap(k -> k, v -> v.strea));
+		// .collect(Collectors //
+		// .toMap(k -> k, v -> urlStudySet));
 
 	    }
 	}
@@ -97,11 +90,9 @@ public class BrowseWordsHtmlUnit {
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Looking for repeated words");
 
-	for (final Map.Entry<String, Collection<String>> entry : map.asMap().entrySet()) {
-	    if (entry.getValue().size() > 1) {
-		System.out.println(entry.getKey() + " - " + entry.getValue());
-	    }
-	}
+	map.asMap().entrySet().stream() //
+	    .filter(e -> e.getValue().size() > 1) //
+	    .forEach(e -> System.out.println(e.getKey() + " - " + e.getValue()));
 
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Check if words on 'words.txt' are on the site");
