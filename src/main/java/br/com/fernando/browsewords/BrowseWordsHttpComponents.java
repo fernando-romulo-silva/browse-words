@@ -29,7 +29,7 @@ import org.w3c.dom.Document;
 
 // https://www.baeldung.com/java-xpath
 // https://examples.javacodegeeks.com/core-java/xml/xpath/java-xpathfactory-example/
-public class BrowseWordsApacheComponents {
+public class BrowseWordsHttpComponents {
 
     public static void main(String[] args) throws Exception {
 	
