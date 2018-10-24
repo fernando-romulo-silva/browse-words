@@ -30,7 +30,7 @@ public class BrowseWordsHtmlUnit {
 
 	try (webClient) {
 
-	    final WebRequest webRequest = new WebRequest(new URL("https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=100&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator"), HttpMethod.GET);
+	    final WebRequest webRequest = new WebRequest(new URL(BrowseWordsConsts.URL), HttpMethod.GET);
 	    webRequest.setAdditionalHeader("Accept", "*/*");
 	    webRequest.setAdditionalHeader("Content-Type", "application/json");
 
