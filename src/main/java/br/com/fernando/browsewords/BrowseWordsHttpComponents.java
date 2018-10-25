@@ -1,34 +1,51 @@
 package br.com.fernando.browsewords;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
-package org.apache.http.client.fluent;
+import com.jayway.jsonpath.JsonPath;
 
 public class BrowseWordsHttpComponents {
 
     public static void main(String[] args) throws Exception {
+        
+        final Map<String, List<String>> map = new HashMap<>();
+        
+        try (final CloseableHttpClient httpclient = HttpClients.createDefault()) {
+            final HttpGet httpget = new HttpGet(BrowseWordsConsts.URL);
 
-        Request.Get("http://targethost/homepage").execute().returnContent();
+            // Create a custom response handler
+            final ResponseHandler<String> responseHandler = response -> {
+                int status = response.getStatusLine().getStatusCode();
 
-        final CloseableHttpClient httpclient = HttpClients.createDefault();
-        final HttpGet httpGet = new HttpGet(BrowseWordsConsts.URL);
-        final CloseableHttpResponse response1 = httpclient.execute(httpGet);
+                if (status >= 200 && status < 300) {
+                    final HttpEntity entity = response.getEntity();
+                    return entity != null ? EntityUtils.toString(entity) : null;
+                } else {
+                    throw new ClientProtocolException("Unexpected response status: " + status);
+                }
+            };
 
-        try {
-            System.out.println(response1.getStatusLine());
+            final String jsonString = httpclient.execute(httpget, responseHandler);
 
-            HttpEntity entity1 = response1.getEntity();
-            // do something useful with the response body and ensure it is fully consumed
-            EntityUtils.consume(entity1);
-
-        } finally {
-            response1.close();
+            final List<String> urlStudySets = JsonPath.read(jsonString, "$..set[*]._webUrl");
+            
+            for (final String urlStudySet : urlStudySets) {
+                
+                
+                
+            }
+            
+            
         }
-
     }
 }
