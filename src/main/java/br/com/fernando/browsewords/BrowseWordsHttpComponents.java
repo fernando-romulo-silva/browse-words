@@ -1,8 +1,6 @@
 package br.com.fernando.browsewords;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
@@ -12,16 +10,17 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+import com.google.common.collect.ArrayListMultimap;
 import com.jayway.jsonpath.JsonPath;
 
 public class BrowseWordsHttpComponents {
 
     public static void main(String[] args) throws Exception {
         
-        final Map<String, List<String>> map = new HashMap<>();
+	final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
         
         try (final CloseableHttpClient httpclient = HttpClients.createDefault()) {
-            final HttpGet httpget = new HttpGet(BrowseWordsConsts.URL);
+            final HttpGet httpget = new HttpGet(BrowseWordsUtils.URL);
 
             // Create a custom response handler
             final ResponseHandler<String> responseHandler = response -> {
