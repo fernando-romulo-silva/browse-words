@@ -2,6 +2,12 @@ package br.com.fernando.browsewords;
 
 import java.util.List;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathFactory;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.ResponseHandler;
@@ -9,16 +15,17 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 
 import com.google.common.collect.ArrayListMultimap;
-import com.jayway.jsonpath.JsonPath;
 
 public class BrowseWordsHttpComponents {
 
     public static void main(String[] args) throws Exception {
-        
-	final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
-        
+
+        final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
+
         try (final CloseableHttpClient httpclient = HttpClients.createDefault()) {
             final HttpGet httpget = new HttpGet(BrowseWordsUtils.URL);
 
@@ -36,15 +43,23 @@ public class BrowseWordsHttpComponents {
 
             final String jsonString = httpclient.execute(httpget, responseHandler);
 
-            final List<String> urlStudySets = JsonPath.read(jsonString, "$..set[*]._webUrl");
-            
+            final DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            final XPath xPath = XPathFactory.newInstance().newXPath();
+
+            final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
+
             for (final String urlStudySet : urlStudySets) {
-                
-                
-                
+                // html parse don't work
+                final Document doc = documentBuilder.parse(httpclient.execute(new HttpGet(urlStudySet), responseHandler));
+
+                NodeList nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, XPathConstants.NODESET);
+
+                System.out.println(nodes);
             }
-            
-            
         }
+
+        BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+
+        BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
     }
 }
