@@ -269,7 +269,53 @@ biases
 tap
 knowledge
 face
+caregiver
+offset
+
+Worn - usado verb?
+Mend
+Lean out
+Remain
+Wage
+apron
+Wore
+Spot
+Allotted
+Flicked
+Outcome
+Dank -> german, damp -> english
+stumbled
+Embody
+Has been cast upon
+Stumble
+Sorely
+taught
+whose
+fastened
+quiet
+prevented
+stock exchange
+trapped
+evenly
+ill
+starred
+upper
+sleeves
+pale
+crisp
+gills - A creature that breathes through gills and uses fins and a tail for swimming. 
+blended
+squeez - A drink made by squeezing the pulp of oranges. 
+
+Finely chopped beef made int o a flat
+A type of food made from flour, water and usually yeast mixed together and baked.
+A hot drink made by pouring boiling water onto tea leaves
+
+
+
 ----------------------------------------------------------------------
+boucing ball
+put it down
 meet your needs
 driving us crazy
 set up
@@ -309,3 +355,4 @@ lie down
 found out
 I know of
 Our lease ends
+winnow down
