@@ -1,5 +1,6 @@
 straightforward
 tray
+fawn
 slightly
 boatload
 achievement
@@ -11,6 +12,7 @@ handy
 squawk
 predictable
 heck
+horrock
 hoop
 wrath
 assertions
@@ -271,7 +273,7 @@ knowledge
 face
 caregiver
 offset
-
+blot
 Worn - usado verb?
 Mend
 Lean out
@@ -306,7 +308,8 @@ crisp
 gills - A creature that breathes through gills and uses fins and a tail for swimming. 
 blended
 squeez - A drink made by squeezing the pulp of oranges. 
-
+wise
+paw
 Finely chopped beef made int o a flat
 A type of food made from flour, water and usually yeast mixed together and baked.
 A hot drink made by pouring boiling water onto tea leaves
