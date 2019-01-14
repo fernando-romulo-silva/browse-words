@@ -334,7 +334,10 @@ gargle
 moved by oars, sails or a motor.
 engine pulling a number o coaches/cars or trucks
 pardo me
-
+throughput
+bandwidth
+steal
+roughly
 ----------------------------------------------------------------------
 boucing ball
 put it down
