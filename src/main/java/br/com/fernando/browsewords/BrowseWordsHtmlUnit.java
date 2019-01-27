@@ -16,38 +16,38 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
-	webClient.getOptions().setJavaScriptEnabled(false);
-	webClient.getOptions().setCssEnabled(false);
+        final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
+        webClient.getOptions().setJavaScriptEnabled(false);
+        webClient.getOptions().setCssEnabled(false);
 
-	final var globalMap = ArrayListMultimap.<String, String>create();
+        final var globalMap = ArrayListMultimap.<String, String> create();
 
-	try (webClient) {
+        try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL(BrowseWordsUtils.URL), HttpMethod.GET);
-	    webRequest.setAdditionalHeader("Accept", "*/*");
-	    webRequest.setAdditionalHeader("Content-Type", "application/json");
+            final var webRequest = new WebRequest(new URL(BrowseWordsUtils.URL), HttpMethod.GET);
+            webRequest.setAdditionalHeader("Accept", "*/*");
+            webRequest.setAdditionalHeader("Content-Type", "application/json");
 
-	    final var jsonString = webClient.<UnexpectedPage>getPage(webRequest) //
-	        .getWebResponse() //
-	        .getContentAsString();
+            final var jsonString = webClient.<UnexpectedPage> getPage(webRequest) //
+                    .getWebResponse() //
+                    .getContentAsString();
 
-	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
+            final var urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
 
-	    for (final var urlStudySet : urlStudySets) {
+            for (final var urlStudySet : urlStudySets) {
 
-		final var spans = webClient.<HtmlPage>getPage(urlStudySet) //
-		    .<HtmlSpan>getByXPath("//span[contains(@class,'lang-en')]");
+                final var spans = webClient.<HtmlPage> getPage(urlStudySet) //
+                        .<HtmlSpan> getByXPath("//span[contains(@class,'lang-en')]");
 
-		spans.stream() //
-		    .map(HtmlSpan::getTextContent) //
-		    .collect(Collectors.toList())//
-		    .forEach(w -> globalMap.put(w, urlStudySet));
-	    }
-	}
-	
-	BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+                spans.stream() //
+                        .map(HtmlSpan::getTextContent) //
+                        .collect(Collectors.toList())//
+                        .forEach(w -> globalMap.put(w, urlStudySet));
+            }
+        }
 
-	BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
+        BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+
+        BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
     }
 }
