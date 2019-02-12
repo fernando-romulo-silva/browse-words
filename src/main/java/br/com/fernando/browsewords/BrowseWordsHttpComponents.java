@@ -25,8 +25,10 @@ public class BrowseWordsHttpComponents {
     public static void main(String[] args) throws Exception {
 
         final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
-
-        try (final CloseableHttpClient httpclient = HttpClients.createDefault()) {
+        final CloseableHttpClient httpclient = HttpClients.createDefault();
+        
+        try (httpclient) {
+            
             final HttpGet httpget = new HttpGet(BrowseWordsUtils.URL);
 
             // Create a custom response handler
