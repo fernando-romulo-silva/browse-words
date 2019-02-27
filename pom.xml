@@ -12,7 +12,7 @@
 
 	<properties>
 		<maven.compiler.release>11</maven.compiler.release>
-		
+
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -67,6 +67,24 @@
 			<artifactId>httpclient</artifactId>
 			<version>4.5.6</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-remote-driver</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
 	</dependencies>
 </project>
