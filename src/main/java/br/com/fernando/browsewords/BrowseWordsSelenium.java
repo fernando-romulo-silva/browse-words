@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class BroweWordsSelenium {
+public class BrowseWordsSelenium {
 
     public static void main(String[] args) throws Exception {
 

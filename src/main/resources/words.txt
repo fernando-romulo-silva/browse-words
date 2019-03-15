@@ -329,6 +329,8 @@ tempting
 remainder
 normally
 intend
+beat:
+spank:
 unintended:does not do anything unintended
 counter:many developers seem to have an attitude that is counter to extensive testing.
 feasible
