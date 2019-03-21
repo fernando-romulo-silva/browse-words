@@ -35,6 +35,7 @@ public class BrowseWordsJSoups {
 
             spans.stream() //
                     .map(Element::text) //
+                    // .collect(Collectors.mapping(mapper, downstream))
                     .collect(Collectors.toList())//
                     .forEach(w -> globalMap.put(w, urlStudySet));
 
