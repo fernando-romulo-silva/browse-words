@@ -329,6 +329,7 @@ tempting
 remainder
 normally
 intend
+leveraging: leveraging the work you've already done
 beat:
 spank:
 unintended:does not do anything unintended
