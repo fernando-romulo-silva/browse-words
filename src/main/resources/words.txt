@@ -3,6 +3,7 @@ struggle
 vary
 upper
 behalf
+constraints
 conveyance
 starred
 heck
@@ -17,24 +18,33 @@ foreword
 crisp
 knowledge
 proposal
+finshing
 predicament 
+deeds
 remain
 downplays
 scratch
+idle
 whose
+benefit
+Fewer
 shuttlecock
 sizzle
 sorted
+dive
 comparisons
+dawn
 enquiry
 infinite
 dandy
 headliners
+soil
 crops
 outweigh 
 acquire
 exchanging
 interior
+advertisements
 knowledgeable
 varying
 sleek
@@ -43,11 +53,11 @@ glance
 beverage
 advertisement
 whom
-ripe
 quiet
 caution
 prevented
 rational
+Reassurances
 giveaway
 calendar
 ordered
@@ -69,8 +79,8 @@ leftmost
 overwhelm
 stab
 taught
-ill/sick
 spin
+creases
 shallow
 fashion
 blended
@@ -99,7 +109,6 @@ paw
 clunky
 intriguing
 strap
-pardo me
 profound
 misleading
 wire
@@ -107,7 +116,9 @@ aside
 outskirts
 sparse
 horny
+overcooked
 region
+Puddle
 frightened
 yells
 saucer
@@ -124,6 +135,7 @@ getaway
 riddle
 shot
 bats
+bea:
 starvation
 vanishes
 compute-bound
@@ -151,6 +163,8 @@ colon
 willed
 downhill
 lull
+bid
+guava
 scrubbed 
 caveat
 fawn
@@ -158,6 +172,7 @@ slew
 straightforward
 tray
 slightly
+amazement
 ballots
 storytelling
 achievement
@@ -184,11 +199,15 @@ gauge
 mottled
 briefly
 refreshments
+relevance
 yeast
 thresholds
+unintended
+Sales figures
 betrayed
 spot
 fiddle
+Object
 so far
 waist
 brittle
@@ -212,6 +231,7 @@ defeat
 meltdown
 scrape
 scrap
+Bridging
 feature
 hoopla
 inquiry
@@ -228,8 +248,10 @@ heading
 spill your guts
 tentative
 noisy
+spank
 contrive
 peek
+downtime
 likewise
 enchanted
 troublesome
@@ -237,7 +259,6 @@ seriousness
 tweak
 regard
 efficiently
-shingle
 hops
 misunderstood
 spotless
@@ -249,24 +270,19 @@ queue
 entends
 gotchas
 reentrant
-stuff
-blot
 whim
 erasure
 minor
 winnowed
 threshold
 snatcher
-anger
 assumptions
 follow-up
-bloom
 major
-has been cast upon
-featured show
 bumpy
 quite
 bear
+feasible
 mileage
 sneaky
 rogue
@@ -280,6 +296,7 @@ ill
 guaranteed
 adhere
 breeze
+cadence
 establish
 currying
 halter
@@ -294,10 +311,10 @@ ground
 vanquish
 painstaking
 expenses
-stock exchange
 adherents
 hammer
 kiddo
+regret
 steal
 liveness
 seal
@@ -309,12 +326,11 @@ somber
 sorely
 wound
 nosy
+Trailing
 leadership
 remaining 
 predict
 mentioned
-reinforces
-overdrawn
 ruggedness
 fuzzy
 earning
@@ -329,13 +345,9 @@ mere
 tempting
 remainder
 normally
-intend
+
 leveraging: leveraging the work you've already done
-beat:
-spank:
-unintended:does not do anything unintended
-counter:many developers seem to have an attitude that is counter to extensive testing.
-feasible
-constraints
 stage:on the world stage
+unintended:does not do anything unintended
 lead:When an error leads to unexpected outputs
+counter: many developers seem to have an attitude that is counter to extensive testing.
