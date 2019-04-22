@@ -20,6 +20,8 @@ import org.w3c.dom.NodeList;
 
 import com.google.common.collect.ArrayListMultimap;
 
+import br.com.fernando.browsewords.util.BrowseWordsUtils;
+
 public class BrowseWordsHttpComponents {
 
     public static void main(String[] args) throws Exception {

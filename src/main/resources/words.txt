@@ -1,43 +1,25 @@
-wipe
-reassurances
-struggle
-vary
-upper
-behalf
-constraints
-conveyance
-starred
-heck
-predictable
-biases
-benefit
+bulk-oriented
+offload
 flicked
 strengthen
 rendezvous
 meaningless
-foreword
 crisp
 knowledge
 proposal
 finshing
 predicament 
-deeds
 remain
-downplays
 scratch
-idle
 whose
-benefit
 Fewer
 shuttlecock
 sizzle
 sorted
-dive
-comparisons
-dawn
+toilet
 enquiry
+drums
 infinite
-dandy
 headliners
 soil
 crops
@@ -45,24 +27,22 @@ outweigh
 acquire
 exchanging
 interior
-advertisements
 knowledgeable
 varying
 sleek
-spark
+
 glance
 beverage
-advertisement
 whom
 quiet
 caution
 prevented
 rational
-Reassurances
 giveaway
 calendar
 ordered
-bother
+
+washbasin
 masquerading
 bandwidth
 twiddle
@@ -73,18 +53,21 @@ rationale
 wrinkle
 put out
 timetable
+wipe
 awesome
 weird
 face
 leftmost
 overwhelm
 stab
+stage
 taught
 spin
 creases
 shallow
 fashion
 blended
+till
 eager
 fledged
 gotcha
@@ -105,6 +88,7 @@ terse
 trapped
 amend
 footage
+sink
 fastened
 paw
 clunky
@@ -118,16 +102,18 @@ outskirts
 sparse
 horny
 overcooked
+salutation
 region
+Briefly
 Puddle
 frightened
 yells
+Maintain
 saucer
 apron
 capable
 cautious
 frighten 
-polls
 embody
 caveats
 lenient
@@ -136,7 +122,6 @@ getaway
 riddle
 shot
 bats
-bea:
 starvation
 vanishes
 compute-bound
@@ -156,8 +141,11 @@ notice
 rejoins
 sole
 multiple
+spank
+counter
 lean out
 stumbled
+uni
 cram
 furthermore
 colon
@@ -175,6 +163,7 @@ tray
 slightly
 amazement
 ballots
+career
 storytelling
 achievement
 bounce
@@ -183,6 +172,7 @@ gargle
 overbear
 toughening
 infeasible
+gills
 stubs
 squawk
 bottleneck
@@ -194,6 +184,7 @@ allotted
 nap
 whimsical
 pale
+struggle
 wage
 evenly
 gauge
@@ -205,11 +196,10 @@ yeast
 thresholds
 unintended
 Sales figures
+among
 betrayed
 spot
 fiddle
-Object
-so far
 waist
 brittle
 flipping
@@ -231,9 +221,11 @@ misnomer
 defeat
 meltdown
 scrape
+bea:
 scrap
 Bridging
 feature
+restate
 hoopla
 inquiry
 moreover
@@ -249,8 +241,8 @@ heading
 spill your guts
 tentative
 noisy
-spank
 contrive
+lead
 peek
 downtime
 likewise
@@ -260,6 +252,7 @@ seriousness
 tweak
 regard
 efficiently
+constraint
 hops
 misunderstood
 spotless
@@ -289,6 +282,7 @@ sneaky
 rogue
 spits
 tap
+comparison
 swar
 offset
 pleasant
@@ -330,12 +324,15 @@ nosy
 Trailing
 leadership
 remaining 
+stove
 predict
+dive
 mentioned
 ruggedness
 fuzzy
 earning
 twofold
+idle
 underutilized
 soda
 shine
@@ -346,9 +343,3 @@ mere
 tempting
 remainder
 normally
-
-leveraging: leveraging the work you've already done
-stage:on the world stage
-unintended:does not do anything unintended
-lead:When an error leads to unexpected outputs
-counter: many developers seem to have an attitude that is counter to extensive testing.

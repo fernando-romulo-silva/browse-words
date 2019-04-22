@@ -12,6 +12,8 @@ import org.jsoup.select.Elements;
 
 import com.google.common.collect.ArrayListMultimap;
 
+import br.com.fernando.browsewords.util.BrowseWordsUtils;
+
 public class BrowseWordsJSoups {
 
     public static void main(String[] args) throws Exception {

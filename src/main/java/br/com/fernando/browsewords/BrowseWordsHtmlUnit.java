@@ -12,6 +12,8 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSpan;
 import com.google.common.collect.ArrayListMultimap;
 
+import br.com.fernando.browsewords.util.BrowseWordsUtils;
+
 public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
