@@ -7,6 +7,9 @@ flammable
 kite
 yell
 dank
+fashion
+Essay
+adapt
 damp
 hoarse
 face
