@@ -9,7 +9,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 import com.jayway.jsonpath.JsonPath;
 
@@ -36,9 +35,10 @@ public class BrowseWordsUtils {
         final Set<String> wordsOnSite = map.keySet();
 
         Files.lines(words) // reading file
+        	.map(s -> s.toLowerCase()) //
                 .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
+                .distinct() //
                 .sorted() //
-                .collect(Collectors.toSet()) // remove duplicates, but disorganize
                 .forEach(System.out::println);
     }
 
