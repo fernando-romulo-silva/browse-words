@@ -24,6 +24,8 @@ bridging
 briefly
 brittle
 bulk-oriented
+punctured
+remain
 bumpy
 bundle
 bundled
