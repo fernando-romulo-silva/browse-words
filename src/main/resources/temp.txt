@@ -15,6 +15,8 @@ leveraging: leveraging the work you've already done
 stage :on the world stage
  :does not do anything unintended
 
+thusly
+
 
 mapa mentais trello integração
 
