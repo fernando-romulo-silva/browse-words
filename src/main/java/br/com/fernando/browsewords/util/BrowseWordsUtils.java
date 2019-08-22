@@ -38,7 +38,7 @@ public class BrowseWordsUtils {
         	.map(s -> s.toLowerCase()) //
                 .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
                 .distinct() //
-                .sorted() //
+                //.sorted() //
                 .forEach(System.out::println);
     }
 

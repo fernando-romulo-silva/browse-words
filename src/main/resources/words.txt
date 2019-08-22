@@ -1,66 +1,38 @@
-Recognizing Fillers
-lasting value
-
-edgy
-edge
-bear with us
-persuading
+persuate
 proofread
 shipped
 ship
 shipet
-envoy
 quit
 serious
 muscles
 roughly
 strengthen
-follow up
 slug
-crave
 redistribute
 alleviate
-migraines
-anxious
-those are fairly common symptoms
-proper vacation
-cutting back your hours
+migraine
 toward
-attire
-rough
 bothered
-retret
-regret
 catch-up
-I find being a designer very engaging.
-
-
-give away
-to spill the beans
+fair
+astray
 spot
-going a stroll
-
-better of
-dip
 deep
 slip
 sleep
-bitch
 beach
 sheep
-ship
 sit
 seat
 tariff
-trip, journey, tour, voyage, cruise
+trip
+journey
+tour
+voyage
+cruise
 humpback
 hump
-twist plot
-don't brag
-hanging wait
-
-tipping
-asset
 swearing
 swear
 established
@@ -73,19 +45,13 @@ rhythm
 trial
 parole
 chilled-out
-monument before us
 country
-upon the earth
 demolishing
 plow
 thrilling
-rhythm
-edgy
 paved
 asphalt
 slightly
-sleeve
-rough
 flood
 hurricane
 earthquakes
@@ -96,7 +62,6 @@ volcanic eruption
 heat wave
 wildfire
 drought
-swathe
 wound
 debris
 take cover
@@ -116,8 +81,6 @@ bandwidth
 bats
 bear
 betrayed
-beverage
-bid
 blended
 bottleneck
 breeze
@@ -137,7 +100,6 @@ calendar
 causative
 cautious
 checklist
-coastal
 comparison
 compute-bound
 constituent
@@ -189,12 +151,10 @@ forehead
 formulary
 frighten 
 frightened
-furthermore
 fuzzy
 gap year
 gargle
 gauge
-genres
 getaway
 gills
 giveaway
@@ -204,7 +164,6 @@ gotchas
 ground
 guaranteed
 guava
-guava paste
 gypsy
 halter
 hammer
@@ -272,7 +231,6 @@ nifty
 noble
 noisy
 normally
-notice
 offload
 offset
 ordered
@@ -315,11 +273,9 @@ reentrant
 refreshments
 regard
 region
-regret
 rejoins
 related
 relevance
-remain
 remainder
 remaining 
 remodel
@@ -330,11 +286,9 @@ restate
 retrieve
 riddle
 rogue
-roughly
 roughly 
 ruggedness
 rush
-sales figures
 salutation
 saucer
 scarce
@@ -354,7 +308,6 @@ sizzle
 sleek
 sleeves
 slew
-slightly
 snapshot
 snatcher
 sneaky
@@ -369,7 +322,6 @@ spank
 spin
 spits
 spoil
-spot
 spotless
 square
 squawk
@@ -385,7 +337,6 @@ storytelling
 stove
 straightforward
 strap
-strengthen
 struggle
 stub
 stubs
@@ -402,7 +353,6 @@ tempting
 tentative
 terse
 threshold
-thresholds
 throughput
 timetable
 toilet
@@ -429,16 +379,14 @@ willed
 winnowed
 wipe
 wire
-wise
 withdrawal
 withhold 
 witnessed
 wore
-wound
+thusly
 wrath
+evict
 wrinkle
 yeast
-yell
-yells
 yield
-zealots
+zealot
