@@ -1,6 +1,7 @@
 package br.com.fernando.browsewords;
 
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
@@ -45,6 +46,8 @@ public class BrowseWordsHtmlUnit {
                         .map(HtmlSpan::getTextContent) //
                         .collect(Collectors.toList())//
                         .forEach(w -> globalMap.put(w, urlStudySet));
+                
+                TimeUnit.SECONDS.sleep(2);
             }
         }
 
