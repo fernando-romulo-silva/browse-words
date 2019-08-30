@@ -1,6 +1,8 @@
 catch-up
 batter
 beach
+thirsty
+sweat
 trip
 journey
 tour
