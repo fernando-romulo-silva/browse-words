@@ -1,19 +1,13 @@
 catch-up
-contrasted
 chilled-out
-demolishing
-thrilling
 advancement
 bandwidth
 bottleneck
 bricklayer
-bridging
 bulk-oriented
 punctured
 calendar
 compute-bound
-currying
-doubtfulness
 efficiently
 enchanted
 enclosed
@@ -21,11 +15,9 @@ endorsement
 entends
 exchanging
 expenses
-famous
 fastened
 feasible
 finshing
-fledged
 flipping
 forbidden
 formulary
@@ -33,13 +25,9 @@ frighten
 frightened
 gap year
 guaranteed
-harness
-havoc
 heading
 headliners
-heighten
 held
-highland
 holdover
 hoopla
 hops
@@ -66,7 +54,6 @@ masquerading
 mayflower
 meaningless
 mentioned
-mere
 metallurgical
 mileage
 misleading
@@ -74,7 +61,6 @@ misunderstood
 moreover
 mottled
 multiple
-noble
 normally
 ordered
 outskirts
@@ -88,13 +74,8 @@ placeholder
 platform
 predicament 
 prevented
-profound
-proposal
-puddle
 evenly
 pumpkin
-queue
-quiet
 rational
 rationale
 recurring
@@ -112,12 +93,8 @@ remodel
 remodeling
 rendezvous
 renovate
-restate
-retrieve
-riddle
 roughly 
 ruggedness
-rush
 salutation
 saucer
 scholarship
@@ -161,11 +138,11 @@ strap
 stubs
 stumbled
 supposed
-swar
 sympathy
 tailor
 taking a stand
 tap
+tale
 taught
 template
 tempting
