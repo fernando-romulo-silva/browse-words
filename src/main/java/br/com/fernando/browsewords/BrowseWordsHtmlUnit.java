@@ -1,7 +1,6 @@
 package br.com.fernando.browsewords;
 
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
@@ -40,14 +39,15 @@ public class BrowseWordsHtmlUnit {
             for (final var urlStudySet : urlStudySets) {
 
                 final var spans = webClient.<HtmlPage> getPage(urlStudySet) //
-                        .<HtmlSpan> getByXPath("//span[contains(@class,'lang-en')]");
+                        .<HtmlSpan> getByXPath("//span[contains(@class,'TermText')]");
 
                 spans.stream() //
                         .map(HtmlSpan::getTextContent) //
+                        .filter(x -> !"...".equals(x)) //
                         .collect(Collectors.toList())//
                         .forEach(w -> globalMap.put(w, urlStudySet));
                 
-                TimeUnit.SECONDS.sleep(2);
+                // TimeUnit.SECONDS.sleep(2);
             }
         }
 
