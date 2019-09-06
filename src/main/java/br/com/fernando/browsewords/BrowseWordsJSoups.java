@@ -27,7 +27,7 @@ public class BrowseWordsJSoups {
                 .execute() //
                 .body(); //
 
-        final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
+        final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
 
         for (final String urlStudySet : urlStudySets) {
 

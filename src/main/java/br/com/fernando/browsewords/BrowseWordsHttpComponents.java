@@ -50,7 +50,7 @@ public class BrowseWordsHttpComponents {
             final DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             final XPath xPath = XPathFactory.newInstance().newXPath();
 
-            final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
+            final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson01(jsonString);
 
             for (final String urlStudySet : urlStudySets) {
                 // html parse don't work

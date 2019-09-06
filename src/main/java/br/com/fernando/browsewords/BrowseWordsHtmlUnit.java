@@ -34,7 +34,7 @@ public class BrowseWordsHtmlUnit {
                     .getWebResponse() //
                     .getContentAsString();
 
-            final var urlStudySets = BrowseWordsUtils.getUrlFromJson(jsonString);
+            final var urlStudySets = BrowseWordsUtils.getUrlFromJson01(jsonString);
 
             for (final var urlStudySet : urlStudySets) {
 
