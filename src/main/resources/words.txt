@@ -4,6 +4,7 @@ bricklayer
 compute-bound
 efficiently
 dweller
+scrap
 gap year
 flagstaff
 infeasible
@@ -12,6 +13,12 @@ invaluable
 knowledgeable
 maddening
 mentioned
+devaluation
+valuation
+isolation
+breaker
+brain fade
+see off
 metallurgical
 misleading
 misunderstood
