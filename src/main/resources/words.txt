@@ -1,33 +1,21 @@
 catch-up
-advancement
-bricklayer
-compute-bound
-efficiently
-dweller
-scrap
 gap year
-flagstaff
-infeasible
-inflammable
-invaluable
-knowledgeable
-maddening
-mentioned
-devaluation
-valuation
-isolation
-breaker
 brain fade
 see off
+advancement
+compute-bound
+infeasible
+inflammable
+knowledgeable
+mention
+devaluation
+valuation
 metallurgical
-misleading
+mislead
 misunderstood
 predicament
 prevented
-recurring
 refreshments
-region
-remaining
 renovate
 salutation
 scholarship
@@ -36,6 +24,7 @@ shuttlecock
 snatcher
 sorted
 spotless
+endorse
 stand
 standardize
 storytelling

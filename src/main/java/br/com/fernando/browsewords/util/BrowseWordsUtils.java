@@ -15,6 +15,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.gargoylesoftware.htmlunit.html.HtmlSpan;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
@@ -42,7 +44,7 @@ public class BrowseWordsUtils {
         final Path words = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
 
         final Set<String> wordsOnSite = map.keySet();
-
+        
         Files.lines(words) // reading file
                 .map(s -> s.toLowerCase().trim()) //
                 .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
