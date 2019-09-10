@@ -7,7 +7,6 @@ compute-bound
 infeasible
 inflammable
 knowledgeable
-mention
 devaluation
 valuation
 metallurgical
