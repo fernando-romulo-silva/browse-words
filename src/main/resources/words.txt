@@ -5,6 +5,7 @@ see off
 advancement
 compute-bound
 infeasible
+object
 inflammable
 knowledgeable
 devaluation
@@ -30,6 +31,5 @@ storytelling
 stumbled
 template
 toughening
-trapped
 underutilized
 unintended
