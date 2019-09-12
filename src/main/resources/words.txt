@@ -5,13 +5,11 @@ see off
 advancement
 compute-bound
 infeasible
-object
 inflammable
 knowledgeable
 devaluation
 valuation
 metallurgical
-mislead
 misunderstood
 predicament
 prevented
