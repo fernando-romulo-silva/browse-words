@@ -47,7 +47,7 @@ public class BrowseWordsUtils {
         
         Files.lines(words) // reading file
                 .map(s -> s.toLowerCase().trim()) //
-                .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
+                .filter(w -> !wordsOnSite.contains(w.trim().toLowerCase())) // only words that not in site
                 .distinct() //
                 // .sorted() //
                 .forEach(System.out::println);
