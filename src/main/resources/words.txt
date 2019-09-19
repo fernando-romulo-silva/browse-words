@@ -3,3 +3,5 @@ squeez
 yield
 proper
 deed
+mire
+assign
