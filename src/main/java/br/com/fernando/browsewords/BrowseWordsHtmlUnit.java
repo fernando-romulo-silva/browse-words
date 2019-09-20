@@ -28,7 +28,7 @@ public class BrowseWordsHtmlUnit {
     public static void main(String[] args) throws Exception {
 
 	final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
-	webClient.getOptions().setJavaScriptEnabled(false);
+	webClient.getOptions().setJavaScriptEnabled(true);
 	webClient.getOptions().setCssEnabled(false);
 
 	final var globalMap = ArrayListMultimap.<String, String>create();
