@@ -49,6 +49,7 @@ meets : so, meets its stated functional and non-functional requirements.
 allude (mencionar)
 solely (unicamente)
 spot (identificar)
+we hold all but one at the nominal values
 
 bummer
 telltale
