@@ -56,6 +56,11 @@
 		    <version>2.9.9.3</version>
 		</dependency>
 		
+		<dependency>
+	        <groupId>xml-apis</groupId>
+	        <artifactId>xml-apis</artifactId>
+	        <version>1.4.01</version>
+	    </dependency>		
 
 		<dependency>
 			<groupId>com.google.guava</groupId>
