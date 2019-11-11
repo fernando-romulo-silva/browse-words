@@ -12,6 +12,7 @@ sail
 dodge
 lease
 loosely
+proper
 couple
 drive
 hustle
@@ -68,7 +69,7 @@ press
 follow-up
 drawback
 bounds
-
+reliability
 exciting 
 surprising 
 amazing
