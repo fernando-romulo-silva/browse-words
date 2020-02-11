@@ -28,7 +28,7 @@ public class BrowseWordsHtmlUnit {
     public static void main(String[] args) throws Exception {
 
 	final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
-	webClient.getOptions().setJavaScriptEnabled(true);
+	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
 	final var globalMap = ArrayListMultimap.<String, String>create();
@@ -77,29 +77,29 @@ public class BrowseWordsHtmlUnit {
 	    watch.reset();
 	}
 
-	final Path wordsFile = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
+//	final Path wordsFile = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
+//
+//	final Set<String> wordsOnSite = globalMap.keySet();
+//
+//	final List<String> wordsInFile = Files.lines(wordsFile) // reading file
+//	    .map(s -> s.toLowerCase().trim()) //
+//	    .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
+//	    .distinct() //
+//	    .collect(Collectors.toList());
 
-	final Set<String> wordsOnSite = globalMap.keySet();
-
-	final List<String> wordsInFile = Files.lines(wordsFile) // reading file
-	    .map(s -> s.toLowerCase().trim()) //
-	    .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
-	    .distinct() //
-	    .collect(Collectors.toList());
-
-	final var normalizedWords = new ArrayList<>();
-
-	for (final String word : wordsInFile) {
-	    // https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=prevent
-	    // <span class="gt-card-ttl-txt" style="direction: ltr;">prevent</span>
-	    HtmlSpan htmlSpan = webClient.<HtmlPage>getPage("https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=" + word) //
-	        .<HtmlSpan>getFirstByXPath("//span[contains(@class,'gt-card-ttl-txt')]");
-
-	    normalizedWords.add(htmlSpan.getTextContent());
-
-	    // spans.stream() //
-	    // .map(HtmlSpan::getTextContent) //
-	}
+//	final var normalizedWords = new ArrayList<>();
+//
+//	for (final String word : wordsInFile) {
+//	    // https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=prevent
+//	    // <span class="gt-card-ttl-txt" style="direction: ltr;">prevent</span>
+//	    HtmlSpan htmlSpan = webClient.<HtmlPage>getPage("https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=" + word) //
+//	        .<HtmlSpan>getFirstByXPath("//span[contains(@class,'gt-card-ttl-txt')]");
+//
+//	    normalizedWords.add(htmlSpan.getTextContent());
+//
+//	    // spans.stream() //
+//	    // .map(HtmlSpan::getTextContent) //
+//	}
 
 	BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
 
