@@ -47,16 +47,16 @@ public class BrowseWordsHttpComponents {
 
             final String jsonString = httpclient.execute(httpget, responseHandler);
 
-            final DocumentBuilder documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            final XPath xPath = XPathFactory.newInstance().newXPath();
+            final var documentBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            final var xPath = XPathFactory.newInstance().newXPath();
 
             final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson01(jsonString);
 
             for (final String urlStudySet : urlStudySets) {
                 // html parse don't work
-                final Document doc = documentBuilder.parse(httpclient.execute(new HttpGet(urlStudySet), responseHandler));
+                final var doc = documentBuilder.parse(httpclient.execute(new HttpGet(urlStudySet), responseHandler));
 
-                NodeList nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, XPathConstants.NODESET);
+                final var nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, XPathConstants.NODESET);
 
                 System.out.println(nodes);
             }

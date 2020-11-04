@@ -2,11 +2,9 @@ package br.com.fernando.browsewords;
 
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BrowseWordsSelenium {
 
@@ -23,7 +21,7 @@ public class BrowseWordsSelenium {
         // FirefoxOptions firefoxOptions = new FirefoxOptions();
         // firefoxOptions.setBinary(firefoxBinary);
         // FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
-        WebDriver driver = new FirefoxDriver();
+        final var driver = new FirefoxDriver();
 
         try {
             driver.get("http://www.google.com");

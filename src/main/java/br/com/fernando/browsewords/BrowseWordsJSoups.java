@@ -1,16 +1,12 @@
 package br.com.fernando.browsewords;
 
 import java.net.URL;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.time.StopWatch;
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 
 import com.google.common.collect.ArrayListMultimap;
 
@@ -22,7 +18,7 @@ public class BrowseWordsJSoups {
 	
 	final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
 	
-        final Connection connect = Jsoup.connect(BrowseWordsUtils.URL).ignoreContentType(true);
+        final var connect = Jsoup.connect(BrowseWordsUtils.URL).ignoreContentType(true);
 
         final var watch = new StopWatch();
 
@@ -38,7 +34,7 @@ public class BrowseWordsJSoups {
 
         watch.start();
         
-        final List<String> urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
+        final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
         
         watch.stop();
         System.out.println("JsonPath Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS) + " ms");
@@ -46,11 +42,11 @@ public class BrowseWordsJSoups {
 
         watch.start();
         
-        for (final String urlStudySet : urlStudySets) {
+        for (final var urlStudySet : urlStudySets) {
 
-            final Document document = Jsoup.parse(new URL(urlStudySet), 10000);
+            final var document = Jsoup.parse(new URL(urlStudySet), 10000);
 
-            final Elements spans = document.select("span[class$=lang-en]");
+            final var spans = document.select("span[class$=lang-en]");
 
             spans.stream() //
                     .map(Element::text) //

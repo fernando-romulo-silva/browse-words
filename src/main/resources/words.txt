@@ -1,3 +1,27 @@
+reminisce
+bushfire
+monography
+speeches
+slang
+pronunciation
+carnival
+demand
+debtor
+creditor
+grab
+scanning
+brunch
+take out
+reminiscing
+vendor
+foresee
+dependable
+within
+teaspoon
+monography
+speeches
+slang
+pronunciation
 squeez
 proper
 addition
@@ -12,13 +36,11 @@ sail
 dodge
 lease
 loosely
-proper
 couple
 drive
 hustle
 flag
 dabble
-bid
 properly
 boundaries
 probed
@@ -28,7 +50,6 @@ vested
 askance
 meadow
 stud
-bid
 capabilities
 screwdriver
 probe
@@ -43,87 +64,218 @@ throwaway
 refrain
 pace
 suppressed
-infeasible
 unrivaled
 telltale
-meets : so, meets its stated functional and non-functional requirements.
-allude (mencionar)
-solely (unicamente)
-spot (identificar)
-we hold all but one at the nominal values
-
+meets
+allude
+solely
+rug
+fee
+joints
+nearly new
+promises
+consultant
+gloves
+installment
+allergy
+lane
+turquoise
+team
+dangle
+seamlessly
+cumbersome
+bus
+apologize
+trip down
+shrub
+harmful
+overlaps
+assembly
+artifact
+spin-up
+reclaim
+shrink
+elapsed
+noting
+pod
+spun up
+troubleshoot
+postpone
+rapport
+frothy
+takes place
+dough
+outsourcing
+bewildering
+dipe
+complain
+cradle
+crew
+belly
+gulp
+lush
+rider
+snout
+stale
+arguido
+bush
+snoop
+finicky
+shorthand
+handed
+faulty
+hood
+flavorful
+stems
+bite-sized
+picky
+atmosphere
+dried
+custard
+powder
+bay
+spring
+bubbly
+cob
+maize
+cartoon
+carton
+inner
+tusk
+spurs
+dung
+pry
+penny
+claw
+rut
+tangle
+rams
+gouge
+quarry
+coffin
+boulder
+dump
+bail
+elated
+creek
+undertow
+tack on
+cliff
+rubble
+tides
+shore
+ridge
+steamy
+comprises
+meager
+wasteland
+buried
+chew
+hatching
+fellow
+treasures
+slammed
+prepping
+dentry
+clay
+follout
+trench
+quiled
+raffing
+plummed
+fled
+stowed
+pursuing
+brawn
+unearth
+fearsome
+specimen
+cullprint
+outsmart
+quarantine
+attentive
+ceases
+quorum
+moans
+aventure
+henceforth
+daemon
+fine-grained
+ingress
+crap
+sandbox
+breadth
+pathwise
+stitch
+hurdle
+demerits
+encompass
+staggeringly
+teardown
+entangled
+several
+loom
+assurance
+address
+guideline
 bummer
-telltale
 boundary
 payload
 devise
 whore
 shorten
-boundary
 tacit
-hustle
 bustle
 sensitization
-addition
 press
-follow-up
-drawback
 bounds
 reliability
-exciting 
-surprising 
+exciting
+surprising
 amazing
-scary 
-nerve-wracking 
+scary
+nerve-wracking
 worrying
 sickening
-saddening 
-astonishing 
-interesting 
-tiring 
-
+saddening
+astonishing
+interesting
+tiring
 poison
 lucrative
 spoken
 tactive
 tactic
-essay
 role
 retail
 might
 feelings
 childhood
-excited 
-surprised 
-amazed 
-afraid 
-scared 
-nervous 
-worried 
-sick 
-sad 
-astonished 
-interested 
-tired 
+excited
+surprised
+amazed
+afraid
+scared
+nervous
+worried
+sick
+sad
+astonished
+interested
+tired
+tying
+sting
+hoard
+hoarding
+holiday camp
+broken off
+hurst
+hurts
 
-warm to
-get on
-come across
-put sb off
-keep to myself
-what are you up to?
-sets out to
-drop out
-point out
-move up
-catch up - Hey, do you want catch up?
-kick in
-walk in the park
-in addition
-stir-crazy
-cabin fever
-take up
-cough up
-think of
-flush out
-hustle and bustle
+
+
+I'm on the go all day
+meet up with
+chill out
+It's been brought tom my attention
+put the barbecue out right away

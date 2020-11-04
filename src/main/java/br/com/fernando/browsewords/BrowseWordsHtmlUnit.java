@@ -1,14 +1,9 @@
 package br.com.fernando.browsewords;
 
+import static java.util.stream.Collectors.toList;
+
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.time.StopWatch;
 
@@ -68,7 +63,7 @@ public class BrowseWordsHtmlUnit {
 		spans.stream() //
 		    .map(HtmlSpan::getTextContent) //
 		    .filter(x -> !"...".equals(x)) //
-		    .collect(Collectors.toList())//
+		    .collect(toList())//
 		    .forEach(w -> globalMap.put(w, urlStudySet));
 	    }
 
