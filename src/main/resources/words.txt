@@ -1,53 +1,10 @@
-reminisce
-bushfire
-monography
-speeches
-slang
-pronunciation
-carnival
-demand
-debtor
-creditor
-grab
-scanning
-brunch
-take out
-reminiscing
-vendor
-foresee
-dependable
-within
-teaspoon
-monography
-speeches
-slang
-pronunciation
-squeez
-proper
-addition
-mire
-assign
-sly
-oar
-stroll
-upon
-pul
-sail
-dodge
-lease
 loosely
 couple
-drive
-hustle
 flag
-dabble
 properly
 boundaries
-probed
-stated
 harmless
 vested
-askance
 meadow
 stud
 capabilities
@@ -67,7 +24,6 @@ suppressed
 unrivaled
 telltale
 meets
-allude
 solely
 rug
 fee
@@ -186,7 +142,6 @@ plummed
 fled
 stowed
 pursuing
-brawn
 unearth
 fearsome
 specimen
@@ -194,7 +149,6 @@ cullprint
 outsmart
 quarantine
 attentive
-ceases
 quorum
 moans
 aventure
@@ -202,7 +156,6 @@ henceforth
 daemon
 fine-grained
 ingress
-crap
 sandbox
 breadth
 pathwise
@@ -211,24 +164,13 @@ hurdle
 demerits
 encompass
 staggeringly
-teardown
 entangled
 several
-loom
-assurance
 address
-guideline
 bummer
 boundary
 payload
-devise
-whore
-shorten
-tacit
-bustle
 sensitization
-press
-bounds
 reliability
 exciting
 surprising
@@ -241,13 +183,8 @@ saddening
 astonishing
 interesting
 tiring
-poison
 lucrative
 spoken
-tactive
-tactic
-role
-retail
 might
 feelings
 childhood
@@ -257,25 +194,15 @@ amazed
 afraid
 scared
 nervous
-worried
-sick
-sad
 astonished
 interested
 tired
 tying
-sting
-hoard
-hoarding
+in addition
 holiday camp
-broken off
-hurst
-hurts
-
-
-
-I'm on the go all day
-meet up with
-chill out
-It's been brought tom my attention
-put the barbecue out right away
+take out
+drop out
+cabin fever
+cough up
+allude to
+think of

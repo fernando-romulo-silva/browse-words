@@ -1,5 +1,6 @@
 package br.com.fernando.browsewords;
 
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
 import static java.util.stream.Collectors.toList;
 
 import java.net.URL;
@@ -22,7 +23,7 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	final var webClient = new WebClient(BrowserVersion.FIREFOX_60);
+	final var webClient = new WebClient(BrowserVersion.FIREFOX_78);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
@@ -31,7 +32,7 @@ public class BrowseWordsHtmlUnit {
 
 	try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL(BrowseWordsUtils.URL), HttpMethod.GET);
+	    final var webRequest = new WebRequest(new URL(URL), HttpMethod.GET);
 	    webRequest.setAdditionalHeader("Accept", "*/*");
 	    webRequest.setAdditionalHeader("Content-Type", "application/json");
 
