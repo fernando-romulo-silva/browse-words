@@ -13,6 +13,28 @@
 		<project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
 	</properties>
 
+	<description>
+		So, I used the Quizlet (flash cards) to learn English and Italian words. 
+		The purpose of this project is to go through the cards and find repeat words.
+	</description>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<url>https://github.com/fernando-romulo-silva/browse-words</url>
+
+	<scm>
+		<url>https://github.com/fernando-romulo-silva/browse-words</url>
+		<connection>scm:git:https://github.com/fernando-romulo-silva/browse-words.git</connection>
+		<developerConnection>scm:git:https://github.com/fernando-romulo-silva/browse-words.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
 	<build>
 		<plugins>
 			<plugin>
