@@ -5,9 +5,21 @@
 
 ## Project status
 
-I use this project to 
+I use this project constantly, change words, and libs.
 
 # About
 
 So, I used the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English and Italian words. 
 The purpose of this project is to go through the cards and find repeat words.
+
+# Technologies
+
+- Java
+- Maven
+- HtmlUnit
+- JSoup
+- Apache Http Client
+
+requirements: 
+ - Java 11
+ - Maven 3
