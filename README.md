@@ -9,7 +9,7 @@ I use this project constantly, change words, and libs.
 
 # About
 
-So, I used the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English and Italian words. 
+So, I used the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English and Italian words. <br />
 The purpose of this project is to go through the cards and find repeat words.
 
 # Technologies
@@ -20,6 +20,21 @@ The purpose of this project is to go through the cards and find repeat words.
 - JSoup
 - Apache Http Client
 
-requirements: 
+# Install
+
+requirements (environment variables configured): 
  - Java 11
  - Maven 3
+ - Git
+ 
+```bash
+# clone it
+git clone https://github.com/fernando-romulo-silva/browse-words 
+```
+
+import it in your preferred ide
+
+# How to Use
+
+Execute some of the class on the br.com.fernando.browsewords package.
+

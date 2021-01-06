@@ -1,6 +1,8 @@
 package br.com.fernando.browsewords;
 
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
 import static java.util.stream.Collectors.toList;
 
 import java.net.URL;
@@ -97,8 +99,8 @@ public class BrowseWordsHtmlUnit {
 //	    // .map(HtmlSpan::getTextContent) //
 //	}
 
-	BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+	printWordsNotInSite(globalMap.asMap());
 
-	BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
+	printRepeatedWordsInSite(globalMap.asMap());
     }
 }

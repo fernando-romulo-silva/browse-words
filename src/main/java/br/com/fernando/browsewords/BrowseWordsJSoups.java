@@ -1,5 +1,8 @@
 package br.com.fernando.browsewords;
 
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
+
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
@@ -61,8 +64,8 @@ public class BrowseWordsJSoups {
         System.out.println("URL with XPath: "+ urlStudySets.size() +" requests, Time Elapsed: " + watch.getTime(TimeUnit.SECONDS)+ " s");
         watch.reset();        
 
-        BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+        printWordsNotInSite(globalMap.asMap());
 
-        BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
+        printRepeatedWordsInSite(globalMap.asMap());
     }
 }

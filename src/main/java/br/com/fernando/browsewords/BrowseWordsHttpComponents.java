@@ -1,9 +1,12 @@
 package br.com.fernando.browsewords;
 
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
+import static javax.xml.xpath.XPathConstants.NODESET;
+
 import java.util.List;
 
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.http.HttpEntity;
@@ -53,14 +56,14 @@ public class BrowseWordsHttpComponents {
                 // html parse don't work
                 final var doc = documentBuilder.parse(httpclient.execute(new HttpGet(urlStudySet), responseHandler));
 
-                final var nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, XPathConstants.NODESET);
+                final var nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, NODESET);
 
                 System.out.println(nodes);
             }
         }
 
-        BrowseWordsUtils.printWordsNotInSite(globalMap.asMap());
+        printWordsNotInSite(globalMap.asMap());
 
-        BrowseWordsUtils.printRepeatedWordsInSite(globalMap.asMap());
+        printRepeatedWordsInSite(globalMap.asMap());
     }
 }
