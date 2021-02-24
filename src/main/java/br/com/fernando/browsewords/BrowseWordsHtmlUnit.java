@@ -3,15 +3,16 @@ package br.com.fernando.browsewords;
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
+import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX_78;
+import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
+import static java.util.concurrent.TimeUnit.MILLISECONDS;
+import static java.util.concurrent.TimeUnit.SECONDS;
 import static java.util.stream.Collectors.toList;
 
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.time.StopWatch;
 
-import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.gargoylesoftware.htmlunit.HttpMethod;
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebRequest;
@@ -25,7 +26,7 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	final var webClient = new WebClient(BrowserVersion.FIREFOX_78);
+	final var webClient = new WebClient(FIREFOX_78);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
@@ -34,18 +35,18 @@ public class BrowseWordsHtmlUnit {
 
 	try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL(URL), HttpMethod.GET);
+	    final var webRequest = new WebRequest(new URL(URL), GET);
 	    webRequest.setAdditionalHeader("Accept", "*/*");
 	    webRequest.setAdditionalHeader("Content-Type", "application/json");
 
 	    watch.start();
 
 	    final var jsonString = webClient.<UnexpectedPage>getPage(webRequest) //
-	        .getWebResponse() //
-	        .getContentAsString();
+		    .getWebResponse() //
+		    .getContentAsString();
 
 	    watch.stop();
-	    System.out.println("URL principal, Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS) + " ms");
+	    System.out.println("URL principal, Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
 	    watch.reset();
 
 	    watch.start();
@@ -53,7 +54,7 @@ public class BrowseWordsHtmlUnit {
 	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
 
 	    watch.stop();
-	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS) + " ms");
+	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
 	    watch.reset();
 
 	    watch.start();
@@ -61,17 +62,17 @@ public class BrowseWordsHtmlUnit {
 	    for (final var urlStudySet : urlStudySets) {
 
 		final var spans = webClient.<HtmlPage>getPage(urlStudySet) //
-		    .<HtmlSpan>getByXPath("//span[contains(@class,'TermText')]");
+			.<HtmlSpan>getByXPath("//span[contains(@class,'TermText')]");
 
 		spans.stream() //
-		    .map(HtmlSpan::getTextContent) //
-		    .filter(x -> !"...".equals(x)) //
-		    .collect(toList())//
-		    .forEach(w -> globalMap.put(w, urlStudySet));
+			.map(HtmlSpan::getTextContent) //
+			.filter(x -> !"...".equals(x)) //
+			.collect(toList())//
+			.forEach(w -> globalMap.put(w, urlStudySet));
 	    }
 
 	    watch.stop();
-	    System.out.println("URL with XPath: " + urlStudySets.size() + " requests, Time Elapsed: " + watch.getTime(TimeUnit.SECONDS) + " s");
+	    System.out.println("URL with XPath: " + urlStudySets.size() + " requests, Time Elapsed: " + watch.getTime(SECONDS) + " s");
 	    watch.reset();
 	}
 

@@ -10,7 +10,7 @@ I use this project constantly, change words, and libs.
 # About
 
 So, I used the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English and Italian words. <br />
-The purpose of this project is to go through the cards and find repeat words.
+The purpose of this project is to go through the decks and find repeat words.
 
 # Technologies
 
@@ -37,4 +37,3 @@ import it in your preferred ide
 # How to Use
 
 Execute some of the class on the br.com.fernando.browsewords package.
-
