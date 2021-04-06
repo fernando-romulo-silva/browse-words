@@ -1,112 +1,82 @@
-
-comprises
-compelling
-supersede
-mandate
-
+comprise (comprised, comprising)
+compel (compelled, compelling)
+supersede (superseded, superseding)
+mandate (mandated, mandating)
 breadth
-enacted
-marshal
-
-induce
-withheld
-
+enact (enacted, enacting)
+marshal (marshalled, marshalling)
+induce (induced, inducing)
+withhold (withheld, withholding) - withheld
 broader
-go way up
-vague
-lease
-predicament
+vague (vagued, vaguing)
 dilemma
 obstacle
-inflation
 rude
-pace
-canned food
-Metered
-
-ladder 
-lease 
-bid 
-lease
-broader
-outline
-
+meter (metered, metering) - metered
+ladder (laddered, laddering)
 self-sacrificing
-curious 
+curious
 uninterested
 assertive
-rough
-elicit reasons
 rapport
-the bottom line
-wholesale
-swamp
-voting
-
+wholesale (wholesaled, wholesaling)
+swamp (swamped, swamping)
+vote (voted, voting) - voting
 favorable
 unfavorable
 gritty
-assertive
-rethink
-Spoilage
-just turn brown
+rethink (rethought, rethinking)
+spoilage
 sidekick
-villain
+villain (villained, villaining)
 trope
-grounded
-Suttie
+ground (grounded, grounding) - grounded
+suttie
 disrespectful
-
-
-deaf
-lower
+lower (lowered, lowering)
 controversial
 watermelon
 juggler
 voiceover
-
-
-urge
-grade
-relieve
-assertive
+urge (urged, urging)
+grade (graded, grading)
+relieve (relieved, relieving)
 preapredness
 mannerism
 bylaws
-convey
-weave
-woven
-mending
-fist
-delve
+convey (conveyed, conveying)
+weave (weaved/wove, weaved/woven, weaving)
+woven (weaved/wove, weaved/woven, weaving)
+mend (mended, mending) - mending
+fist (fisted, fisting)
+delve (delved, delving)
 oats
-hassle
-halt
+hassle (hassled, hassling)
+halt (halted, halting)
 requirement
-judge
-jewishjewish
-expanse
-suppressed
+judge (judged, judging)
+jewish
+expanse (expansed, expansing)
+suppress (suppressed, suppressing) - suppressed
 unrivaled
-meet
+meet (met, meeting)
 earphone
-hitch
-harvest
-hatch
-hoarding
+hitch (hitched, hitching)
+harvest (harvested, harvesting)
+hatch (hatched, hatching)
+hoard (hoarded, hoarding) - hoarding
 hurst
-attorney
-recover
-heating
-apology
-sophisticated
-volcano eruption
-referring
+attorney (attorneyed, attorneying)
+recover (recovered, recovering)
+heat (heated, heating) - heating
+apology (apologied, apologying)
+sophisticate (sophisticated, sophisticating)
+refer (referred, referring) - referring
 smoothly
-lighter
+lighter (lightered, lightering)
 longstanding
-resigned
-adjust
+resign (resigned, resigning) - resigned
+adjust (adjusted, adjusting)
 courageous
 charismatic
 self-reliant
@@ -114,220 +84,221 @@ self-learner
 philomath
 inferences
 attainable
-flown
+fly (flew, flown, flying) - flown
 hyperbolic
-exaggerate
-speculating
-bloated
-galvanize ink
+exaggerate (exaggerated, exaggerating)
+speculate (speculated, speculating) - speculating
+bloat (bloated, bloating) - bloated
 leisure
 rhetorical
 flagship
 condo
 thoughful
 merger
-figure
-resign
+figure (figured, figuring)
+resign (resigned, resigning)
 resignation
-propose
+propose (proposed, proposing)
 debt
-credit
+credit (credited, crediting)
 prospective
 rodent
-vein
+vein (veined, veining)
 faultry
-loophole
-gap
-range
-grind
+loophole (loopholed, loopholing)
+gap (gaped, gaping)
+range (ranged, ranging)
+grind (ground, grinding)
 assertions
 beachgoer
 outrageous
-overnight
+overnight (overnighted, overnighting)
 solely
-joints
-promises
+joint (jointed, jointing) - joints
+promise (promised, promising) - promises
 consultant
-gloves
+glove (gloved, gloving) - gloves
 installment
 seamlessly
 cumbersome
-apologize
+apologize (apologized, apologizing)
 harmful
 assembly
 artifact
 spin-up
-reclaim
-elapsed
-postpone
-rapport
+reclaim (reclaimed, reclaiming)
+elapse (elapsed, elapsing) - elapsed
+postpone (postponed, postponing)
 frothy
-outsourcing
-bewildering
+outsource (outsourced, outsourcing) - outsourcing
+bewilder (bewildered, bewildering) - bewildering
 dipe
-complain
-cradle
-crew
-belly
-gulp
-lush
+complain (complained, complaining)
+cradle (cradled, cradling)
+crow (crew/crowed, crowed, crowing) - crew
+belly (bellied, bellying)
+gulp (gulped, gulping)
+lush (lushed, lushing)
 rider
 snout
-stale
+stale (staled, staling)
 arguido
-bush
-snoop
+bush (bushed, bushing)
+snoop (snooped, snooping)
 finicky
 shorthand
-handed
+hand (handed, handing) - handed
 faulty
-hood
+hood (hooded, hooding)
 flavorful
-stems
+stem (stemmed, stemming) - stems
 bite-sized
 picky
 atmosphere
-dried
+dry (dried, drying) - dried
 custard
-powder
-bay
-spring
+powder (powdered, powdering)
+bay (bayed, baying)
+spring (sprang, sprung, springing)
 bubbly
-cob
+cob (cobbed, cobbing)
 maize
-cartoon
-carton
+carton (cartoned, cartoning) - cartoon
+carton (cartoned, cartoning)
 inner
-tusk
-spurs
-dung
-pry
+tusk (tusked, tusking)
+spur (spurred, spurring) - spurs
+dung (dunged, dunging)
+pry (pried, prying)
 penny
-rut
-tangle
-rams
-gouge
-quarry
-coffin
+rut (rutted, rutting)
+tangle (tangled, tangling)
+ram (rammed, ramming) - rams
+gouge (gouged, gouging)
+quarry (quarried, quarrying)
+coffin (coffined, coffining)
 boulder
-dump
-bail
-elated
+dump (dumped, dumping)
+bail (bailed, bailing)
+elate (elated, elating) - elated
 creek
 undertow
-tack on
 cliff
 rubble
-tides
-shore
-ridge
+tide (tided, tiding) - tides
+shore (shored, shoring)
+ridge (ridged, ridging)
 steamy
-comprises
 meager
 wasteland
-buried
-hatching
-fellow
-treasures
-slammed
-prepping
+bury (buried, burying) - buried
+hatch (hatched, hatching) - hatching
+fellow (fellowed, fellowing)
+treasure (treasured, treasuring) - treasures
+slam (slammed, slamming) - slammed
+prep (prepped, prepping) - prepping
 dentry
-clay
+clay (clayed, claying)
 follout
-trench
+trench (trenched, trenching)
 quiled
-raffing
+raff (raffed, raffing) - raffing
 plummed
-fled
-stowed
-pursuing
-unearth
+flee (fled, fleeing) - fled
+stow (stowed, stowing) - stowed
+pursue (pursued, pursuing) - pursuing
+unearth (unearthed, unearthing)
 fearsome
 specimen
 cullprint
-outsmart
-quarantine
+outsmart (outsmarted, outsmarting)
+quarantine (quarantined, quarantining)
 attentive
 quorum
-moans
+moan (moaned, moaning) - moans
 aventure
 henceforth
 daemon
 fine-grained
-ingress
+ingress (ingressed, ingressing)
 sandbox
-breadth
 pathwise
-stitch
-hurdle
-demerits
-encompass
+stitch (stitched, stitching)
+hurdle (hurdled, hurdling)
+demerit (demerited, demeriting) - demerits
+encompass (encompassed, encompassing)
 staggeringly
-entangled
+entangle (entangled, entangling) - entangled
 several
-address
+address (addressed, addressing)
 bummer
 boundary
 payload
 sensitization
 reliability
-exciting
-surprising
-amazing
+excite (excited, exciting) - exciting
+surprise (surprised, surprising) - surprising
+amaze (amazed, amazing) - amazing
 nerve-wracking
-worrying
-sickening
-astonishing
-interesting
-tiring
+worry (worried, worrying) - worrying
+sicken (sickened, sickening) - sickening
+interest (interested, interesting) - interesting
+tire (tired, tiring) - tiring
 might
 feelings
 childhood
-surprised
-amazed
+surprise (surprised, surprising) - surprised
+amaze (amazed, amazing) - amazed
 afraid
-scared
+scare (scared, scaring) - scared
 nervous
-astonished
-interested
-tired
+astonish (astonished, astonishing) - astonishing
+astonish (astonished, astonishing) - astonished
+interest (interested, interesting) - interested
+tire (tired, tiring) - tired
 unworkable
-corrupt
-raging
+corrupt (corrupted, corrupting)
+rage (raged, raging) - raging
 trickery
-chipped
-hint
-hinting
+chip (chipped, chipping) - chipped
+hint (hinted, hinting)
+hint (hinted, hinting) - hinting
 strictest
 amateurs
-bush fires
-cheating
-reduce
-devour
-candy
+cheat (cheated, cheating) - cheating
+reduce (reduced, reducing)
+devour (devoured, devouring)
+candy (candied, candying)
 mania
 faucet
-damn
-hazard
-itch
+damn (damned, damning)
+hazard (hazarded, hazarding)
+itch (itched, itching)
 helmsman
-tailors
+tailor (tailored, tailoring) - tailors
 augmentation
-shinny
-joy
-mutiny
-pivot
+shinny (shinnied, shinnying)
+joy (joyed, joying)
+mutiny (mutinied, mutinying)
+pivot (pivoted, pivoting)
 pivotal
-employ
-overused
-bolstered
+employ (employed, employing)
+overuse (overused, overusing) - overused
+bolster (bolstered, bolstering) - bolstered
 afterward
-mandate
 often-touted
-despair
+despair (despaired, despairing)
 precedence
-rewind
+rewind (rewound, rewinding)
 ===============================================================================================
+tack on
+bush fires
+elicit reasons
+the bottom line
+just turn brown
+galvanize ink
+canned food
+go way up
 leading up
 in addition
 right away

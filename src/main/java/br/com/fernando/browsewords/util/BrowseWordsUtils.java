@@ -1,5 +1,13 @@
 package br.com.fernando.browsewords.util;
 
+import static java.util.stream.Collectors.partitioningBy;
+import static java.util.stream.Collectors.toSet;
+import static org.apache.commons.lang3.RegExUtils.removePattern;
+import static org.apache.commons.lang3.StringUtils.SPACE;
+import static org.apache.commons.lang3.StringUtils.isNotBlank;
+import static org.apache.commons.lang3.StringUtils.split;
+import static org.apache.commons.lang3.StringUtils.trim;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -11,7 +19,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -22,6 +29,8 @@ import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider;
 import com.jayway.jsonpath.spi.mapper.JacksonMappingProvider;
 
+import br.com.fernando.browsewords.CheckBaseWord;
+
 public class BrowseWordsUtils {
 
     public static final String URL = "https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=100&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator";
@@ -30,9 +39,10 @@ public class BrowseWordsUtils {
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Looking for repeated words");
 
-	map.entrySet().stream() //
-		.filter(e -> e.getValue().size() > 1) //
-		.forEach(e -> System.out.println(e.getKey() + " - " + e.getValue()));
+	map.entrySet() //
+			.stream() //
+			.filter(e -> e.getValue().size() > 1) //
+			.forEach(e -> System.out.println(e.getKey() + " - " + e.getValue()));
     }
 
     public static void printWordsNotInSite(final Map<String, Collection<String>> map) throws URISyntaxException, IOException {
@@ -42,17 +52,27 @@ public class BrowseWordsUtils {
 
 	final Path words = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
 
-	final Set<String> wordsOnSite = map.keySet();
+	final Set<String> wordsOnSite = map.keySet() //
+			.stream() //
+			// .map(s -> StringUtils.removeStart(s, "(")) //
+			.collect(toSet());
 
-	Files.lines(words) // reading file
-		.filter(s -> StringUtils.isNotBlank(s)) //
-		.map(s -> RegExUtils.removePattern(s, "\\(.*\\)")) //
-		.map(s -> StringUtils.split(s, ':')) //
-		.map(a -> a[0].toLowerCase().trim()) //
-		.filter(w -> !wordsOnSite.contains(w)) // only words that not in site
-		.distinct() //
-		// .sorted() //
-		.forEach(System.out::println);
+	final var newWords = Files.lines(words) // reading file
+			.filter(s -> isNotBlank(s)) //
+			.map(s -> trim(removePattern(s, "\\(.*"))) //
+			.map(s -> split(s, ':')[0].toLowerCase()) //
+			.filter(w -> wordsOnSite.contains(w) == false) // only words that not in site
+			.distinct() //
+			.collect(partitioningBy(s -> StringUtils.contains(s, SPACE)));
+	
+	
+	final var newWordsSimple = newWords.get(false);
+	
+	for (final var string : newWordsSimple) {
+	    System.out.println(CheckBaseWord.check(string));
+	}
+	
+	newWords.get(true).forEach(System.out::println);;
     }
 
     public static final List<String> getUrlFromJson01(final String jsonString) {
@@ -95,9 +115,9 @@ public class BrowseWordsUtils {
 	om.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
 
 	final var c = Configuration.builder() //
-		.mappingProvider(new JacksonMappingProvider()) //
-		.jsonProvider(new JacksonJsonNodeJsonProvider(om)) //
-		.build();
+			.mappingProvider(new JacksonMappingProvider()) //
+			.jsonProvider(new JacksonJsonNodeJsonProvider(om)) //
+			.build();
 
 	final var context = JsonPath.using(c).parse(jsonString);
 

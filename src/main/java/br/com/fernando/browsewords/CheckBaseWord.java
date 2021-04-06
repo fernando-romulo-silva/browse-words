@@ -2,58 +2,79 @@ package br.com.fernando.browsewords;
 
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX_78;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
+import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
+import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.lang3.time.StopWatch;
-
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
-import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebRequest;
 import com.gargoylesoftware.htmlunit.html.HtmlDivision;
+import com.gargoylesoftware.htmlunit.html.HtmlItalic;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.gargoylesoftware.htmlunit.html.HtmlSpan;
-import com.google.common.collect.ArrayListMultimap;
 
 public class CheckBaseWord {
 
-    // https://translate.google.com.br/?hl=pt-BR&sl=en&tl=pt&text=compelling
-
-    public static void main(String[] args) throws FailingHttpStatusCodeException, IOException {
+    public static String check(final String word) throws FailingHttpStatusCodeException, IOException {
 
 	final var webClient = new WebClient(FIREFOX_78);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
-	final var globalMap = ArrayListMultimap.<String, String>create();
-
 	try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL("https://conjugacao.reverso.net/conjugacao-ingles-verbo-woven.html"), GET);
+	    final var stringUrl = new StringBuilder("https://conjugacao.reverso.net/conjugacao-ingles-verbo-").append(word).append(".html").toString();
+	    final var webRequest = new WebRequest(new URL(stringUrl), GET);
 
 	    final var page = webClient.<HtmlPage>getPage(webRequest);
 
-	    final var jsonString = page //
-		    .getWebResponse() //
-		    .getContentAsString();
+	    final var htmlString = page //
+			    .getWebResponse() //
+			    .getContentAsString();
 
-	    if (StringUtils.contains(jsonString, "AVISO: Este verbo")) {
-		System.out.println(jsonString);
+	    if (containsIgnoreCase(htmlString, "AVISO: Este verbo") || containsIgnoreCase(htmlString, "para o verbo inserido")) {
+		return word;
 
 	    } else {
 
-		final var a = page.<HtmlDivision>getFirstByXPath("//div[contains(@class,'verb-forms-wrap')]");
-		System.out.println(a);
+		final var rootWords = page.<HtmlDivision>getFirstByXPath("//div[contains(@class,'word-wrap')]");
+
+		final var imperative = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li/i[2]");
+		final var textImperative = imperative.asText();
+
+		final var gerund = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present continuous']/following-sibling::ul/li/i[3]");
+		final var textGerund = gerund.asText();
+
+		final var ulParticiple = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present perfect']/following-sibling::ul/li/i[3]");
+		final var textParticiple = ulParticiple.asText();
+
+		final var past = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Preterite']/following-sibling::ul/li/i[2]");
+		final var textPast = past. asText(); //asNormalizedText();
+
+		final var text = new StringBuilder() //
+				.append(textImperative) //
+				.append(" (") //
+				.append(textPast) //
+				.append(", "); //
+
+		if (equalsIgnoreCase(textPast, textParticiple) == false) {
+		    text.append(textParticiple).append(", ");
+		}
+		
+
+		text.append(textGerund).append(")");
+		
+		if (equalsIgnoreCase(textImperative, word) == false) {
+		    text.append(" - ").append(word);
+		}
+
+		return text.toString();
 	    }
 
-	    //
-
-	    System.out.println(jsonString);
-
+	} catch (final Exception ex) {
+	    return word;
 	}
     }
 

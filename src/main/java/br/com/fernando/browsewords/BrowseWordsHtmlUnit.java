@@ -8,8 +8,13 @@ import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static java.util.stream.Collectors.toList;
+import static org.apache.commons.lang3.RegExUtils.removePattern;
+import static org.apache.commons.lang3.StringUtils.containsNone;
+import static org.apache.commons.lang3.StringUtils.isNotBlank;
+import static org.apache.commons.lang3.StringUtils.trim;
 
 import java.net.URL;
+import java.util.logging.Level;
 
 import org.apache.commons.lang3.time.StopWatch;
 
@@ -26,6 +31,8 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
+	java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF); 
+	
 	final var webClient = new WebClient(FIREFOX_78);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
@@ -51,7 +58,10 @@ public class BrowseWordsHtmlUnit {
 
 	    watch.start();
 
-	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
+	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString); //
+//			    .stream() //
+//			    .filter(f -> StringUtils.containsIgnoreCase(f, "english-words")) //
+//			    .collect(toList());
 
 	    watch.stop();
 	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
@@ -61,12 +71,16 @@ public class BrowseWordsHtmlUnit {
 
 	    for (final var urlStudySet : urlStudySets) {
 
-		final var spans = webClient.<HtmlPage>getPage(urlStudySet) //
-			.<HtmlSpan>getByXPath("//span[contains(@class,'TermText')]");
+		final var spans = webClient //
+				.<HtmlPage>getPage(urlStudySet) //
+			        .<HtmlSpan>getByXPath("//span[contains(@class,'TermText')]");
 
 		spans.stream() //
 			.map(HtmlSpan::getTextContent) //
-			.filter(x -> !"...".equals(x)) //
+			.map(w -> trim(removePattern(w, "\\(.*"))) //
+			.filter(x -> containsNone(x, "...")) //
+			.filter(x -> containsNone(x, "[")) //
+			.filter(x -> isNotBlank(x)) //
 			.collect(toList())//
 			.forEach(w -> globalMap.put(w, urlStudySet));
 	    }
@@ -75,30 +89,6 @@ public class BrowseWordsHtmlUnit {
 	    System.out.println("URL with XPath: " + urlStudySets.size() + " requests, Time Elapsed: " + watch.getTime(SECONDS) + " s");
 	    watch.reset();
 	}
-
-//	final Path wordsFile = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
-//
-//	final Set<String> wordsOnSite = globalMap.keySet();
-//
-//	final List<String> wordsInFile = Files.lines(wordsFile) // reading file
-//	    .map(s -> s.toLowerCase().trim()) //
-//	    .filter(w -> !wordsOnSite.contains(w.toLowerCase())) // only words that not in site
-//	    .distinct() //
-//	    .collect(Collectors.toList());
-
-//	final var normalizedWords = new ArrayList<>();
-//
-//	for (final String word : wordsInFile) {
-//	    // https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=prevent
-//	    // <span class="gt-card-ttl-txt" style="direction: ltr;">prevent</span>
-//	    HtmlSpan htmlSpan = webClient.<HtmlPage>getPage("https://translate.google.com/#view=home&op=translate&sl=en&tl=pt&text=" + word) //
-//	        .<HtmlSpan>getFirstByXPath("//span[contains(@class,'gt-card-ttl-txt')]");
-//
-//	    normalizedWords.add(htmlSpan.getTextContent());
-//
-//	    // spans.stream() //
-//	    // .map(HtmlSpan::getTextContent) //
-//	}
 
 	printWordsNotInSite(globalMap.asMap());
 
