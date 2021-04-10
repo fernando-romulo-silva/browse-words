@@ -1,13 +1,6 @@
-wholesale (wholesaled, wholesaling)
-swamp (swamped, swamping)
-favorable
-unfavorable
-gritty
 rethink (rethought, rethinking)
-spoilage
 sidekick
 villain (villained, villaining)
-trope
 ground (grounded, grounding) - grounded
 suttie
 disrespectful
