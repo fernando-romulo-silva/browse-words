@@ -4,7 +4,6 @@ ground (grounded, grounding) - grounded
 disrespectful
 lower (lowered, lowering)
 controversial
-watermelon
 relieve (relieved, relieving)
 preapredness
 convey (conveyed, conveying)
@@ -12,16 +11,13 @@ weave (weaved/wove, weaved/woven, weaving)
 mend (mended, mending) - mending
 fist (fisted, fisting)
 delve (delved, delving)
-oats
 hassle (hassled, hassling)
-halt (halted, halting)
 requirement
 expanse (expansed, expansing)
 suppress (suppressed, suppressing) - suppressed
 unrivaled
 meet (met, meeting)
 earphone
-hitch (hitched, hitching)
 harvest (harvested, harvesting)
 hatch (hatched, hatching)
 hoard (hoarded, hoarding) - hoarding
@@ -44,7 +40,6 @@ self-learner
 philomath
 inferences
 attainable
-fly (flew, flown, flying) - flown
 hyperbolic
 exaggerate (exaggerated, exaggerating)
 speculate (speculated, speculating) - speculating
@@ -68,7 +63,6 @@ faultry
 loophole (loopholed, loopholing)
 gap (gaped, gaping)
 range (ranged, ranging)
-grind (ground, grinding)
 assertions
 beachgoer
 outrageous
@@ -80,13 +74,10 @@ consultant
 glove (gloved, gloving) - gloves
 installment
 seamlessly
-cumbersome
 apologize (apologized, apologizing)
-harmful
 assembly
 artifact
 spin-up
-reclaim (reclaimed, reclaiming)
 elapse (elapsed, elapsing) - elapsed
 postpone (postponed, postponing)
 frothy
@@ -100,13 +91,11 @@ belly (bellied, bellying)
 gulp (gulped, gulping)
 lush (lushed, lushing)
 rider
-snout
-stale (staled, staling)
-arguido
+
 bush (bushed, bushing)
 snoop (snooped, snooping)
-finicky
-shorthand
+
+
 hand (handed, handing) - handed
 faulty
 hood (hooded, hooding)
