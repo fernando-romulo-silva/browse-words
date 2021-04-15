@@ -1,37 +1,26 @@
-sidekick
-villain (villained, villaining)
-ground (grounded, grounding) - grounded
 disrespectful
-lower (lowered, lowering)
 controversial
-relieve (relieved, relieving)
 preapredness
 convey (conveyed, conveying)
 weave (weaved/wove, weaved/woven, weaving)
-mend (mended, mending) - mending
 fist (fisted, fisting)
 delve (delved, delving)
 hassle (hassled, hassling)
 requirement
 expanse (expansed, expansing)
-suppress (suppressed, suppressing) - suppressed
-unrivaled
+suppress (suppressed, suppressing)
 meet (met, meeting)
 earphone
-harvest (harvested, harvesting)
-hatch (hatched, hatching)
-hoard (hoarded, hoarding) - hoarding
 hurst
 attorney (attorneyed, attorneying)
 recover (recovered, recovering)
-heat (heated, heating) - heating
 apology (apologied, apologying)
 sophisticate (sophisticated, sophisticating)
-refer (referred, referring) - referring
+refer (referred, referring)
 smoothly
 lighter (lightered, lightering)
 longstanding
-resign (resigned, resigning) - resigned
+resign (resigned, resigning)
 adjust (adjusted, adjusting)
 courageous
 charismatic
@@ -42,16 +31,11 @@ inferences
 attainable
 hyperbolic
 exaggerate (exaggerated, exaggerating)
-speculate (speculated, speculating) - speculating
-bloat (bloated, bloating) - bloated
-leisure
+speculate (speculated, speculating)
 rhetorical
 flagship
-condo
-thoughful
 merger
 figure (figured, figuring)
-resign (resigned, resigning)
 resignation
 propose (proposed, proposing)
 debt
@@ -68,94 +52,86 @@ beachgoer
 outrageous
 overnight (overnighted, overnighting)
 solely
-joint (jointed, jointing) - joints
-promise (promised, promising) - promises
+joint (jointed, jointing)
+promise (promised, promising)
 consultant
-glove (gloved, gloving) - gloves
+glove (gloved, gloving)
 installment
 seamlessly
 apologize (apologized, apologizing)
 assembly
 artifact
 spin-up
-elapse (elapsed, elapsing) - elapsed
+elapse (elapsed, elapsing)
 postpone (postponed, postponing)
 frothy
-outsource (outsourced, outsourcing) - outsourcing
-bewilder (bewildered, bewildering) - bewildering
+outsource (outsourced, outsourcing)
+bewilder (bewildered, bewildering)
 dipe
 complain (complained, complaining)
 cradle (cradled, cradling)
-crow (crew/crowed, crowed, crowing) - crew
+crow (crew/crowed, crowed, crowing)
 belly (bellied, bellying)
 gulp (gulped, gulping)
 lush (lushed, lushing)
 rider
-
 bush (bushed, bushing)
 snoop (snooped, snooping)
-
-
-hand (handed, handing) - handed
 faulty
 hood (hooded, hooding)
 flavorful
-stem (stemmed, stemming) - stems
+stem (stemmed, stemming)
 bite-sized
 picky
 atmosphere
-dry (dried, drying) - dried
+dry (dried, drying)
 custard
-powder (powdered, powdering)
 bay (bayed, baying)
 spring (sprang, sprung, springing)
 bubbly
 cob (cobbed, cobbing)
 maize
-carton (cartoned, cartoning) - cartoon
 carton (cartoned, cartoning)
 inner
 tusk (tusked, tusking)
-spur (spurred, spurring) - spurs
+spur (spurred, spurring)
 dung (dunged, dunging)
 pry (pried, prying)
 penny
 rut (rutted, rutting)
 tangle (tangled, tangling)
-ram (rammed, ramming) - rams
+ram (rammed, ramming)
 gouge (gouged, gouging)
 quarry (quarried, quarrying)
 coffin (coffined, coffining)
 boulder
 dump (dumped, dumping)
 bail (bailed, bailing)
-elate (elated, elating) - elated
+elate (elated, elating)
 creek
 undertow
 cliff
 rubble
-tide (tided, tiding) - tides
+tide (tided, tiding)
 shore (shored, shoring)
 ridge (ridged, ridging)
 steamy
 meager
 wasteland
-bury (buried, burying) - buried
-hatch (hatched, hatching) - hatching
+bury (buried, burying)
 fellow (fellowed, fellowing)
-treasure (treasured, treasuring) - treasures
-slam (slammed, slamming) - slammed
-prep (prepped, prepping) - prepping
+treasure (treasured, treasuring)
+slam (slammed, slamming)
+prep (prepped, prepping)
 dentry
 clay (clayed, claying)
 follout
 trench (trenched, trenching)
 quiled
-raff (raffed, raffing) - raffing
+raff (raffed, raffing)
 plummed
-flee (fled, fleeing) - fled
-stow (stowed, stowing) - stowed
-pursue (pursued, pursuing) - pursuing
+stow (stowed, stowing)
+pursue (pursued, pursuing)
 unearth (unearthed, unearthing)
 fearsome
 specimen
@@ -164,7 +140,7 @@ outsmart (outsmarted, outsmarting)
 quarantine (quarantined, quarantining)
 attentive
 quorum
-moan (moaned, moaning) - moans
+moan (moaned, moaning)
 aventure
 henceforth
 daemon
@@ -174,10 +150,10 @@ sandbox
 pathwise
 stitch (stitched, stitching)
 hurdle (hurdled, hurdling)
-demerit (demerited, demeriting) - demerits
+demerit (demerited, demeriting)
 encompass (encompassed, encompassing)
 staggeringly
-entangle (entangled, entangling) - entangled
+entangle (entangled, entangling)
 several
 address (addressed, addressing)
 bummer
@@ -185,36 +161,28 @@ boundary
 payload
 sensitization
 reliability
-excite (excited, exciting) - exciting
-surprise (surprised, surprising) - surprising
-amaze (amazed, amazing) - amazing
+excite (excited, exciting)
+surprise (surprised, surprising)
+amaze (amazed, amazing)
 nerve-wracking
-worry (worried, worrying) - worrying
-sicken (sickened, sickening) - sickening
-interest (interested, interesting) - interesting
-tire (tired, tiring) - tiring
+worry (worried, worrying)
+sicken (sickened, sickening)
+interest (interested, interesting)
+tire (tired, tiring)
 might
 feelings
 childhood
-surprise (surprised, surprising) - surprised
-amaze (amazed, amazing) - amazed
 afraid
-scare (scared, scaring) - scared
+scare (scared, scaring)
 nervous
-astonish (astonished, astonishing) - astonishing
-astonish (astonished, astonishing) - astonished
-interest (interested, interesting) - interested
-tire (tired, tiring) - tired
 unworkable
 corrupt (corrupted, corrupting)
-rage (raged, raging) - raging
+rage (raged, raging)
 trickery
-chip (chipped, chipping) - chipped
 hint (hinted, hinting)
-hint (hinted, hinting) - hinting
 strictest
 amateurs
-cheat (cheated, cheating) - cheating
+cheat (cheated, cheating)
 reduce (reduced, reducing)
 devour (devoured, devouring)
 candy (candied, candying)
@@ -224,7 +192,6 @@ damn (damned, damning)
 hazard (hazarded, hazarding)
 itch (itched, itching)
 helmsman
-tailor (tailored, tailoring) - tailors
 augmentation
 shinny (shinnied, shinnying)
 joy (joyed, joying)
@@ -232,8 +199,7 @@ mutiny (mutinied, mutinying)
 pivot (pivoted, pivoting)
 pivotal
 employ (employed, employing)
-overuse (overused, overusing) - overused
-bolster (bolstered, bolstering) - bolstered
+bolster (bolstered, bolstering)
 afterward
 often-touted
 despair (despaired, despairing)
