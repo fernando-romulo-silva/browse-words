@@ -9,6 +9,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 import static java.util.stream.Collectors.toList;
 import static org.apache.commons.lang3.RegExUtils.removePattern;
+import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
 import static org.apache.commons.lang3.StringUtils.containsNone;
 import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.commons.lang3.StringUtils.trim;
@@ -58,10 +59,10 @@ public class BrowseWordsHtmlUnit {
 
 	    watch.start();
 
-	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString); //
-//			    .stream() //
-//			    .filter(f -> StringUtils.containsIgnoreCase(f, "english-words")) //
-//			    .collect(toList());
+	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString) //
+			    .stream() //
+			    .filter(f -> containsIgnoreCase(f, "english-words")) //
+			    .collect(toList());
 
 	    watch.stop();
 	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
