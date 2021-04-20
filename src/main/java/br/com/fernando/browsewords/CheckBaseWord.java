@@ -33,7 +33,7 @@ public class CheckBaseWord {
 	    final var htmlString = page //
 			    .getWebResponse() //
 			    .getContentAsString();
-
+	    
 	    if (containsIgnoreCase(htmlString, "AVISO: Este verbo") || containsIgnoreCase(htmlString, "para o verbo inserido")) {
 		return word;
 
@@ -41,8 +41,11 @@ public class CheckBaseWord {
 
 		final var rootWords = page.<HtmlDivision>getFirstByXPath("//div[contains(@class,'word-wrap')]");
 
-		final var imperative = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li/i[2]");
-		final var textImperative = imperative.asText();
+		final var imperativeOne = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li/i[2]");
+		final var textImperativeOne = imperativeOne.asText();
+
+		final var imperativeTwo = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li[3]/i[2]");
+		final var textImperativeTwo = imperativeTwo.asText();
 
 		final var gerund = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present continuous']/following-sibling::ul/li/i[3]");
 		final var textGerund = gerund.asText();
@@ -51,22 +54,23 @@ public class CheckBaseWord {
 		final var textParticiple = ulParticiple.asText();
 
 		final var past = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Preterite']/following-sibling::ul/li/i[2]");
-		final var textPast = past. asText(); //asNormalizedText();
+		final var textPast = past.asText(); // asNormalizedText();
 
+		
 		final var text = new StringBuilder() //
-				.append(textImperative) //
+				.append(textImperativeOne) //
 				.append(" (") //
+				.append(equalsIgnoreCase(textImperativeOne, textImperativeTwo) ? "" : textImperativeTwo + ", ")
 				.append(textPast) //
 				.append(", "); //
 
 		if (equalsIgnoreCase(textPast, textParticiple) == false) {
 		    text.append(textParticiple).append(", ");
 		}
-		
 
 		text.append(textGerund).append(")");
-		
-		if (equalsIgnoreCase(textImperative, word) == false) {
+
+		if (equalsIgnoreCase(textImperativeOne, word) == false) {
 		    text.append(" - ").append(word);
 		}
 
@@ -77,5 +81,4 @@ public class CheckBaseWord {
 	    return word;
 	}
     }
-
 }
