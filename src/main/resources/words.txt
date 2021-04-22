@@ -1,15 +1,12 @@
-crane (cranes, craned, craning)
 moan (moans, moaned, moaning)
 slide (slides, slid, sliding)
 shatter (shatters, shattered, shattering)
-immiscible
 despair (despairs, despaired, despairing)
 foul (fouls, fouled, fouling)
 harbor (harbors, harbored, harboring)
 crate (crates, crated, crating)
 warehouse (warehouses, warehoused, warehousing)
 engrave (engraves, engraved, engraving)
-phony
 blunt (blunts, blunted, blunting)
 breath (breaths, breathed, breathing)
 hum (hums, hummed, humming)
@@ -18,7 +15,6 @@ clout (clouts, clouted, clouting)
 heir (heirs, heired, heiring)
 fosake
 haunt (haunts, haunted, haunting)
-sleuth (sleuths, sleuthed, sleuthing)
 plunter
 hooker
 liver
