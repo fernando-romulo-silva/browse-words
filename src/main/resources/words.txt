@@ -1,38 +1,20 @@
-moan (moans, moaned, moaning)
-slide (slides, slid, sliding)
 shatter (shatters, shattered, shattering)
-despair (despairs, despaired, despairing)
 foul (fouls, fouled, fouling)
 harbor (harbors, harbored, harboring)
-crate (crates, crated, crating)
-warehouse (warehouses, warehoused, warehousing)
-engrave (engraves, engraved, engraving)
-blunt (blunts, blunted, blunting)
 breath (breaths, breathed, breathing)
 hum (hums, hummed, humming)
-bailiff
 clout (clouts, clouted, clouting)
 heir (heirs, heired, heiring)
-fosake
+forsake (forsakes, forsook, forsaken, forsaking)
 haunt (haunts, haunted, haunting)
-plunter
-hooker
-liver
 chalk (chalks, chalked, chalking)
 rinse (rinses, rinsed, rinsing)
-bidder
-fart (farts, farted, farting)
 soar (soars, soared, soaring)
 deposition
 broot
 boot (boots, booted, booting)
 draft (drafts, drafted, drafting)
-fella
-pal (pals, palled, palling)
-goddam
 nut (nuts, nuted, nuting)
-cunt
-groundbreak
 wander (wanders, wandered, wandering)
 unveil (unveils, unveiled, unveiling)
 veil (veils, veiled, veiling)
@@ -148,7 +130,6 @@ elate (elates, elated, elating)
 creek
 undertow
 cliff
-rubble
 tide (tides, tided, tiding)
 shore (shores, shored, shoring)
 ridge (ridges, ridged, ridging)
