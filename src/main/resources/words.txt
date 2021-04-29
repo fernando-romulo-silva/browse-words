@@ -1,12 +1,6 @@
-shatter (shatters, shattered, shattering)
-foul (fouls, fouled, fouling)
-harbor (harbors, harbored, harboring)
 breath (breaths, breathed, breathing)
-hum (hums, hummed, humming)
 clout (clouts, clouted, clouting)
-heir (heirs, heired, heiring)
 forsake (forsakes, forsook, forsaken, forsaking)
-haunt (haunts, haunted, haunting)
 chalk (chalks, chalked, chalking)
 rinse (rinses, rinsed, rinsing)
 soar (soars, soared, soaring)
@@ -39,11 +33,9 @@ hinterland
 lavish (lavishes, lavished, lavishing)
 copper (coppers, coppered, coppering)
 grip (grips, gripped, gripping)
-sentry
 brood (broods, brooded, brooding)
 preapredness
 earphone
-attorney (attorneys, attorneyed, attorneying)
 recover (recovers, recovered, recovering)
 apology (apologies, apologied, apologying)
 sophisticate (sophisticates, sophisticated, sophisticating)
@@ -220,6 +212,7 @@ elicit reasons
 the bottom line
 just turn brown
 galvanize ink
+sent off
 canned food
 go way up
 leading up
