@@ -5,21 +5,21 @@ chalk (chalks, chalked, chalking)
 rinse (rinses, rinsed, rinsing)
 soar (soars, soared, soaring)
 deposition
-broot
-boot (boots, booted, booting)
+
+
 draft (drafts, drafted, drafting)
-nut (nuts, nuted, nuting)
+
 wander (wanders, wandered, wandering)
-unveil (unveils, unveiled, unveiling)
-veil (veils, veiled, veiling)
-wick (wicks, wicked, wicking)
-scent (scents, scented, scenting)
+
+
+
+
 subdue (subdues, subdued, subduing)
 limb (limbs, limbed, limbing)
 vessel (vessels, vesseled, vesseling)
 hoot (hoots, hooted, hooting)
 wail (wails, wailed, wailing)
-sturdy
+
 vent (vents, vented, venting)
 maze (mazes, mazed, mazing)
 wisdom
@@ -27,9 +27,7 @@ sprout (sprouts, sprouted, sprouting)
 custard
 spice (spices, spiced, spicing)
 frothy
-shard
 spur (spurs, spurred, spurring)
-hinterland
 lavish (lavishes, lavished, lavishing)
 copper (coppers, coppered, coppering)
 grip (grips, gripped, gripping)
