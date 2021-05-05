@@ -5,21 +5,13 @@ chalk (chalks, chalked, chalking)
 rinse (rinses, rinsed, rinsing)
 soar (soars, soared, soaring)
 deposition
-
-
 draft (drafts, drafted, drafting)
-
 wander (wanders, wandered, wandering)
-
-
-
-
 subdue (subdues, subdued, subduing)
 limb (limbs, limbed, limbing)
 vessel (vessels, vesseled, vesseling)
 hoot (hoots, hooted, hooting)
 wail (wails, wailed, wailing)
-
 vent (vents, vented, venting)
 maze (mazes, mazed, mazing)
 wisdom
@@ -52,7 +44,6 @@ hyperbolic
 exaggerate (exaggerates, exaggerated, exaggerating)
 speculate (speculates, speculated, speculating)
 rhetorical
-resignation
 propose (proposes, proposed, proposing)
 debt
 credit (credits, credited, crediting)
@@ -202,21 +193,12 @@ often-touted
 precedence
 rewind (rewinds, rewound, rewinding)
 ===============================================================================================
-net salary
 fend them off
-tack on
 bush fires
 elicit reasons
-the bottom line
 just turn brown
 galvanize ink
-sent off
 canned food
-go way up
-leading up
-in addition
-right away
-takes place
 wash up
 go over really well
 common ground
@@ -240,4 +222,3 @@ burned out
 fed up
 put down
 in a rut
-lead up
