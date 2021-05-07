@@ -1,36 +1,26 @@
-breath (breaths, breathed, breathing)
 clout (clouts, clouted, clouting)
 forsake (forsakes, forsook, forsaken, forsaking)
 chalk (chalks, chalked, chalking)
-rinse (rinses, rinsed, rinsing)
 soar (soars, soared, soaring)
 deposition
 draft (drafts, drafted, drafting)
-wander (wanders, wandered, wandering)
 subdue (subdues, subdued, subduing)
 limb (limbs, limbed, limbing)
 vessel (vessels, vesseled, vesseling)
 hoot (hoots, hooted, hooting)
 wail (wails, wailed, wailing)
 vent (vents, vented, venting)
-maze (mazes, mazed, mazing)
-wisdom
 sprout (sprouts, sprouted, sprouting)
-custard
 spice (spices, spiced, spicing)
-frothy
 spur (spurs, spurred, spurring)
 lavish (lavishes, lavished, lavishing)
 copper (coppers, coppered, coppering)
 grip (grips, gripped, gripping)
 brood (broods, brooded, brooding)
-preapredness
-earphone
 recover (recovers, recovered, recovering)
 apology (apologies, apologied, apologying)
 sophisticate (sophisticates, sophisticated, sophisticating)
 refer (refers, referred, referring)
-smoothly
 longstanding
 resign (resigns, resigned, resigning)
 adjust (adjusts, adjusted, adjusting)
@@ -39,7 +29,6 @@ charismatic
 self-reliant
 self-learner
 inferences
-attainable
 hyperbolic
 exaggerate (exaggerates, exaggerated, exaggerating)
 speculate (speculates, speculated, speculating)
@@ -144,21 +133,13 @@ henceforth
 daemon
 fine-grained
 ingress (ingresses, ingressed, ingressing)
-sandbox
-pathwise
 stitch (stitches, stitched, stitching)
 hurdle (hurdles, hurdled, hurdling)
 demerit (demerits, demerited, demeriting)
 encompass (encompasses, encompassed, encompassing)
 staggeringly
 entangle (entangles, entangled, entangling)
-several
 address (addresses, addressed, addressing)
-bummer
-boundary
-payload
-sensitization
-reliability
 excite (excites, excited, exciting)
 surprise (surprises, surprised, surprising)
 amaze (amazes, amazed, amazing)
@@ -169,7 +150,6 @@ interest (interests, interested, interesting)
 tire (tires, tired, tiring)
 might
 feelings
-afraid
 scare (scares, scared, scaring)
 nervous
 corrupt (corrupts, corrupted, corrupting)
@@ -180,7 +160,6 @@ amateurs
 reduce (reduces, reduced, reducing)
 devour (devours, devoured, devouring)
 candy (candies, candied, candying)
-mania
 faucet
 hazard (hazards, hazarded, hazarding)
 augmentation
