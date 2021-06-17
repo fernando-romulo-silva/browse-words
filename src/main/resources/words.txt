@@ -1,4 +1,3 @@
-clout (clouts, clouted, clouting)
 forsake (forsakes, forsook, forsaken, forsaking)
 chalk (chalks, chalked, chalking)
 soar (soars, soared, soaring)
@@ -6,7 +5,6 @@ deposition
 draft (drafts, drafted, drafting)
 subdue (subdues, subdued, subduing)
 limb (limbs, limbed, limbing)
-vessel (vessels, vesseled, vesseling)
 hoot (hoots, hooted, hooting)
 wail (wails, wailed, wailing)
 vent (vents, vented, venting)
@@ -30,7 +28,6 @@ self-learner
 inferences
 hyperbolic
 speculate (speculates, speculated, speculating)
-faultry
 loophole (loopholes, loopholed, loopholing)
 beachgoer
 overnight (overnights, overnighted, overnighting)
@@ -57,7 +54,6 @@ lush (lushes, lushed, lushing)
 rider
 bush (bushes, bushed, bushing)
 snoop (snoops, snooped, snooping)
-faulty
 hood (hoods, hooded, hooding)
 flavorful
 stem (stems, stemmed, stemming)
@@ -160,7 +156,33 @@ afterward
 often-touted
 precedence
 rewind (rewinds, rewound, rewinding)
+declutter (declutters, decluttered, decluttering)
+novelty
+hide (hides, hid, hidden/hid, hiding)
+substrate
+scaffold (scaffolds, scaffolded, scaffolding)
+wholly
+executable
+configure (configures, configured, configuring)
+chapter (chapters, chaptered, chaptering)
+author (authors, authored, authoring)
+digit (digits, digited, digiting)
+fascicle
+carve (carves, carved, carving)
+hone (hones, honed, honing)
+consumption
+execute (executes, executed, executing)
+distribute (distributes, distributed, distributing)
+plaudit
+stall (stalls, stalled, stalling)
+ampersand
 ===============================================================================================
+daily invoice
+farmed out
+dabble witth
+vat rate
+then fade away
+stashed away
 fend them off
 bush fires
 elicit reasons
