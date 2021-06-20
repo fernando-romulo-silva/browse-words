@@ -1,7 +1,5 @@
-forsake (forsakes, forsook, forsaken, forsaking)
 chalk (chalks, chalked, chalking)
 soar (soars, soared, soaring)
-deposition
 draft (drafts, drafted, drafting)
 subdue (subdues, subdued, subduing)
 limb (limbs, limbed, limbing)
@@ -12,7 +10,6 @@ sprout (sprouts, sprouted, sprouting)
 spice (spices, spiced, spicing)
 spur (spurs, spurred, spurring)
 lavish (lavishes, lavished, lavishing)
-copper (coppers, coppered, coppering)
 grip (grips, gripped, gripping)
 brood (broods, brooded, brooding)
 recover (recovers, recovered, recovering)
@@ -22,7 +19,6 @@ refer (refers, referred, referring)
 longstanding
 resign (resigns, resigned, resigning)
 adjust (adjusts, adjusted, adjusting)
-charismatic
 self-reliant
 self-learner
 inferences
@@ -33,7 +29,6 @@ beachgoer
 overnight (overnights, overnighted, overnighting)
 joint (joints, jointed, jointing)
 promise (promises, promised, promising)
-glove (gloves, gloved, gloving)
 installment
 seamlessly
 apologize (apologizes, apologized, apologizing)
@@ -51,34 +46,26 @@ crow (crows, crew/crowed, crowed, crowing)
 belly (bellies, bellied, bellying)
 gulp (gulps, gulped, gulping)
 lush (lushes, lushed, lushing)
-rider
 bush (bushes, bushed, bushing)
 snoop (snoops, snooped, snooping)
-hood (hoods, hooded, hooding)
 flavorful
 stem (stems, stemmed, stemming)
 bite-sized
 picky
 atmosphere
 dry (dries, dried, drying)
-bay (bays, bayed, baying)
 spring (springs, sprang, sprung, springing)
 bubbly
 cob (cobs, cobbed, cobbing)
-maize
 carton (cartons, cartoned, cartoning)
 inner
 tusk (tusks, tusked, tusking)
-dung (dungs, dunged, dunging)
 pry (pries, pried, prying)
-penny
-rut (ruts, rutted, rutting)
 tangle (tangles, tangled, tangling)
 ram (rams, rammed, ramming)
 gouge (gouges, gouged, gouging)
 quarry (quarries, quarried, quarrying)
 coffin (coffins, coffined, coffining)
-boulder
 dump (dumps, dumped, dumping)
 bail (bails, bailed, bailing)
 elate (elates, elated, elating)
@@ -94,7 +81,6 @@ wasteland
 bury (buries, buried, burying)
 fellow (fellows, fellowed, fellowing)
 treasure (treasures, treasured, treasuring)
-slam (slams, slammed, slamming)
 prep (preps, prepped, prepping)
 dentry
 clay (clays, clayed, claying)
@@ -112,12 +98,10 @@ cullprint
 outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
 attentive
-quorum
 aventure
 henceforth
 daemon
 fine-grained
-ingress (ingresses, ingressed, ingressing)
 stitch (stitches, stitched, stitching)
 hurdle (hurdles, hurdled, hurdling)
 demerit (demerits, demerited, demeriting)
@@ -145,7 +129,6 @@ amateurs
 reduce (reduces, reduced, reducing)
 devour (devours, devoured, devouring)
 candy (candies, candied, candying)
-faucet
 hazard (hazards, hazarded, hazarding)
 augmentation
 joy (joys, joyed, joying)
@@ -157,11 +140,8 @@ often-touted
 precedence
 rewind (rewinds, rewound, rewinding)
 declutter (declutters, decluttered, decluttering)
-novelty
-hide (hides, hid, hidden/hid, hiding)
 substrate
 scaffold (scaffolds, scaffolded, scaffolding)
-wholly
 executable
 configure (configures, configured, configuring)
 chapter (chapters, chaptered, chaptering)
@@ -169,13 +149,10 @@ author (authors, authored, authoring)
 digit (digits, digited, digiting)
 fascicle
 carve (carves, carved, carving)
-hone (hones, honed, honing)
 consumption
 execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
-plaudit
 stall (stalls, stalled, stalling)
-ampersand
 ===============================================================================================
 daily invoice
 farmed out
