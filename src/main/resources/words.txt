@@ -99,10 +99,7 @@ outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
 attentive
 aventure
-henceforth
-daemon
 fine-grained
-stitch (stitches, stitched, stitching)
 hurdle (hurdles, hurdled, hurdling)
 demerit (demerits, demerited, demeriting)
 encompass (encompasses, encompassed, encompassing)
@@ -133,11 +130,8 @@ hazard (hazards, hazarded, hazarding)
 augmentation
 joy (joys, joyed, joying)
 pivot (pivots, pivoted, pivoting)
-pivotal
 bolster (bolsters, bolstered, bolstering)
-afterward
 often-touted
-precedence
 rewind (rewinds, rewound, rewinding)
 declutter (declutters, decluttered, decluttering)
 substrate
@@ -149,7 +143,6 @@ author (authors, authored, authoring)
 digit (digits, digited, digiting)
 fascicle
 carve (carves, carved, carving)
-consumption
 execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
 stall (stalls, stalled, stalling)
