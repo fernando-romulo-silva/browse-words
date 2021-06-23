@@ -93,8 +93,6 @@ stow (stows, stowed, stowing)
 pursue (pursues, pursued, pursuing)
 unearth (unearths, unearthed, unearthing)
 fearsome
-specimen
-cullprint
 outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
 attentive
@@ -109,7 +107,6 @@ address (addresses, addressed, addressing)
 excite (excites, excited, exciting)
 surprise (surprises, surprised, surprising)
 amaze (amazes, amazed, amazing)
-nerve-wracking
 worry (worries, worried, worrying)
 sicken (sickens, sickened, sickening)
 interest (interests, interested, interesting)
@@ -118,11 +115,9 @@ might
 feelings
 scare (scares, scared, scaring)
 nervous
-corrupt (corrupts, corrupted, corrupting)
 rage (rages, raged, raging)
 trickery
 hint (hints, hinted, hinting)
-amateurs
 reduce (reduces, reduced, reducing)
 devour (devours, devoured, devouring)
 candy (candies, candied, candying)
@@ -132,13 +127,11 @@ joy (joys, joyed, joying)
 pivot (pivots, pivoted, pivoting)
 bolster (bolsters, bolstered, bolstering)
 often-touted
-rewind (rewinds, rewound, rewinding)
 declutter (declutters, decluttered, decluttering)
 substrate
 scaffold (scaffolds, scaffolded, scaffolding)
 executable
 configure (configures, configured, configuring)
-chapter (chapters, chaptered, chaptering)
 author (authors, authored, authoring)
 digit (digits, digited, digiting)
 fascicle
@@ -182,3 +175,7 @@ burned out
 fed up
 put down
 in a rut
+-------------------------------------------------------------------------------------------
+Looking for repeated words
+culprit - [https://quizlet.com/br/587929924/english-words-0064-flash-cards/, https://quizlet.com/br/602264425/english-words-0070-flash-cards/]
+rough - [https://quizlet.com/br/280276636/english-words-0015-flash-cards/, https://quizlet.com/br/602685709/english-words-0071-flash-cards/]
