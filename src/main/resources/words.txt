@@ -1,22 +1,12 @@
-chalk (chalks, chalked, chalking)
-soar (soars, soared, soaring)
-draft (drafts, drafted, drafting)
-subdue (subdues, subdued, subduing)
-limb (limbs, limbed, limbing)
 hoot (hoots, hooted, hooting)
-wail (wails, wailed, wailing)
-vent (vents, vented, venting)
 sprout (sprouts, sprouted, sprouting)
 spice (spices, spiced, spicing)
 spur (spurs, spurred, spurring)
-lavish (lavishes, lavished, lavishing)
 grip (grips, gripped, gripping)
-brood (broods, brooded, brooding)
 recover (recovers, recovered, recovering)
 apology (apologies, apologied, apologying)
 sophisticate (sophisticates, sophisticated, sophisticating)
 refer (refers, referred, referring)
-longstanding
 resign (resigns, resigned, resigning)
 adjust (adjusts, adjusted, adjusting)
 self-reliant
@@ -58,38 +48,28 @@ spring (springs, sprang, sprung, springing)
 bubbly
 cob (cobs, cobbed, cobbing)
 carton (cartons, cartoned, cartoning)
-inner
-tusk (tusks, tusked, tusking)
 pry (pries, pried, prying)
 tangle (tangles, tangled, tangling)
-ram (rams, rammed, ramming)
 gouge (gouges, gouged, gouging)
 quarry (quarries, quarried, quarrying)
 coffin (coffins, coffined, coffining)
 dump (dumps, dumped, dumping)
 bail (bails, bailed, bailing)
-elate (elates, elated, elating)
-creek
 undertow
 cliff
 tide (tides, tided, tiding)
 shore (shores, shored, shoring)
-ridge (ridges, ridged, ridging)
 steamy
-meager
 wasteland
 bury (buries, buried, burying)
 fellow (fellows, fellowed, fellowing)
 treasure (treasures, treasured, treasuring)
 prep (preps, prepped, prepping)
 dentry
-clay (clays, clayed, claying)
 follout
-trench (trenches, trenched, trenching)
 quiled
 raff (raffs, raffed, raffing)
 plummed
-stow (stows, stowed, stowing)
 pursue (pursues, pursued, pursuing)
 unearth (unearths, unearthed, unearthing)
 fearsome
@@ -175,7 +155,3 @@ burned out
 fed up
 put down
 in a rut
--------------------------------------------------------------------------------------------
-Looking for repeated words
-culprit - [https://quizlet.com/br/587929924/english-words-0064-flash-cards/, https://quizlet.com/br/602264425/english-words-0070-flash-cards/]
-rough - [https://quizlet.com/br/280276636/english-words-0015-flash-cards/, https://quizlet.com/br/602685709/english-words-0071-flash-cards/]
