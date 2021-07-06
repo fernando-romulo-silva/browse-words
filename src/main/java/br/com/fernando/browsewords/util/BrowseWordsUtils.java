@@ -60,7 +60,7 @@ public class BrowseWordsUtils {
 	final var newWords = Files.lines(words) // reading file
 			.filter(s -> isNotBlank(s)) //
 			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.map(s -> split(s, ':')[0].toLowerCase()) //
+			.map(s -> trim(split(s, ':')[0].toLowerCase())) //
 			.filter(w -> wordsOnSite.contains(w) == false) // only words that not in site
 			.distinct() //
 			.collect(partitioningBy(s -> StringUtils.contains(s, SPACE)));

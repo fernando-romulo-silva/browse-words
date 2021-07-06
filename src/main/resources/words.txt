@@ -119,7 +119,127 @@ carve (carves, carved, carving)
 execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
 stall (stalls, stalled, stalling)
+hectic
+pace (paces, paced, pacing) - pacing
+entrepreneur
+policymakers
+foster (fosters, fostered, fostering)
+fundraise (fundraises, fundraised, fundraising) - fundraising
+worthwhile
+acumen
+pitch (pitches, pitched, pitching)
+seed (seeds, seeded, seeding)
+equity
+individual
+issue (issues, issued, issuing)
+underwrite (underwrites, underwrote, underwritten, underwriting)
+wren
+repayments
+mattress
+quarterly
+lust (lusts, lusted, lusting)
+embodiment
+consent (consents, consented, consenting)
+recall (recalls, recalled, recalling)
+finance (finances, financed, financing)
+subscribe (subscribes, subscribed, subscribing)
+expose (exposes, exposed, exposing) - exposes
+niche (niches, niched, niching)
+figure (figures, figured, figuring) - figures
+hands-on
+abide (abides, abode/abided, abiding) - abiding
+skydive (skydives, skydived, skydiving) - skydiving
+screen (screens, screened, screening) - screening
+intuit (intuits, intuited, intuiting)
+mimic (mimics, mimicked, mimicking)
+spell (spells, spelled/spelt, spelling)
+consider (considers, considered, considering) - considering
+dismantle (dismantles, dismantled, dismantling)
+mantle (mantles, mantled, mantling)
+rip (rips, ripped, ripping)
+ripper
+destroy (destroys, destroyed, destroying)
+flack
+unprecedent (unprecedents, unprecedented, unprecedenting) - unprecedented
+awaken (awakens, awakened, awakening) - awakening
+sightsee (sightsees, sightsaw, sightseen, sightseeing) - sightseeing
+rnter
+lethal
+accustom (accustoms, accustomed, accustoming) - accustomed
+warfare
+sculley
+gross (grosses, grossed, grossing) - grossing
+purpose (purposes, purposed, purposing)
+inference
+debate (debates, debated, debating)
+triage
+splint (splints, splinted, splinting) - splints
+tissue (tissues, tissued, tissuing)
+surveillance
+investment
+seek (seeks, sought, seeking) - sought
+resign (resigns, resigned, resigning) - resigning
+preserve (preserves, preserved, preserving) - preserved
+rot (rots, rotted, rotting)
+verdict
+aesthetic
+mangrove
+discourage (discourages, discouraged, discouraging) - discouraged
+jeopardy
+hedge (hedges, hedged, hedging) - hedges
+affluent
+intake
+well-off
+tear (tears, tore, torn, tearing) - torn
+fizzy
+replenish (replenishes, replenished, replenishing) - replenished
+rag (rags, ragged, ragging) - rags
+infraction
+misdemeanor
+felony
+epitome
+gait (gaits, gaited, gaiting)
+groom (grooms, groomed, grooming)
+stack (stacks, stacked, stacking)
+aforementioned
+stir-crazy
+gist
+nipple
+
+===============================================================
+
+bummer: what a shame
+dust : We really need to dust.
+delivery : Take her to the delivery room.
+table : All the information you need is on the table below.
+Spring : The spring on this toy is broken.
+Leave : She’s on maternity leave. She’s on sick leave.
+book : I’d like to book an appointment with Dr. Phillip.
+party : Most parties were against the proposal.
+room : Is there room on your car for my friend?
+please : It’s hard to please her.
+jack : We need a bigger jack for the truck.
+play : We are rehearsing for a play at school.
+fire : He was fired because of sexual harassment.
+file : You need to file your nails.
+goods : Most companies already use the internet to sell goods.
+fast : You shouldn’t go fasting to lose weight before talking to a doctor.
+ticket : If you park here, you will get a ticket.
+fine : There’s a one-hundred-dollar fine for littering here.
+nurse : She is planning to nurse (the baby) for at least three months.
+plant : Part of the country’s energy comes from nuclear plants.
+sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
+corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
+
 ===============================================================================================
+further ado
+work offsite
+turning up
+core values
+baking soda
+get down to business
+to have in mind
+get back to somebody
 daily invoice
 farmed out
 dabble witth
@@ -132,26 +252,77 @@ elicit reasons
 just turn brown
 galvanize ink
 canned food
-wash up
 go over really well
-common ground
-daycare center
 spun up
-take out
 clean up after
-drop out
-cabin fever
 trip down
-cough up
 allude to
-daily grind
 getting acquainted
 watch out for
 boils down
-think ahead
 let's get on with it
 think of
 burned out
-fed up
 put down
-in a rut
+issue notice
+double-edged sword
+fell steeply last year
+due diligence
+venture capitalist
+swamped with stuff
+put somebody in
+point at somebody
+put somebody off
+keep to myself
+what are you up to?
+sets out to
+hustle and bustle
+gulps down
+break the deadlock
+help us out here
+snowshoe hare
+build upon
+once upon
+picture frame
+wooden frame
+running machine
+put somebody down
+behind deadline
+making headway
+make a breakthrough
+takes something care of
+charge of
+leading up to
+soft spot
+put off
+squares up
+will spin them up
+we hang out sometimes
+chopped meat
+chickens free range
+sparkling mineral water
+finely chopped meat
+from scratch up
+chocolate powder
+takes place
+leading up
+split evenly
+deadlines loom
+testing criterion
+formal specification
+to overcome this
+least uniform
+soft spots
+broke the deadlock
+decrease amount of the meetings
+deep learning
+i'm on the go all day
+meet up with
+
+============================================================
+
+off to : the negotiations are off to a good
+typed in: he typed in the information.
+switch on: switch on the computer.
+switch something on: switch the computer on.
+way to go: a new recreation room is the way to go

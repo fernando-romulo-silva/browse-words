@@ -97,7 +97,7 @@ public class FindWordsHtmlUnit {
 	final var words = Files.lines(wordsPath) // reading file
 			.filter(s -> isNotBlank(s)) //
 			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.map(s -> split(s, ':')[0].toLowerCase()) //
+			.map(s -> trim(split(s, ':')[0].toLowerCase())) //
 			.distinct() //
 			.collect(toList());
 

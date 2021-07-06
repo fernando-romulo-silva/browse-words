@@ -1,54 +1,8 @@
-
 treat: As a special treat.
-
-delivery : Take her to the delivery room.
-
 wear : Soft tires are more comfortable but they wear faster.
-
-table : All the information you need is on the table below.
-
-Spring : The spring on this toy is broken.
-
-Leave : She’s on maternity leave. She’s on sick leave.
-
-book : I’d like to book an appointment with Dr. Phillip.
-
-party : Most parties were against the proposal.
-
-room : Is there room on your car for my friend?
-
-please : It’s hard to please her.
-
-jack : We need a bigger jack for the truck.
-
-play : We are rehearsing for a play at school.
-
-fire : He was fired because of sexual harassment.
-
-Hand : What happened to that clock? The hour hand came off.
-
+hand : What happened to that clock? The hour hand came off.
 sand : You have to sand these boards first.
-
-file : You need to file your nails.
-
-goods : Most companies already use the internet to sell goods.
-
 saw : I need a saw, a hammer and some nails.
-
-fast : You shouldn’t go fasting to lose weight before talking to a doctor.
-
-ticket : If you park here, you will get a ticket.
-
-fine : There’s a one-hundred-dollar fine for littering here.
-
 fly : There’s a lot of garbage here, that’s why there are so many flies.
-
-nurse : She is planning to nurse (the baby) for at least three months.
-
-plant : Part of the country’s energy comes from nuclear plants.
-
-sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
-
-Will : Against my will, they will get married in a few days.
-
-Corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
+will : Against my will, they will get married in a few days.
+overwhelming: Sometimes all the technology in our lives can be overwhelming.
