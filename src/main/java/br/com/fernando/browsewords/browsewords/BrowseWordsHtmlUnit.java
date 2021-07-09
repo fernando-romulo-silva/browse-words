@@ -1,4 +1,4 @@
-package br.com.fernando.browsewords;
+package br.com.fernando.browsewords.browsewords;
 
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
@@ -16,6 +16,7 @@ import static org.apache.commons.lang3.StringUtils.trim;
 
 import java.net.URL;
 import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import org.apache.commons.lang3.time.StopWatch;
 
@@ -32,7 +33,7 @@ public class BrowseWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF); 
+	Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF); 
 	
 	final var webClient = new WebClient(FIREFOX_78);
 	webClient.getOptions().setJavaScriptEnabled(false);

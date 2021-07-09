@@ -1,4 +1,4 @@
-package br.com.fernando.browsewords;
+package br.com.fernando.browsewords.browsewords;
 
 import java.util.concurrent.TimeUnit;
 

@@ -97,15 +97,16 @@ public class FindWordsHtmlUnit {
 	final var words = Files.lines(wordsPath) // reading file
 			.filter(s -> isNotBlank(s)) //
 			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.map(s -> trim(split(s, ':')[0].toLowerCase())) //
 			.distinct() //
 			.collect(toList());
 
 	for (final var word : words) {
-	    if (globalMap.containsKey(word)) {
-		System.out.println("Word \"" + word + "\" is found in: " + globalMap.get(word));
+	    final var w = trim(split(word, ':')[0].toLowerCase());
+	    
+	    if (globalMap.containsKey(w)) {
+		System.out.println(word + " ( " + globalMap.get(w) + " ) ");
 	    } else {
-		System.out.println("Word \"" + word + "\" not found");
+		System.out.println(word);
 	    }
 	}
     }

@@ -1,4 +1,4 @@
-package br.com.fernando.browsewords;
+package br.com.fernando.browsewords.browsewords;
 
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;

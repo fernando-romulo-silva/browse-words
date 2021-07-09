@@ -120,11 +120,10 @@ execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
 stall (stalls, stalled, stalling)
 hectic
-pace (paces, paced, pacing) - pacing
 entrepreneur
 policymakers
 foster (fosters, fostered, fostering)
-fundraise (fundraises, fundraised, fundraising) - fundraising
+fundraise (fundraises, fundraised, fundraising)
 worthwhile
 acumen
 pitch (pitches, pitched, pitching)
@@ -143,57 +142,50 @@ consent (consents, consented, consenting)
 recall (recalls, recalled, recalling)
 finance (finances, financed, financing)
 subscribe (subscribes, subscribed, subscribing)
-expose (exposes, exposed, exposing) - exposes
+expose (exposes, exposed, exposing)
 niche (niches, niched, niching)
-figure (figures, figured, figuring) - figures
 hands-on
-abide (abides, abode/abided, abiding) - abiding
-skydive (skydives, skydived, skydiving) - skydiving
-screen (screens, screened, screening) - screening
+abide (abides, abode/abided, abiding)
+skydive (skydives, skydived, skydiving)
+screen (screens, screened, screening)
 intuit (intuits, intuited, intuiting)
 mimic (mimics, mimicked, mimicking)
 spell (spells, spelled/spelt, spelling)
-consider (considers, considered, considering) - considering
+consider (considers, considered, considering)
 dismantle (dismantles, dismantled, dismantling)
 mantle (mantles, mantled, mantling)
 rip (rips, ripped, ripping)
 ripper
 destroy (destroys, destroyed, destroying)
 flack
-unprecedent (unprecedents, unprecedented, unprecedenting) - unprecedented
-awaken (awakens, awakened, awakening) - awakening
-sightsee (sightsees, sightsaw, sightseen, sightseeing) - sightseeing
+unprecedent (unprecedents, unprecedented, unprecedenting)
+awaken (awakens, awakened, awakening)
+sightsee (sightsees, sightsaw, sightseen, sightseeing)
 rnter
 lethal
-accustom (accustoms, accustomed, accustoming) - accustomed
-warfare
 sculley
-gross (grosses, grossed, grossing) - grossing
+gross (grosses, grossed, grossing)
 purpose (purposes, purposed, purposing)
 inference
 debate (debates, debated, debating)
 triage
-splint (splints, splinted, splinting) - splints
+splint (splints, splinted, splinting)
 tissue (tissues, tissued, tissuing)
 surveillance
 investment
-seek (seeks, sought, seeking) - sought
-resign (resigns, resigned, resigning) - resigning
-preserve (preserves, preserved, preserving) - preserved
+seek (seeks, sought, seeking)
+preserve (preserves, preserved, preserving)
 rot (rots, rotted, rotting)
 verdict
 aesthetic
-mangrove
-discourage (discourages, discouraged, discouraging) - discouraged
+discourage (discourages, discouraged, discouraging)
 jeopardy
-hedge (hedges, hedged, hedging) - hedges
+hedge (hedges, hedged, hedging)
 affluent
 intake
 well-off
-tear (tears, tore, torn, tearing) - torn
 fizzy
-replenish (replenishes, replenished, replenishing) - replenished
-rag (rags, ragged, ragging) - rags
+rag (rags, ragged, ragging)
 infraction
 misdemeanor
 felony
@@ -203,16 +195,19 @@ groom (grooms, groomed, grooming)
 stack (stacks, stacked, stacking)
 aforementioned
 stir-crazy
-gist
 nipple
-
-===============================================================
-
-bummer: what a shame
+convenience
+freshen (freshens, freshened, freshening)
+forthcoming
+core: core values
+invoice: daily invoice
+offsite: work offsite
+reluctant: I've been feeling that people are reluctant to give me the information that I need.
+runaround: I feel that I'm getting the runaround
 dust : We really need to dust.
 delivery : Take her to the delivery room.
 table : All the information you need is on the table below.
-Spring : The spring on this toy is broken.
+spring : The spring on this toy is broken.
 Leave : She’s on maternity leave. She’s on sick leave.
 book : I’d like to book an appointment with Dr. Phillip.
 party : Most parties were against the proposal.
@@ -226,34 +221,21 @@ goods : Most companies already use the internet to sell goods.
 fast : You shouldn’t go fasting to lose weight before talking to a doctor.
 ticket : If you park here, you will get a ticket.
 fine : There’s a one-hundred-dollar fine for littering here.
-nurse : She is planning to nurse (the baby) for at least three months.
+nurse : She is planning to nurse
 plant : Part of the country’s energy comes from nuclear plants.
 sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
 corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
 
-===============================================================================================
-further ado
-work offsite
-turning up
-core values
-baking soda
+
 get down to business
-to have in mind
 get back to somebody
-daily invoice
-farmed out
-dabble witth
-vat rate
 then fade away
-stashed away
-fend them off
+
 bush fires
 elicit reasons
-just turn brown
 galvanize ink
 canned food
 go over really well
-spun up
 clean up after
 trip down
 allude to
@@ -263,7 +245,6 @@ boils down
 let's get on with it
 think of
 burned out
-put down
 issue notice
 double-edged sword
 fell steeply last year
@@ -276,17 +257,14 @@ put somebody off
 keep to myself
 what are you up to?
 sets out to
-hustle and bustle
 gulps down
 break the deadlock
 help us out here
 snowshoe hare
 build upon
-once upon
 picture frame
 wooden frame
 running machine
-put somebody down
 behind deadline
 making headway
 make a breakthrough
@@ -294,17 +272,15 @@ takes something care of
 charge of
 leading up to
 soft spot
-put off
-squares up
+
 will spin them up
 we hang out sometimes
 chopped meat
 chickens free range
-sparkling mineral water
 finely chopped meat
 from scratch up
 chocolate powder
-takes place
+
 leading up
 split evenly
 deadlines loom
@@ -316,12 +292,11 @@ soft spots
 broke the deadlock
 decrease amount of the meetings
 deep learning
-i'm on the go all day
 meet up with
-
-============================================================
-
-off to : the negotiations are off to a good
+straighten something out: I will straighten things out
+rest assured: Listen - rest assured that I will get some answers.
+sum up: To sum up, we need to be more forthcomming.
+make allowances: We have to make allowances for vegetarians.
 typed in: he typed in the information.
 switch on: switch on the computer.
 switch something on: switch the computer on.
