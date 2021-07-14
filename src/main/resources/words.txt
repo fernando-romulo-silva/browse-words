@@ -1,3 +1,52 @@
+advance (advances, advanced, advancing)
+somersault (somersaults, somersaulted, somersaulting)
+undertake (undertakes, undertook, undertaken, undertaking)
+engulf (engulfs, engulfed, engulfing)
+herring
+gig (gigs, giged, giging)
+tricky
+jetter
+dammed
+denned
+chappered
+uncharted
+rip (rips, ripped, ripping)
+mistroned
+minestrone
+rant (rants, ranted, ranting)
+overreact (overreacts, overreacted, overreacting)
+foe (foes, foed, foing)
+ooze (oozes, oozed, oozing)
+heap (heaps, heaped, heaping)
+mullet
+overline
+board (boards, boarded, boarding)
+adjust (adjusts, adjusted, adjusting)
+grazers
+pamper (pampers, pampered, pampering)
+polyps
+snazzy
+tame (tames, tamed, taming)
+haul (hauls, hauled, hauling)
+dime
+deterrent
+shambler
+nurture (nurtures, nurtured, nurturing)
+flux (fluxes, fluxed, fluxing)
+drip (drips, dripped, dripping)
+marshland
+meander (meanders, meandered, meandering)
+knowth
+cozy
+helm (helms, helmed, helming)
+stint (stints, stinted, stinting)
+roam (roams, roamed, roaming)
+rectify (rectifies, rectified, rectifying)
+brand (brands, branded, branding)
+colocation
+propel (propels, propelled, propelling)
+haze (hazes, hazed, hazing)
+fridge (fridges, fridged, fridging)
 hoot (hoots, hooted, hooting)
 sprout (sprouts, sprouted, sprouting)
 spice (spices, spiced, spicing)
@@ -8,7 +57,6 @@ apology (apologies, apologied, apologying)
 sophisticate (sophisticates, sophisticated, sophisticating)
 refer (refers, referred, referring)
 resign (resigns, resigned, resigning)
-adjust (adjusts, adjusted, adjusting)
 self-reliant
 self-learner
 inferences
@@ -154,10 +202,8 @@ spell (spells, spelled/spelt, spelling)
 consider (considers, considered, considering)
 dismantle (dismantles, dismantled, dismantling)
 mantle (mantles, mantled, mantling)
-rip (rips, ripped, ripping)
 ripper
 destroy (destroys, destroyed, destroying)
-flack
 unprecedent (unprecedents, unprecedented, unprecedenting)
 awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
@@ -188,7 +234,6 @@ fizzy
 rag (rags, ragged, ragging)
 infraction
 misdemeanor
-felony
 epitome
 gait (gaits, gaited, gaiting)
 groom (grooms, groomed, grooming)
@@ -199,12 +244,13 @@ nipple
 convenience
 freshen (freshens, freshened, freshening)
 forthcoming
+instalment
+cutting-edge
+============================================================================================================
 core: core values
 invoice: daily invoice
 offsite: work offsite
-reluctant: I've been feeling that people are reluctant to give me the information that I need.
 runaround: I feel that I'm getting the runaround
-dust : We really need to dust.
 delivery : Take her to the delivery room.
 table : All the information you need is on the table below.
 spring : The spring on this toy is broken.
@@ -225,12 +271,21 @@ nurse : She is planning to nurse
 plant : Part of the country’s energy comes from nuclear plants.
 sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
 corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
-
-
-get down to business
 get back to somebody
 then fade away
-
+laid back
+make sure
+leave off
+call to mind
+make ends meet
+rip currents
+life hutch
+thrudge through
+speed up
+berth in
+benefits of colocation
+laide back
+cutting edge
 bush fires
 elicit reasons
 galvanize ink
@@ -272,7 +327,6 @@ takes something care of
 charge of
 leading up to
 soft spot
-
 will spin them up
 we hang out sometimes
 chopped meat
@@ -280,7 +334,6 @@ chickens free range
 finely chopped meat
 from scratch up
 chocolate powder
-
 leading up
 split evenly
 deadlines loom
@@ -293,8 +346,6 @@ broke the deadlock
 decrease amount of the meetings
 deep learning
 meet up with
-straighten something out: I will straighten things out
-rest assured: Listen - rest assured that I will get some answers.
 sum up: To sum up, we need to be more forthcomming.
 make allowances: We have to make allowances for vegetarians.
 typed in: he typed in the information.
