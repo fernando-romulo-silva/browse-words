@@ -1,31 +1,20 @@
-herring
-uncharted
 rip (rips, ripped, ripping)
-mistroned
-minestrone
 overreact (overreacts, overreacted, overreacting)
 foe (foes, foed, foing)
 ooze (oozes, oozed, oozing)
 heap (heaps, heaped, heaping)
-overline
 board (boards, boarded, boarding)
 adjust (adjusts, adjusted, adjusting)
-grazers
-pamper (pampers, pampered, pampering)
-polyps
-snazzy
+grazer
 tame (tames, tamed, taming)
 haul (hauls, hauled, hauling)
 dime
-deterrent
-shambler
 nurture (nurtures, nurtured, nurturing)
 flux (fluxes, fluxed, fluxing)
 drip (drips, dripped, dripping)
 marshland
 meander (meanders, meandered, meandering)
 knowth
-cozy
 helm (helms, helmed, helming)
 stint (stints, stinted, stinting)
 roam (roams, roamed, roaming)
@@ -51,7 +40,6 @@ inferences
 hyperbolic
 speculate (speculates, speculated, speculating)
 loophole (loopholes, loopholed, loopholing)
-beachgoer
 overnight (overnights, overnighted, overnighting)
 joint (joints, jointed, jointing)
 promise (promises, promised, promising)
@@ -65,7 +53,6 @@ elapse (elapses, elapsed, elapsing)
 postpone (postpones, postponed, postponing)
 outsource (outsources, outsourced, outsourcing)
 bewilder (bewilders, bewildered, bewildering)
-dipe
 complain (complains, complained, complaining)
 cradle (cradles, cradled, cradling)
 crow (crows, crew/crowed, crowed, crowing)
@@ -73,7 +60,6 @@ belly (bellies, bellied, bellying)
 gulp (gulps, gulped, gulping)
 lush (lushes, lushed, lushing)
 bush (bushes, bushed, bushing)
-snoop (snoops, snooped, snooping)
 flavorful
 stem (stems, stemmed, stemming)
 bite-sized
@@ -82,10 +68,8 @@ atmosphere
 dry (dries, dried, drying)
 spring (springs, sprang, sprung, springing)
 bubbly
-cob (cobs, cobbed, cobbing)
 carton (cartons, cartoned, cartoning)
 pry (pries, pried, prying)
-tangle (tangles, tangled, tangling)
 gouge (gouges, gouged, gouging)
 quarry (quarries, quarried, quarrying)
 coffin (coffins, coffined, coffining)
@@ -101,14 +85,11 @@ bury (buries, buried, burying)
 fellow (fellows, fellowed, fellowing)
 treasure (treasures, treasured, treasuring)
 prep (preps, prepped, prepping)
-dentry
-follout
-quiled
+quilt (quilts, quilted, quilting)
 raff (raffs, raffed, raffing)
 plummed
 pursue (pursues, pursued, pursuing)
 unearth (unearths, unearthed, unearthing)
-fearsome
 outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
 attentive
@@ -150,7 +131,6 @@ executable
 configure (configures, configured, configuring)
 author (authors, authored, authoring)
 digit (digits, digited, digiting)
-fascicle
 carve (carves, carved, carving)
 execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
@@ -161,7 +141,6 @@ policymakers
 foster (fosters, fostered, fostering)
 fundraise (fundraises, fundraised, fundraising)
 worthwhile
-acumen
 pitch (pitches, pitched, pitching)
 seed (seeds, seeded, seeding)
 equity
@@ -235,6 +214,9 @@ forthcoming
 instalment
 cutting-edge
 ============================================================================================================
+mistreat: Both parents have denied charges of mistreating their children.
+spare: you could spare, say, three hundred?
+fond: quite fond of
 core: core values
 invoice: daily invoice
 offsite: work offsite
@@ -245,7 +227,6 @@ spring : The spring on this toy is broken.
 Leave : She’s on maternity leave. She’s on sick leave.
 book : I’d like to book an appointment with Dr. Phillip.
 party : Most parties were against the proposal.
-room : Is there room on your car for my friend?
 please : It’s hard to please her.
 jack : We need a bigger jack for the truck.
 play : We are rehearsing for a play at school.
@@ -334,6 +315,8 @@ broke the deadlock
 decrease amount of the meetings
 deep learning
 meet up with
+frowned upon
+the warning bells go off
 sum up: To sum up, we need to be more forthcomming.
 make allowances: We have to make allowances for vegetarians.
 typed in: he typed in the information.
