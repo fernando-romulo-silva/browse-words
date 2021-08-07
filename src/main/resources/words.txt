@@ -1,14 +1,5 @@
-rip (rips, ripped, ripping)
-overreact (overreacts, overreacted, overreacting)
-foe (foes, foed, foing)
-ooze (oozes, oozed, oozing)
-heap (heaps, heaped, heaping)
-board (boards, boarded, boarding)
+graze (grazes, grazed, grazing)
 adjust (adjusts, adjusted, adjusting)
-grazer
-tame (tames, tamed, taming)
-haul (hauls, hauled, hauling)
-dime
 nurture (nurtures, nurtured, nurturing)
 flux (fluxes, fluxed, fluxing)
 drip (drips, dripped, dripping)
