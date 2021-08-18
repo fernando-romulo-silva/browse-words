@@ -1,12 +1,4 @@
-graze (grazes, grazed, grazing)
-adjust (adjusts, adjusted, adjusting)
-nurture (nurtures, nurtured, nurturing)
-flux (fluxes, fluxed, fluxing)
-drip (drips, dripped, dripping)
-marshland
 meander (meanders, meandered, meandering)
-knowth
-helm (helms, helmed, helming)
 stint (stints, stinted, stinting)
 roam (roams, roamed, roaming)
 rectify (rectifies, rectified, rectifying)
@@ -38,7 +30,6 @@ installment
 seamlessly
 apologize (apologizes, apologized, apologizing)
 assembly
-artifact
 spin-up
 elapse (elapses, elapsed, elapsing)
 postpone (postpones, postponed, postponing)
@@ -66,11 +57,9 @@ quarry (quarries, quarried, quarrying)
 coffin (coffins, coffined, coffining)
 dump (dumps, dumped, dumping)
 bail (bails, bailed, bailing)
-undertow
 cliff
 tide (tides, tided, tiding)
 shore (shores, shored, shoring)
-steamy
 wasteland
 bury (buries, buried, burying)
 fellow (fellows, fellowed, fellowing)
@@ -84,7 +73,6 @@ unearth (unearths, unearthed, unearthing)
 outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
 attentive
-aventure
 fine-grained
 hurdle (hurdles, hurdled, hurdling)
 demerit (demerits, demerited, demeriting)
