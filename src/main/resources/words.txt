@@ -1,11 +1,3 @@
-meander (meanders, meandered, meandering)
-stint (stints, stinted, stinting)
-roam (roams, roamed, roaming)
-rectify (rectifies, rectified, rectifying)
-brand (brands, branded, branding)
-colocation
-propel (propels, propelled, propelling)
-haze (hazes, hazed, hazing)
 fridge (fridges, fridged, fridging)
 hoot (hoots, hooted, hooting)
 sprout (sprouts, sprouted, sprouting)
@@ -45,11 +37,9 @@ bush (bushes, bushed, bushing)
 flavorful
 stem (stems, stemmed, stemming)
 bite-sized
-picky
 atmosphere
 dry (dries, dried, drying)
 spring (springs, sprang, sprung, springing)
-bubbly
 carton (cartons, cartoned, cartoning)
 pry (pries, pried, prying)
 gouge (gouges, gouged, gouging)
