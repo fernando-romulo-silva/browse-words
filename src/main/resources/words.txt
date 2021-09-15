@@ -1,23 +1,5 @@
-resign (resigns, resigned, resigning)
-self-reliant
-self-learner
-inferences
-hyperbolic
-speculate (speculates, speculated, speculating)
-loophole (loopholes, loopholed, loopholing)
-overnight (overnights, overnighted, overnighting)
-joint (joints, jointed, jointing)
-promise (promises, promised, promising)
-installment
-seamlessly
-apologize (apologizes, apologized, apologizing)
-assembly
+inference
 spin-up
-elapse (elapses, elapsed, elapsing)
-postpone (postpones, postponed, postponing)
-outsource (outsources, outsourced, outsourcing)
-bewilder (bewilders, bewildered, bewildering)
-complain (complains, complained, complaining)
 cradle (cradles, cradled, cradling)
 crow (crows, crew/crowed, crowed, crowing)
 belly (bellies, bellied, bellying)
@@ -138,7 +120,6 @@ lethal
 sculley
 gross (grosses, grossed, grossing)
 purpose (purposes, purposed, purposing)
-inference
 debate (debates, debated, debating)
 triage
 splint (splints, splinted, splinting)
