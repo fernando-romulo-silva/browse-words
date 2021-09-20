@@ -1,4 +1,3 @@
-inference
 spin-up
 cradle (cradles, cradled, cradling)
 crow (crows, crew/crowed, crowed, crowing)
