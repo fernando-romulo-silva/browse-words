@@ -1,28 +1,10 @@
 spin-up
-laid-back
-cradle (cradles, cradled, cradling)
-crow (crows, crew/crowed, crowed, crowing)
-belly (bellies, bellied, bellying)
-gulp (gulps, gulped, gulping)
-lush (lushes, lushed, lushing)
-bush (bushes, bushed, bushing)
-flavorful
-stem (stems, stemmed, stemming)
 bite-sized
-atmosphere
-dry (dries, dried, drying)
 spring (springs, sprang, sprung, springing)
 carton (cartons, cartoned, cartoning)
-pry (pries, pried, prying)
 gouge (gouges, gouged, gouging)
-quarry (quarries, quarried, quarrying)
 coffin (coffins, coffined, coffining)
-dump (dumps, dumped, dumping)
-bail (bails, bailed, bailing)
-cliff
-tide (tides, tided, tiding)
 shore (shores, shored, shoring)
-wasteland
 bury (buries, buried, burying)
 fellow (fellows, fellowed, fellowing)
 treasure (treasures, treasured, treasuring)
@@ -54,7 +36,6 @@ feelings
 scare (scares, scared, scaring)
 nervous
 rage (rages, raged, raging)
-trickery
 hint (hints, hinted, hinting)
 reduce (reduces, reduced, reducing)
 devour (devours, devoured, devouring)
