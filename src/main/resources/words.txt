@@ -1,7 +1,6 @@
 spin-up
 bite-sized
 spring (springs, sprang, sprung, springing)
-carton (cartons, cartoned, cartoning)
 gouge (gouges, gouged, gouging)
 coffin (coffins, coffined, coffining)
 shore (shores, shored, shoring)
@@ -12,7 +11,6 @@ prep (preps, prepped, prepping)
 quilt (quilts, quilted, quilting)
 raff (raffs, raffed, raffing)
 plummed
-pursue (pursues, pursued, pursuing)
 unearth (unearths, unearthed, unearthing)
 outsmart (outsmarts, outsmarted, outsmarting)
 quarantine (quarantines, quarantined, quarantining)
