@@ -1,26 +1,6 @@
-spin-up
-bite-sized
-spring (springs, sprang, sprung, springing)
-gouge (gouges, gouged, gouging)
-coffin (coffins, coffined, coffining)
-shore (shores, shored, shoring)
-bury (buries, buried, burying)
-fellow (fellows, fellowed, fellowing)
-treasure (treasures, treasured, treasuring)
-prep (preps, prepped, prepping)
-quilt (quilts, quilted, quilting)
-raff (raffs, raffed, raffing)
-plummed
-unearth (unearths, unearthed, unearthing)
-outsmart (outsmarts, outsmarted, outsmarting)
-quarantine (quarantines, quarantined, quarantining)
+revolve (revolves, revolved, revolving)
 attentive
-fine-grained
-hurdle (hurdles, hurdled, hurdling)
-demerit (demerits, demerited, demeriting)
-encompass (encompasses, encompassed, encompassing)
 staggeringly
-entangle (entangles, entangled, entangling)
 address (addresses, addressed, addressing)
 excite (excites, excited, exciting)
 surprise (surprises, surprised, surprising)
@@ -28,36 +8,15 @@ amaze (amazes, amazed, amazing)
 worry (worries, worried, worrying)
 sicken (sickens, sickened, sickening)
 interest (interests, interested, interesting)
-tire (tires, tired, tiring)
-might
-feelings
-scare (scares, scared, scaring)
-nervous
-rage (rages, raged, raging)
-hint (hints, hinted, hinting)
-reduce (reduces, reduced, reducing)
-devour (devours, devoured, devouring)
-candy (candies, candied, candying)
-hazard (hazards, hazarded, hazarding)
 augmentation
-joy (joys, joyed, joying)
-pivot (pivots, pivoted, pivoting)
-bolster (bolsters, bolstered, bolstering)
 often-touted
 declutter (declutters, decluttered, decluttering)
 substrate
-scaffold (scaffolds, scaffolded, scaffolding)
-executable
 configure (configures, configured, configuring)
 author (authors, authored, authoring)
 digit (digits, digited, digiting)
-carve (carves, carved, carving)
 execute (executes, executed, executing)
 distribute (distributes, distributed, distributing)
-stall (stalls, stalled, stalling)
-hectic
-entrepreneur
-policymakers
 foster (fosters, fostered, fostering)
 fundraise (fundraises, fundraised, fundraising)
 worthwhile
@@ -65,9 +24,7 @@ pitch (pitches, pitched, pitching)
 seed (seeds, seeded, seeding)
 equity
 individual
-issue (issues, issued, issuing)
 underwrite (underwrites, underwrote, underwritten, underwriting)
-wren
 repayments
 mattress
 quarterly
@@ -97,7 +54,6 @@ sightsee (sightsees, sightsaw, sightseen, sightseeing)
 rnter
 lethal
 sculley
-gross (grosses, grossed, grossing)
 purpose (purposes, purposed, purposing)
 debate (debates, debated, debating)
 triage
@@ -142,7 +98,6 @@ offsite: work offsite
 runaround: I feel that I'm getting the runaround
 delivery : Take her to the delivery room.
 table : All the information you need is on the table below.
-spring : The spring on this toy is broken.
 Leave : She’s on maternity leave. She’s on sick leave.
 book : I’d like to book an appointment with Dr. Phillip.
 party : Most parties were against the proposal.

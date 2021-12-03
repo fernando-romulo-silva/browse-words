@@ -41,23 +41,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version>
-				<configuration>
-					<compilerArgs>
-						<arg>--enable-preview</arg>
-					</compilerArgs>
-				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
-				<configuration>
-					<argLine>
-						--illegal-access=permit --enable-preview
-					</argLine>
-				</configuration>
-			</plugin>
 		</plugins>
 
 	</build>
@@ -140,7 +125,7 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.9</version>
+			<version>3.12.0</version>
 		</dependency>
 
 	</dependencies>
