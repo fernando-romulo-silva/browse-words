@@ -1,43 +1,23 @@
-revolve (revolves, revolved, revolving)
-attentive
-staggeringly
-address (addresses, addressed, addressing)
-excite (excites, excited, exciting)
-surprise (surprises, surprised, surprising)
-amaze (amazes, amazed, amazing)
-worry (worries, worried, worrying)
-sicken (sickens, sickened, sickening)
-interest (interests, interested, interesting)
-augmentation
+stagger (staggers, staggered, staggering)
+augment (augments, augmented, augmenting)
 often-touted
 declutter (declutters, decluttered, decluttering)
-substrate
-configure (configures, configured, configuring)
-author (authors, authored, authoring)
 digit (digits, digited, digiting)
-execute (executes, executed, executing)
-distribute (distributes, distributed, distributing)
-foster (fosters, fostered, fostering)
 fundraise (fundraises, fundraised, fundraising)
 worthwhile
 pitch (pitches, pitched, pitching)
-seed (seeds, seeded, seeding)
 equity
 individual
 underwrite (underwrites, underwrote, underwritten, underwriting)
 repayments
-mattress
 quarterly
-lust (lusts, lusted, lusting)
 embodiment
 consent (consents, consented, consenting)
 recall (recalls, recalled, recalling)
 finance (finances, financed, financing)
 subscribe (subscribes, subscribed, subscribing)
 expose (exposes, exposed, exposing)
-niche (niches, niched, niching)
 hands-on
-abide (abides, abode/abided, abiding)
 skydive (skydives, skydived, skydiving)
 screen (screens, screened, screening)
 intuit (intuits, intuited, intuiting)
@@ -46,8 +26,6 @@ spell (spells, spelled/spelt, spelling)
 consider (considers, considered, considering)
 dismantle (dismantles, dismantled, dismantling)
 mantle (mantles, mantled, mantling)
-ripper
-destroy (destroys, destroyed, destroying)
 unprecedent (unprecedents, unprecedented, unprecedenting)
 awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
@@ -60,14 +38,11 @@ triage
 splint (splints, splinted, splinting)
 tissue (tissues, tissued, tissuing)
 surveillance
-investment
 seek (seeks, sought, seeking)
-preserve (preserves, preserved, preserving)
 rot (rots, rotted, rotting)
 verdict
 aesthetic
 discourage (discourages, discouraged, discouraging)
-jeopardy
 hedge (hedges, hedged, hedging)
 affluent
 intake

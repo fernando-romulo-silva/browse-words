@@ -62,7 +62,7 @@ public class BrowseWordsHtmlUnit {
 
 	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString) //
 			    .stream() //
-			    .filter(f -> containsIgnoreCase(f, "english")) //
+			    .filter(f -> containsIgnoreCase(f, "English Words")) //
 			    .collect(toList());
 
 	    watch.stop();
