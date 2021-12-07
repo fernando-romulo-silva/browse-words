@@ -1,19 +1,7 @@
-stagger (staggers, staggered, staggering)
-augment (augments, augmented, augmenting)
-often-touted
+tout (touts, touted, touting)
 declutter (declutters, decluttered, decluttering)
-digit (digits, digited, digiting)
 fundraise (fundraises, fundraised, fundraising)
-worthwhile
-pitch (pitches, pitched, pitching)
-equity
-individual
 underwrite (underwrites, underwrote, underwritten, underwriting)
-repayments
-quarterly
-embodiment
-consent (consents, consented, consenting)
-recall (recalls, recalled, recalling)
 finance (finances, financed, financing)
 subscribe (subscribes, subscribed, subscribing)
 expose (exposes, exposed, exposing)
@@ -25,7 +13,6 @@ mimic (mimics, mimicked, mimicking)
 spell (spells, spelled/spelt, spelling)
 consider (considers, considered, considering)
 dismantle (dismantles, dismantled, dismantling)
-mantle (mantles, mantled, mantling)
 unprecedent (unprecedents, unprecedented, unprecedenting)
 awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
