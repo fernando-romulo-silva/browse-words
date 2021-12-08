@@ -1,24 +1,13 @@
-tout (touts, touted, touting)
-declutter (declutters, decluttered, decluttering)
-fundraise (fundraises, fundraised, fundraising)
-underwrite (underwrites, underwrote, underwritten, underwriting)
-finance (finances, financed, financing)
 subscribe (subscribes, subscribed, subscribing)
-expose (exposes, exposed, exposing)
-hands-on
 skydive (skydives, skydived, skydiving)
 screen (screens, screened, screening)
 intuit (intuits, intuited, intuiting)
 mimic (mimics, mimicked, mimicking)
 spell (spells, spelled/spelt, spelling)
 consider (considers, considered, considering)
-dismantle (dismantles, dismantled, dismantling)
 unprecedent (unprecedents, unprecedented, unprecedenting)
 awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
-rnter
-lethal
-sculley
 purpose (purposes, purposed, purposing)
 debate (debates, debated, debating)
 triage
@@ -29,28 +18,107 @@ seek (seeks, sought, seeking)
 rot (rots, rotted, rotting)
 verdict
 aesthetic
-discourage (discourages, discouraged, discouraging)
 hedge (hedges, hedged, hedging)
-affluent
-intake
+display (displays, displayed, displaying)
 well-off
-fizzy
 rag (rags, ragged, ragging)
 infraction
 misdemeanor
-epitome
-gait (gaits, gaited, gaiting)
 groom (grooms, groomed, grooming)
 stack (stacks, stacked, stacking)
 aforementioned
 stir-crazy
-nipple
+vie (vies, vied, vying)
 convenience
 freshen (freshens, freshened, freshening)
 forthcoming
-instalment
 cutting-edge
+verge (verges, verged, verging)
+guise (guises, guised, guising)
+vae
+clover
+dilapidate (dilapidates, dilapidated, dilapidating)
+desecrate (desecrates, desecrated, desecrating)
+bonker
+parcel (parcels, parcelled, parcelling)
+bankrupt (bankrupts, bankrupted, bankrupting)
+tenet
+peril (perils, periled/perilled, periling/perilling)
+readily
+nuisances
+waterdown
+cuss (cusses, cussed, cussing)
+overbite
+overrate (overrates, overrated, overrating)
+ancillary
+savant
+sake
+motive (motives, motived, motiving)
+morgue
+plunge (plunges, plunged, plunging)
+deputy
+flat-out
+slit (slits, slit/slitted, slitting)
+berth (berths, berthed, berthing)
+glaze (glazes, glazed, glazing)
+gaze (gazes, gazed, gazing)
+reckless
+jinx (jinxes, jinxed, jinxing)
+restrain (restrains, restrained, restraining)
+mould (moulds, moulded, moulding)
+ripple (ripples, rippled, rippling)
+hatchet
+affidavit
+seize (seizes, seized, seizing)
+truce
+cunt
+divert (diverts, diverted, diverting)
+stunt (stunts, stunted, stunting)
+piss (pisses, pissed, pissing)
+miscarriage
+bland
+nuisance
+snuff (snuffs, snuffed, snuffing)
+fend (fends, fended, fending)
+disclose (discloses, disclosed, disclosing)
+indicate (indicates, indicated, indicating)
+screw (screws, screwed, screwing)
+apathy
+vlookup
+sway (sways, swayed, swaying)
+grieve (grieves, grieved, grieving)
+hoax (hoaxes, hoaxed, hoaxing)
+manhunt
+chapel (chapels, chapelled, chapelling)
+standoff (standoffs, standoffed, standoffing)
+dipship
+turf (turfs, turfed, turfing)
+jostle (jostles, jostled, jostling)
+griefing
+curse (curses, cursed, cursing)
+heed (heeds, heeded, heeding)
+abet (abets, abetted, abetting)
+linger (lingers, lingered, lingering)
+drag (drags, dragged, dragging)
 ============================================================================================================
+flat tire
+as per
+long haul
+made up
+cracked head
+dark mould
+hot springs
+halfway house
+up to snuff
+just roller
+ward off
+kicked my behind
+go through
+push through
+brace yourself
+abide by
+hook up
+abreast of both situation
 mistreat: Both parents have denied charges of mistreating their children.
 spare: you could spare, say, three hundred?
 fond: quite fond of

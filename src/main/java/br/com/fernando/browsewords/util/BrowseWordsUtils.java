@@ -33,7 +33,7 @@ import br.com.fernando.browsewords.CheckBaseWord;
 
 public class BrowseWordsUtils {
 
-    public static final String URL = "https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=100&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator";
+    public static final String URL = "https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=200&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator";
 
     public static void printRepeatedWordsInSite(final Map<String, Collection<String>> map) {
 	System.out.println("-------------------------------------------------------------------------------------------");
