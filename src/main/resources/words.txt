@@ -1,16 +1,12 @@
-subscribe (subscribes, subscribed, subscribing)
-skydive (skydives, skydived, skydiving)
 screen (screens, screened, screening)
 intuit (intuits, intuited, intuiting)
 mimic (mimics, mimicked, mimicking)
-spell (spells, spelled/spelt, spelling)
 consider (considers, considered, considering)
 unprecedent (unprecedents, unprecedented, unprecedenting)
 awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
 purpose (purposes, purposed, purposing)
 debate (debates, debated, debating)
-triage
 splint (splints, splinted, splinting)
 tissue (tissues, tissued, tissuing)
 surveillance
@@ -67,17 +63,13 @@ jinx (jinxes, jinxed, jinxing)
 restrain (restrains, restrained, restraining)
 mould (moulds, moulded, moulding)
 ripple (ripples, rippled, rippling)
-hatchet
 affidavit
 seize (seizes, seized, seizing)
-truce
 cunt
 divert (diverts, diverted, diverting)
 stunt (stunts, stunted, stunting)
 piss (pisses, pissed, pissing)
 miscarriage
-bland
-nuisance
 snuff (snuffs, snuffed, snuffing)
 fend (fends, fended, fending)
 disclose (discloses, disclosed, disclosing)
@@ -92,33 +84,170 @@ manhunt
 chapel (chapels, chapelled, chapelling)
 standoff (standoffs, standoffed, standoffing)
 dipship
-turf (turfs, turfed, turfing)
 jostle (jostles, jostled, jostling)
 griefing
 curse (curses, cursed, cursing)
 heed (heeds, heeded, heeding)
 abet (abets, abetted, abetting)
 linger (lingers, lingered, lingering)
-drag (drags, dragged, dragging)
-============================================================================================================
-flat tire
-as per
-long haul
-made up
-cracked head
-dark mould
-hot springs
-halfway house
-up to snuff
-just roller
-ward off
-kicked my behind
-go through
-push through
-brace yourself
-abide by
-hook up
-abreast of both situation
+prize
+price
+
+
+confuse
+engrossed
+overwhelming
+advancement
+then-boss
+nurture
+engrossed
+advancement
+invoice
+offsite
+make something up.
+deceitful
+unthinkable
+ruthless
+six months has elapsed
+wagons
+mayor
+to be fined
+get a ticket
+misspell
+mistyped
+tearjerker
+councilor
+invoice
+offsite
+make something up.
+deceitful
+unthinkable
+ruthless
+six months has elapsed
+wagons
+mayor
+to be fined
+get a ticket
+misspell
+mistyped
+tearjerker
+porter
+upscale
+widower
+quite
+quiet
+went off
+fan
+accomplice
+sauce
+reforest
+phoenician
+burp
+parrot
+porcupine
+stutter
+freeways
+roomier
+inventive
+accomplice
+insurance
+investments
+loans
+crypto coins
+interest
+fees
+tax
+costume
+stiffer
+join
+cozy
+tore
+pride
+curse
+swell
+crouch
+lush
+wrecking
+catwalk
+chairman
+hardship
+stunts
+decent
+hierarchy
+gas-hole
+ethane
+caterer
+fitties
+wards
+rowdy
+sideline
+swiping
+piss
+witty
+gritty
+engrossing
+subtler
+praise
+warmth
+declutter
+clutter
+drizzle
+quiet
+silent
+quite
+cozy
+lounges
+coach
+stopover
+gritty
+freed
+entire
+appearance
+hostel
+inn
+aesthetic
+benevolent
+fastidious
+appear
+rammed
+wilderness
+convince
+overly
+overlay
+deception
+crumbs
+bereavement
+accomplice
+bonnet
+process 
+slam
+renown
+Demote
+tarred
+spawned
+revamp
+pertaining
+easylly
+make up
+cypher
+glitch
+deceased
+floozy
+dunno
+dipshit
+cunts
+seizures
+lattice
+fluke
+nuisance
+panacea
+all-around
+prevent
+redeem
+
+
+
+=============================
 mistreat: Both parents have denied charges of mistreating their children.
 spare: you could spare, say, three hundred?
 fond: quite fond of
@@ -144,6 +273,43 @@ nurse : She is planning to nurse
 plant : Part of the country’s energy comes from nuclear plants.
 sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
 corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
+pushy: Being pushy with excessive demands will probably not result in any special service.
+throwback: Elizabeth is a throwback. She's an anachronism.
+managerial: He thinks he's some kind of managerial genius.
+stretch = trecho, extensao
+embezzling: Bernie Handorf was just charged with embezzling $1.7 million.
+find not guilty: Martina was found not guilty of killing her husband. (was not found guilty of killing)
+convicted: Sarah was convicted of perjury. (convicted of perjury)
+
+
+
+
+============================================================================================================
+
+sum up: To sum up, we need to be more forthcomming.
+make allowances: We have to make allowances for vegetarians.
+typed in: he typed in the information.
+switch on: switch on the computer.
+switch something on: switch the computer on.
+way to go: a new recreation room is the way to go
+flat tire
+as per
+long haul
+made up
+cracked head
+dark mould
+hot springs
+halfway house
+up to snuff
+just roller
+ward off
+kicked my behind
+go through
+push through
+brace yourself
+abide by
+hook up
+abreast of both situation
 rip currents
 life hutch
 thrudge through
@@ -209,9 +375,15 @@ deep learning
 meet up with
 frowned upon
 the warning bells go off
-sum up: To sum up, we need to be more forthcomming.
-make allowances: We have to make allowances for vegetarians.
-typed in: he typed in the information.
-switch on: switch on the computer.
-switch something on: switch the computer on.
-way to go: a new recreation room is the way to go
+might mumble
+low interest
+safe box
+wipe off
+stay out of
+clean up
+take in
+look up
+
+=======================================================================================================
+
+
