@@ -74,7 +74,6 @@ snuff (snuffs, snuffed, snuffing)
 fend (fends, fended, fending)
 disclose (discloses, disclosed, disclosing)
 indicate (indicates, indicated, indicating)
-screw (screws, screwed, screwing)
 apathy
 vlookup
 sway (sways, swayed, swaying)
@@ -90,202 +89,115 @@ curse (curses, cursed, cursing)
 heed (heeds, heeded, heeding)
 abet (abets, abetted, abetting)
 linger (lingers, lingered, lingering)
-prize
-price
-
-
-confuse
-engrossed
-overwhelming
-advancement
+price (prices, priced, pricing)
+confuse (confuses, confused, confusing)
+engross (engrosses, engrossed, engrossing)
 then-boss
-nurture
-engrossed
-advancement
-invoice
+invoice (invoices, invoiced, invoicing)
 offsite
-make something up.
 deceitful
 unthinkable
 ruthless
-six months has elapsed
-wagons
+wagon (wagons, wagoned, wagoning)
 mayor
-to be fined
-get a ticket
-misspell
-mistyped
+misspell (misspells, misspelled/misspelt, misspelling)
+mistype (mistypes, mistyped, mistyping)
 tearjerker
 councilor
-invoice
-offsite
-make something up.
-deceitful
-unthinkable
-ruthless
-six months has elapsed
-wagons
-mayor
-to be fined
-get a ticket
-misspell
-mistyped
-tearjerker
 porter
-upscale
+upscale (upscales, upscaled, upscaling)
 widower
-quite
-quiet
-went off
-fan
+fan (fans, fanned, fanning)
 accomplice
-sauce
-reforest
+sauce (sauces, sauced, saucing)
+reforest (reforests, reforested, reforesting)
 phoenician
-burp
-parrot
+burp (burps, burped, burping)
+parrot (parrots, parroted, parroting)
 porcupine
-stutter
+stutter (stutters, stuttered, stuttering)
 freeways
 roomier
 inventive
-accomplice
-insurance
 investments
-loans
-crypto coins
-interest
-fees
-tax
-costume
+interest (interests, interested, interesting)
+tax (taxes, taxed, taxing)
+costume (costumes, costumed, costuming)
 stiffer
-join
-cozy
-tore
-pride
-curse
-swell
-crouch
-lush
-wrecking
+join (joins, joined, joining)
+pride (prides, prided, priding)
+swell (swells, swelled, swollen/swelled, swelling)
+crouch (crouches, crouched, crouching)
+wreck (wrecks, wrecked, wrecking)
 catwalk
 chairman
 hardship
-stunts
 decent
 hierarchy
 gas-hole
 ethane
 caterer
 fitties
-wards
+ward (wards, warded, warding)
 rowdy
-sideline
-swiping
-piss
+sideline (sidelines, sidelined, sidelining)
+swipe (swipes, swiped, swiping)
 witty
-gritty
-engrossing
 subtler
-praise
+praise (praises, praised, praising)
 warmth
-declutter
-clutter
-drizzle
-quiet
+drizzle (drizzles, drizzled, drizzling)
 silent
-quite
-cozy
-lounges
-coach
-stopover
-gritty
-freed
-entire
+stopover (stopovers, stopovered, stopovering)
+free (frees, freed, freeing)
 appearance
 hostel
-inn
-aesthetic
+inn (inns, inned, inning)
 benevolent
 fastidious
-appear
-rammed
-wilderness
-convince
+convince (convinces, convinced, convincing)
 overly
-overlay
+overlay (overlays, overlaid, overlaying)
 deception
-crumbs
+crumb (crumbs, crumbed, crumbing)
 bereavement
-accomplice
-bonnet
-process 
-slam
-renown
-Demote
-tarred
-spawned
-revamp
-pertaining
+bonnet (bonnets, bonneted, bonneting)
+process (processes, processed, processing)
+renown (renowns, renowned, renowning)
+demote (demotes, demoted, demoting)
+tar (tars, tarred, tarring)
+revamp (revamps, revamped, revamping)
+pertain (pertains, pertained, pertaining)
 easylly
-make up
-cypher
-glitch
-deceased
-floozy
-dunno
-dipshit
-cunts
-seizures
-lattice
-fluke
-nuisance
-panacea
+cypher (cyphers, cyphered, cyphering)
+decease (deceases, deceased, deceasing)
+lattice (lattices, latticed, latticing)
+fluke (flukes, fluked, fluking)
 all-around
-prevent
-redeem
-
-
-
-=============================
-mistreat: Both parents have denied charges of mistreating their children.
-spare: you could spare, say, three hundred?
-fond: quite fond of
-core: core values
-invoice: daily invoice
-offsite: work offsite
-runaround: I feel that I'm getting the runaround
-delivery : Take her to the delivery room.
-table : All the information you need is on the table below.
-Leave : She’s on maternity leave. She’s on sick leave.
-book : I’d like to book an appointment with Dr. Phillip.
-party : Most parties were against the proposal.
-please : It’s hard to please her.
-jack : We need a bigger jack for the truck.
-play : We are rehearsing for a play at school.
-fire : He was fired because of sexual harassment.
-file : You need to file your nails.
-goods : Most companies already use the internet to sell goods.
-fast : You shouldn’t go fasting to lose weight before talking to a doctor.
-ticket : If you park here, you will get a ticket.
-fine : There’s a one-hundred-dollar fine for littering here.
-nurse : She is planning to nurse
-plant : Part of the country’s energy comes from nuclear plants.
-sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
-corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
-pushy: Being pushy with excessive demands will probably not result in any special service.
-throwback: Elizabeth is a throwback. She's an anachronism.
-managerial: He thinks he's some kind of managerial genius.
-stretch = trecho, extensao
-embezzling: Bernie Handorf was just charged with embezzling $1.7 million.
-find not guilty: Martina was found not guilty of killing her husband. (was not found guilty of killing)
-convicted: Sarah was convicted of perjury. (convicted of perjury)
-
-
-
-
-============================================================================================================
-
+delivery
+book (books, booked, booking)
+party (parties, partied, partying)
+please (pleases, pleased, pleasing)
+jack (jacks, jacked, jacking)
+play (plays, played, playing)
+fire (fires, fired, firing)
+file (files, filed, filing)
+good (goods, gooded, gooding) - goods
+ticket (tickets, ticketed, ticketing)
+plant (plants, planted, planting)
+sick (sicks, sicked, sicking)
+corn (corns, corned, corning)
+throwback (throwbacks, throwbacked, throwbacking)
+embezzle (embezzles, embezzled, embezzling) - embezzling
+leave
+================================================================================================================================================================================================================================================
+make something up
+six months has elapsed
+to be fined
+get a ticket
+went off
+crypto coins
+make up
 sum up: To sum up, we need to be more forthcomming.
 make allowances: We have to make allowances for vegetarians.
 typed in: he typed in the information.
@@ -383,7 +295,3 @@ stay out of
 clean up
 take in
 look up
-
-=======================================================================================================
-
-
