@@ -1,31 +1,22 @@
-screen (screens, screened, screening)
-intuit (intuits, intuited, intuiting)
 mimic (mimics, mimicked, mimicking)
 consider (considers, considered, considering)
 unprecedent (unprecedents, unprecedented, unprecedenting)
-awaken (awakens, awakened, awakening)
 sightsee (sightsees, sightsaw, sightseen, sightseeing)
 purpose (purposes, purposed, purposing)
 debate (debates, debated, debating)
 splint (splints, splinted, splinting)
 tissue (tissues, tissued, tissuing)
-surveillance
-seek (seeks, sought, seeking)
-rot (rots, rotted, rotting)
+decay (decays, decayed, decaying)
 verdict
 aesthetic
-hedge (hedges, hedged, hedging)
 display (displays, displayed, displaying)
 well-off
-rag (rags, ragged, ragging)
 infraction
 misdemeanor
-groom (grooms, groomed, grooming)
 stack (stacks, stacked, stacking)
 aforementioned
 stir-crazy
 vie (vies, vied, vying)
-convenience
 freshen (freshens, freshened, freshening)
 forthcoming
 cutting-edge
@@ -98,13 +89,9 @@ offsite
 deceitful
 unthinkable
 ruthless
-wagon (wagons, wagoned, wagoning)
-mayor
 misspell (misspells, misspelled/misspelt, misspelling)
 mistype (mistypes, mistyped, mistyping)
 tearjerker
-councilor
-porter
 upscale (upscales, upscaled, upscaling)
 widower
 fan (fans, fanned, fanning)
@@ -123,13 +110,12 @@ investments
 interest (interests, interested, interesting)
 tax (taxes, taxed, taxing)
 costume (costumes, costumed, costuming)
-stiffer
+stiff (stiffs, stiffed, stiffing)
 join (joins, joined, joining)
 pride (prides, prided, priding)
 swell (swells, swelled, swollen/swelled, swelling)
 crouch (crouches, crouched, crouching)
 wreck (wrecks, wrecked, wrecking)
-catwalk
 chairman
 hardship
 decent
@@ -182,14 +168,14 @@ jack (jacks, jacked, jacking)
 play (plays, played, playing)
 fire (fires, fired, firing)
 file (files, filed, filing)
-good (goods, gooded, gooding) - goods
+good (goods, gooded, gooding)
 ticket (tickets, ticketed, ticketing)
 plant (plants, planted, planting)
 sick (sicks, sicked, sicking)
 corn (corns, corned, corning)
 throwback (throwbacks, throwbacked, throwbacking)
-embezzle (embezzles, embezzled, embezzling) - embezzling
-leave
+embezzle (embezzles, embezzled, embezzling)
+leave (leaves, left, leaving)
 ================================================================================================================================================================================================================================================
 make something up
 six months has elapsed
