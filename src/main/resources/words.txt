@@ -8,6 +8,8 @@ splint (splints, splinted, splinting)
 tissue (tissues, tissued, tissuing)
 decay (decays, decayed, decaying)
 verdict
+thermostats
+pricey
 aesthetic
 display (displays, displayed, displaying)
 well-off
@@ -36,6 +38,8 @@ nuisances
 waterdown
 cuss (cusses, cussed, cussing)
 overbite
+brake
+pricey
 overrate (overrates, overrated, overrating)
 ancillary
 savant
@@ -176,108 +180,3 @@ corn (corns, corned, corning)
 throwback (throwbacks, throwbacked, throwbacking)
 embezzle (embezzles, embezzled, embezzling)
 leave (leaves, left, leaving)
-================================================================================================================================================================================================================================================
-make something up
-six months has elapsed
-to be fined
-get a ticket
-went off
-crypto coins
-make up
-sum up: To sum up, we need to be more forthcomming.
-make allowances: We have to make allowances for vegetarians.
-typed in: he typed in the information.
-switch on: switch on the computer.
-switch something on: switch the computer on.
-way to go: a new recreation room is the way to go
-flat tire
-as per
-long haul
-made up
-cracked head
-dark mould
-hot springs
-halfway house
-up to snuff
-just roller
-ward off
-kicked my behind
-go through
-push through
-brace yourself
-abide by
-hook up
-abreast of both situation
-rip currents
-life hutch
-thrudge through
-speed up
-berth in
-benefits of colocation
-cutting edge
-bush fires
-elicit reasons
-galvanize ink
-go over really well
-clean up after
-trip down
-allude to
-getting acquainted
-watch out for
-boils down
-let's get on with it
-burned out
-issue notice
-double-edged sword
-fell steeply last year
-due diligence
-venture capitalist
-swamped with stuff
-put somebody in
-point at somebody
-put somebody off
-keep to myself
-what are you up to?
-sets out to
-gulps down
-break the deadlock
-help us out here
-snowshoe hare
-picture frame
-wooden frame
-running machine
-behind deadline
-making headway
-make a breakthrough
-takes something care of
-leading up to
-soft spot
-will spin them up
-we hang out sometimes
-chopped meat
-chickens free range
-finely chopped meat
-from scratch up
-chocolate powder
-leading up
-split evenly
-deadlines loom
-testing criterion
-formal specification
-to overcome this
-least uniform
-soft spots
-broke the deadlock
-decrease amount of the meetings
-deep learning
-meet up with
-frowned upon
-the warning bells go off
-might mumble
-low interest
-safe box
-wipe off
-stay out of
-clean up
-take in
-look up
