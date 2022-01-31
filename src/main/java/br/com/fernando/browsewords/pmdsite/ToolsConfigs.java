@@ -81,14 +81,14 @@ public class ToolsConfigs {
 	webClient.getOptions().setCssEnabled(false);
 
 	final var rulesUrls = List.of( //
-			// Map.entry("BEST PRACTICES", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_bestpractices.html"), // best practices
-			// Map.entry("CODE STYLE", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_codestyle.html"), // code style
-			// Map.entry("DESIGN", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_design.html"), // design
-			// Map.entry("DOCUMENTATION", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_documentation.html"), // documentation
-			Map.entry("ERROR PRONE", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_errorprone.html"), // error prone
-			// Map.entry("MULTITHREADING", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_multithreading.html"), // multi threading
-			// Map.entry("PERFORMANCE", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_performance.html"), // perfomance
-			Map.entry("SECURITY", "https://pmd.github.io/pmd-6.41.0/pmd_rules_java_security.html") // security
+			Map.entry("BEST PRACTICES", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_bestpractices.html"), // best practices
+			Map.entry("CODE STYLE", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_codestyle.html"), // code style
+			Map.entry("DESIGN", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_design.html"), // design
+			Map.entry("DOCUMENTATION", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_documentation.html"), // documentation
+			Map.entry("ERROR PRONE", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_errorprone.html"), // error prone
+			Map.entry("MULTITHREADING", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_multithreading.html"), // multi threading
+			Map.entry("PERFORMANCE", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_performance.html"), // perfomance
+			Map.entry("SECURITY", "https://pmd.github.io/pmd-6.42.0/pmd_rules_java_security.html") // security
 	);
 
 	final var filters = new String[] { //
