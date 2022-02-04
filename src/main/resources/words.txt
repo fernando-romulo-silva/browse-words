@@ -1,3 +1,88 @@
+wearily
+simile
+infer (infers, inferred, inferring)
+spite (spites, spited, spiting)
+effort (efforts, efforted, efforting)
+path-breaking
+exude (exudes, exuded, exuding)
+awareness
+counterfeiter
+infringer
+unbearable
+dam (dams, damed, daming)
+hypothesis
+unforeseen
+stillness
+clatter (clatters, clattered, clattering) - clattering
+nibble (nibbles, nibbled, nibbling) - nibbles
+tug (tugs, tugged, tugging)
+drift (drifts, drifted, drifting) - drifted
+hatred
+lodge (lodges, lodged, lodging) - lodging
+buck (bucks, bucked, bucking)
+hire (hires, hired, hiring) - hired
+malice
+ruin (ruins, ruined, ruining)
+pottery
+renegotiate (renegotiates, renegotiated, renegotiating)
+scallop (scallops, scalloped, scalloping)
+variety
+tease (teases, teased, teasing)
+provoke (provokes, provoked, provoking)
+squiggly
+goggle (goggles, goggled, goggling) - goggles
+tarnish (tarnishes, tarnished, tarnishing)
+Slacker
+streak (streaks, streaked, streaking) - streaks
+pinpoint (pinpoints, pinpointed, pinpointing)
+downhearted
+arouse (arouses, aroused, arousing)
+unearthly
+cushion (cushions, cushioned, cushioning) - cushions
+charcoal (charcoals, charcoaled, charcoaling)
+weave (weaves, weaved/wove, weaved/woven, weaving) - weaving
+quilt (quilts, quilted, quilting) - quilts
+assailants
+uplift (uplifts, uplifted, uplifting) - uplifting
+gruesome
+engross (engrosses, engrossed, engrossing) - engrossing
+crook (crooks, crooked, crooking) - crooked
+sigh (sighs, sighed, sighing) - sighed
+bribe (bribes, bribed, bribing)
+scrapper
+mug (mugs, mugged, mugging) - mugging
+toss (tosses, tossed, tossing) - tossing
+blissful
+thumbtack (thumbtacks, thumbtacked, thumbtacking) - thumbtacks
+cubicle
+promise (promises, promised, promising) - promising
+prose (proses, prosed, prosing)
+knit (knits, knitted/knit, knitting) - knitting
+perceive (perceives, perceived, perceiving)
+luscious
+denote (denotes, denoted, denoting) - denoted
+cite (cites, cited, citing) - cited
+reckless
+Assessments
+mesmerize (mesmerizes, mesmerized, mesmerizing)
+comrades
+horsemen
+caper (capers, capered, capering)
+rein (reins, reined, reining)
+debunker
+slander (slanders, slandered, slandering)
+rotation
+ammunition (ammunitions, ammunitioned, ammunitioning)
+hydroelectric
+irony
+timezone
+humility
+subordinate (subordinates, subordinated, subordinating)
+spokesperson
+eccentric
+decent
+bliss
+fulfill (fulfills, fulfilled, fulfilling)
 mimic (mimics, mimicked, mimicking)
 consider (considers, considered, considering)
 unprecedent (unprecedents, unprecedented, unprecedenting)
@@ -52,7 +137,6 @@ slit (slits, slit/slitted, slitting)
 berth (berths, berthed, berthing)
 glaze (glazes, glazed, glazing)
 gaze (gazes, gazed, gazing)
-reckless
 jinx (jinxes, jinxed, jinxing)
 restrain (restrains, restrained, restraining)
 mould (moulds, moulded, moulding)
@@ -121,7 +205,6 @@ crouch (crouches, crouched, crouching)
 wreck (wrecks, wrecked, wrecking)
 chairman
 hardship
-decent
 hierarchy
 gas-hole
 ethane
@@ -180,25 +263,3 @@ throwback (throwbacks, throwbacked, throwbacking)
 embezzle (embezzles, embezzled, embezzling)
 leave (leaves, left, leaving)
 litter (litters, littered, littering)
-runaround: I feel that I'm getting the runaround
-delivery : Take her to the delivery room.
-table : All the information you need is on the table below.
-book : I’d like to book an appointment with Dr. Phillip.
-party : Most parties were against the proposal.
-please : It’s hard to please her.
-jack : We need a bigger jack for the truck.
-play : We are rehearsing for a play at school.
-fire : He was fired because of sexual harassment.
-file : You need to file your nails.
-goods : Most companies already use the internet to sell goods.
-ticket : If you park here, you will get a ticket.
-plant : Part of the country’s energy comes from nuclear plants.
-sick : She was sick after eating so much chocolate. I'm sick and tired of the way you behave.
-fond: quite fond of
-invoice: daily invoice
-offsite: work offsite
-leave : She’s on maternity leave. She’s on sick leave.
-corn : Why don’t you put on your boots? Because I have a corn that hurts a lot.
-throwback: Elizabeth is a throwback. She's an anachronism.
-embezzling: Bernie Handorf was just charged with embezzling $1.7 million.
-convicted: Sarah was convicted of perjury.
