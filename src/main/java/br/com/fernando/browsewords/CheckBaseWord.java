@@ -1,6 +1,6 @@
 package br.com.fernando.browsewords;
 
-import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX_78;
+import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
 import static org.apache.commons.lang3.StringUtils.equalsIgnoreCase;
@@ -19,7 +19,7 @@ public class CheckBaseWord {
 
     public static String check(final String word) throws FailingHttpStatusCodeException, IOException {
 
-	final var webClient = new WebClient(FIREFOX_78);
+	final var webClient = new WebClient(FIREFOX);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
@@ -42,19 +42,19 @@ public class CheckBaseWord {
 		final var rootWords = page.<HtmlDivision>getFirstByXPath("//div[contains(@class,'word-wrap')]");
 
 		final var imperativeOne = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li/i[2]");
-		final var textImperativeOne = imperativeOne.asText();
+		final var textImperativeOne = imperativeOne.asNormalizedText();
 
 		final var imperativeTwo = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present']/following-sibling::ul/li[3]/i[2]");
-		final var textImperativeTwo = imperativeTwo.asText();
+		final var textImperativeTwo = imperativeTwo.asNormalizedText();
 
 		final var gerund = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present continuous']/following-sibling::ul/li/i[3]");
-		final var textGerund = gerund.asText();
+		final var textGerund = gerund.asNormalizedText();
 
 		final var ulParticiple = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Present perfect']/following-sibling::ul/li/i[3]");
-		final var textParticiple = ulParticiple.asText();
+		final var textParticiple = ulParticiple.asNormalizedText();
 
 		final var past = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Preterite']/following-sibling::ul/li/i[2]");
-		final var textPast = past.asText(); // asNormalizedText();
+		final var textPast = past.asNormalizedText(); // asNormalizedText();
 
 		
 		final var text = new StringBuilder() //

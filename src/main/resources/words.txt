@@ -1,6 +1,5 @@
 wearily
 infer (infers, inferred, inferring)
-
 effort (efforts, efforted, efforting)
 path-breaking
 exude (exudes, exuded, exuding)
@@ -11,55 +10,48 @@ dam (dams, damed, daming)
 hypothesis
 unforeseen
 stillness
-clatter (clatters, clattered, clattering) - clattering
-nibble (nibbles, nibbled, nibbling) - nibbles
+clatter (clatters, clattered, clattering)
+nibble (nibbles, nibbled, nibbling)
 tug (tugs, tugged, tugging)
-drift (drifts, drifted, drifting) - drifted
+drift (drifts, drifted, drifting)
 hatred
-lodge (lodges, lodged, lodging) - lodging
 buck (bucks, bucked, bucking)
-hire (hires, hired, hiring) - hired
 malice
-
-
 renegotiate (renegotiates, renegotiated, renegotiating)
 scallop (scallops, scalloped, scalloping)
 variety
 tease (teases, teased, teasing)
 provoke (provokes, provoked, provoking)
 squiggly
-goggle (goggles, goggled, goggling) - goggles
+goggle (goggles, goggled, goggling)
 tarnish (tarnishes, tarnished, tarnishing)
-Slacker
-streak (streaks, streaked, streaking) - streaks
+slacker
+streak (streaks, streaked, streaking)
 pinpoint (pinpoints, pinpointed, pinpointing)
 downhearted
 arouse (arouses, aroused, arousing)
 unearthly
-cushion (cushions, cushioned, cushioning) - cushions
+cushion (cushions, cushioned, cushioning)
 charcoal (charcoals, charcoaled, charcoaling)
-weave (weaves, weaved/wove, weaved/woven, weaving) - weaving
-quilt (quilts, quilted, quilting) - quilts
 assailants
-uplift (uplifts, uplifted, uplifting) - uplifting
+uplift (uplifts, uplifted, uplifting)
 gruesome
-engross (engrosses, engrossed, engrossing) - engrossing
-crook (crooks, crooked, crooking) - crooked
-sigh (sighs, sighed, sighing) - sighed
+engross (engrosses, engrossed, engrossing)
+crook (crooks, crooked, crooking)
+sigh (sighs, sighed, sighing)
 bribe (bribes, bribed, bribing)
 scrapper
-mug (mugs, mugged, mugging) - mugging
-toss (tosses, tossed, tossing) - tossing
+mug (mugs, mugged, mugging)
+toss (tosses, tossed, tossing)
 blissful
-thumbtack (thumbtacks, thumbtacked, thumbtacking) - thumbtacks
+thumbtack (thumbtacks, thumbtacked, thumbtacking)
 cubicle
-promise (promises, promised, promising) - promising
 prose (proses, prosed, prosing)
-knit (knits, knitted/knit, knitting) - knitting
+knit (knits, knitted/knit, knitting)
 perceive (perceives, perceived, perceiving)
 luscious
-denote (denotes, denoted, denoting) - denoted
-cite (cites, cited, citing) - cited
+denote (denotes, denoted, denoting)
+cite (cites, cited, citing)
 reckless
 Assessments
 mesmerize (mesmerizes, mesmerized, mesmerizing)
@@ -167,7 +159,6 @@ abet (abets, abetted, abetting)
 linger (lingers, lingered, lingering)
 price (prices, priced, pricing)
 confuse (confuses, confused, confusing)
-engross (engrosses, engrossed, engrossing)
 then-boss
 invoice (invoices, invoiced, invoicing)
 offsite
