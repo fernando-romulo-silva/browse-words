@@ -50,6 +50,9 @@ throwback: Elizabeth is a throwback. She's an anachronism.
 embezzling: Bernie Handorf was just charged with embezzling $1.7 million.
 convicted: Sarah was convicted of perjury.
 
+heartfelt: He pens a heartfelt letter.
+pen: He pens a heartfelt letter.
+Whatever for?
 
 
 
