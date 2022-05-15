@@ -1,35 +1,20 @@
-discuss
-devising
-mean
-inhibit
-meant
-mint
+discuss (discusses, discussed, discussing)
+inhibit (inhibits, inhibited, inhibiting)
 hibrido
 agentless
-innate
 undeniable
-to reside
+reside (resides, resided, residing)
 disastrous
-outstanding
-Signposting
-revolving
-scales
-promising
-paraffin
+outstand (outstands, outstanded, outstanding)
+signpost (signposts, signposted, signposting)
+scale (scales, scaled, scaling)
+paraffin (paraffins, paraffined, paraffining)
 uneaten
-controversial
-companion
-to curse
+companion (companions, companioned, companioning)
 tolerant
-sanctions
+sanction (sanctions, sanctioned, sanctioning)
 hybrid
 hydroelectric
-spin
-vase
-balance
-
-
-
 wearily
 infer (infers, inferred, inferring)
 effort (efforts, efforted, efforting)
@@ -48,7 +33,6 @@ tug (tugs, tugged, tugging)
 drift (drifts, drifted, drifting)
 hatred
 buck (bucks, bucked, bucking)
-malice
 renegotiate (renegotiates, renegotiated, renegotiating)
 scallop (scallops, scalloped, scalloping)
 variety
@@ -77,14 +61,11 @@ mug (mugs, mugged, mugging)
 toss (tosses, tossed, tossing)
 blissful
 thumbtack (thumbtacks, thumbtacked, thumbtacking)
-cubicle
 prose (proses, prosed, prosing)
 knit (knits, knitted/knit, knitting)
 perceive (perceives, perceived, perceiving)
-luscious
 denote (denotes, denoted, denoting)
 cite (cites, cited, citing)
-reckless
 Assessments
 mesmerize (mesmerizes, mesmerized, mesmerizing)
 comrades
@@ -95,12 +76,10 @@ debunker
 slander (slanders, slandered, slandering)
 rotation
 ammunition (ammunitions, ammunitioned, ammunitioning)
-hydroelectric
 irony
 timezone
 humility
 subordinate (subordinates, subordinated, subordinating)
-spokesperson
 eccentric
 decent
 bliss
@@ -185,7 +164,6 @@ standoff (standoffs, standoffed, standoffing)
 dipship
 jostle (jostles, jostled, jostling)
 griefing
-curse (curses, cursed, cursing)
 heed (heeds, heeded, heeding)
 abet (abets, abetted, abetting)
 linger (lingers, lingered, lingering)
@@ -284,7 +262,3 @@ throwback (throwbacks, throwbacked, throwbacking)
 embezzle (embezzles, embezzled, embezzling)
 leave (leaves, left, leaving)
 litter (litters, littered, littering)
-raffle
-gross
-
-
