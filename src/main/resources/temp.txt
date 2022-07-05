@@ -69,5 +69,6 @@ pen: He pens a heartfelt letter.
 Whatever for?
 
 
-
+put something on somebody: I'm sorry to put this on you.
+find not guilty: Martina was found not guilty of killing her husband.
 
