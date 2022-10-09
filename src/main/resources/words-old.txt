@@ -1,4 +1,4 @@
-discuss (discusses, discussed, discussing)
+
 inhibit (inhibits, inhibited, inhibiting)
 hibrido
 agentless
@@ -11,7 +11,7 @@ scale (scales, scaled, scaling)
 paraffin (paraffins, paraffined, paraffining)
 uneaten
 companion (companions, companioned, companioning)
-tolerant
+
 sanction (sanctions, sanctioned, sanctioning)
 hybrid
 hydroelectric
@@ -32,11 +32,9 @@ nibble (nibbles, nibbled, nibbling)
 tug (tugs, tugged, tugging)
 drift (drifts, drifted, drifting)
 hatred
-buck (bucks, bucked, bucking)
 renegotiate (renegotiates, renegotiated, renegotiating)
 scallop (scallops, scalloped, scalloping)
 variety
-tease (teases, teased, teasing)
 provoke (provokes, provoked, provoking)
 squiggly
 goggle (goggles, goggled, goggling)
@@ -45,13 +43,11 @@ slacker
 streak (streaks, streaked, streaking)
 pinpoint (pinpoints, pinpointed, pinpointing)
 downhearted
-arouse (arouses, aroused, arousing)
 unearthly
 cushion (cushions, cushioned, cushioning)
 charcoal (charcoals, charcoaled, charcoaling)
 assailants
 uplift (uplifts, uplifted, uplifting)
-gruesome
 engross (engrosses, engrossed, engrossing)
 crook (crooks, crooked, crooking)
 sigh (sighs, sighed, sighing)
