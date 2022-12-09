@@ -1,7 +1,7 @@
 package br.com.fernando.browsewords;
 
 import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
-import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX_78;
+import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
@@ -35,7 +35,7 @@ public class FindWordsHtmlUnit {
 
 	java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF);
 
-	final var webClient = new WebClient(FIREFOX_78);
+	final var webClient = new WebClient(FIREFOX);
 	webClient.getOptions().setJavaScriptEnabled(false);
 	webClient.getOptions().setCssEnabled(false);
 
