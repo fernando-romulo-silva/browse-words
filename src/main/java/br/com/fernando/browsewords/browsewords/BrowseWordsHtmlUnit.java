@@ -1,13 +1,12 @@
 package br.com.fernando.browsewords.browsewords;
 
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.URL;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.printRepeatedWordsInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.printWordsNotInSite;
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
-import static java.util.stream.Collectors.toList;
 import static org.apache.commons.lang3.RegExUtils.removePattern;
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
 import static org.apache.commons.lang3.StringUtils.containsNone;
@@ -27,7 +26,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSpan;
 import com.google.common.collect.ArrayListMultimap;
 
-import br.com.fernando.browsewords.util.BrowseWordsUtils;
+import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class BrowseWordsHtmlUnit {
 
@@ -60,11 +59,11 @@ public class BrowseWordsHtmlUnit {
 
 	    watch.start();
 
-	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString) //
+	    final var urlStudySets = BrowseWordsUtilsHtmlUnit.getUrlFromJson02(jsonString) //
 			    .stream() //
 			    .filter(f -> containsIgnoreCase(f, "english-words")) //
 //			    .filter(f -> containsIgnoreCase(f, "English")) //
-			    .collect(toList());
+			    .toList();
 
 	    watch.stop();
 	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
@@ -84,7 +83,7 @@ public class BrowseWordsHtmlUnit {
 			.filter(x -> containsNone(x, "...")) //
 			.filter(x -> containsNone(x, "[")) //
 			.filter(x -> isNotBlank(x)) //
-			.collect(toList())//
+			.toList() //
 			.forEach(w -> globalMap.put(w, urlStudySet));
 	    }
 

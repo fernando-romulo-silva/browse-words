@@ -1,4 +1,4 @@
-package br.com.fernando.browsewords;
+package br.com.fernando.browsewords.checkbase;
 
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
@@ -15,9 +15,17 @@ import com.gargoylesoftware.htmlunit.html.HtmlDivision;
 import com.gargoylesoftware.htmlunit.html.HtmlItalic;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 
-public class CheckBaseWord {
+public class CheckBaseWordHtmlUnit {
 
-    public static String check(final String word) throws FailingHttpStatusCodeException, IOException {
+    /**
+     * Check if the word is a verb, if true return its conjuction.
+     * 
+     * @param word
+     * @return
+     * @throws FailingHttpStatusCodeException
+     * @throws IOException
+     */
+    public static String conjugation(final String word) throws FailingHttpStatusCodeException, IOException {
 
 	final var webClient = new WebClient(FIREFOX);
 	webClient.getOptions().setJavaScriptEnabled(false);
@@ -35,6 +43,7 @@ public class CheckBaseWord {
 			    .getContentAsString();
 	    
 	    if (containsIgnoreCase(htmlString, "AVISO: Este verbo") || containsIgnoreCase(htmlString, "para o verbo inserido")) {
+		
 		return word;
 
 	    } else {
@@ -54,9 +63,8 @@ public class CheckBaseWord {
 		final var textParticiple = ulParticiple.asNormalizedText();
 
 		final var past = rootWords.<HtmlItalic>getFirstByXPath("//p[text() = 'Preterite']/following-sibling::ul/li/i[2]");
-		final var textPast = past.asNormalizedText(); // asNormalizedText();
+		final var textPast = past.asNormalizedText();
 
-		
 		final var text = new StringBuilder() //
 				.append(textImperativeOne) //
 				.append(" (") //
@@ -64,13 +72,13 @@ public class CheckBaseWord {
 				.append(textPast) //
 				.append(", "); //
 
-		if (equalsIgnoreCase(textPast, textParticiple) == false) {
+		if (!equalsIgnoreCase(textPast, textParticiple)) {
 		    text.append(textParticiple).append(", ");
 		}
 
 		text.append(textGerund).append(")");
 
-		if (equalsIgnoreCase(textImperativeOne, word) == false) {
+		if (!equalsIgnoreCase(textImperativeOne, word)) {
 		    text.append(" - ").append(word);
 		}
 

@@ -1,11 +1,10 @@
-package br.com.fernando.browsewords;
+package br.com.fernando.browsewords.findwords;
 
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.URL;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.URL;
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
-import static java.util.stream.Collectors.toList;
 import static org.apache.commons.lang3.RegExUtils.removePattern;
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
 import static org.apache.commons.lang3.StringUtils.containsNone;
@@ -27,7 +26,7 @@ import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSpan;
 import com.google.common.collect.ArrayListMultimap;
 
-import br.com.fernando.browsewords.util.BrowseWordsUtils;
+import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class FindWordsHtmlUnit {
 
@@ -60,10 +59,10 @@ public class FindWordsHtmlUnit {
 
 	    watch.start();
 
-	    final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString) //
+	    final var urlStudySets = BrowseWordsUtilsHtmlUnit.getUrlFromJson02(jsonString) //
 			    .stream() //
 			    .filter(f -> containsIgnoreCase(f, "english-words")) //
-			    .collect(toList());
+			    .toList();
 
 	    watch.stop();
 	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
@@ -83,7 +82,7 @@ public class FindWordsHtmlUnit {
 				.filter(x -> containsNone(x, "...")) //
 				.filter(x -> containsNone(x, "[")) //
 				.filter(x -> isNotBlank(x)) //
-				.collect(toList())//
+				.toList()
 				.forEach(w -> globalMap.put(w, urlStudySet));
 	    }
 
@@ -92,21 +91,23 @@ public class FindWordsHtmlUnit {
 	    watch.reset();
 	}
 
-	final var wordsPath = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("find-words.txt").toURI());
+	final var wordsPath = Paths.get(BrowseWordsUtilsHtmlUnit.class.getClassLoader().getResource("find-words.txt").toURI());
 
-	final var words = Files.lines(wordsPath) // reading file
-			.filter(s -> isNotBlank(s)) //
-			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.distinct() //
-			.collect(toList());
-
-	for (final var word : words) {
-	    final var w = trim(split(word, ':')[0].toLowerCase());
+	try (final var stream = Files.lines(wordsPath)) { // reading file
 	    
-	    if (globalMap.containsKey(w)) {
-		System.out.println(word + " ( " + globalMap.get(w) + " ) ");
-	    } else {
-		System.out.println(word);
+	    final var words = stream.filter(s -> isNotBlank(s)) //
+			    .map(s -> trim(removePattern(s, "\\(.*"))) //
+			    .distinct() //
+			    .toList();
+
+	    for (final var word : words) {
+		final var w = trim(split(word, ':')[0].toLowerCase());
+
+		if (globalMap.containsKey(w)) {
+		    System.out.println(word + " ( " + globalMap.get(w) + " ) ");
+		} else {
+		    System.out.println(word);
+		}
 	    }
 	}
     }

@@ -29,9 +29,9 @@ import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.spi.json.JacksonJsonNodeJsonProvider;
 import com.jayway.jsonpath.spi.mapper.JacksonMappingProvider;
 
-import br.com.fernando.browsewords.CheckBaseWord;
+import br.com.fernando.browsewords.checkbase.CheckBaseWordHtmlUnit;
 
-public class BrowseWordsUtils {
+public class BrowseWordsUtilsHtmlUnit {
 
     public static final String URL = "https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=200&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator";
 
@@ -50,7 +50,7 @@ public class BrowseWordsUtils {
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Print words that not in site:");
 
-	final Path words = Paths.get(BrowseWordsUtils.class.getClassLoader().getResource("words.txt").toURI());
+	final Path words = Paths.get(BrowseWordsUtilsHtmlUnit.class.getClassLoader().getResource("words.txt").toURI());
 
 	final Set<String> wordsOnSite = map.keySet() //
 			.stream() //
@@ -68,7 +68,7 @@ public class BrowseWordsUtils {
 	final var newWordsSimple = newWords.get(false);
 	
 	for (final var string : newWordsSimple) {
-	    System.out.println(CheckBaseWord.check(string));
+	    System.out.println(CheckBaseWordHtmlUnit.conjugation(string));
 	}
 	
 	newWords.get(true).forEach(System.out::println);;

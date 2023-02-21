@@ -1,11 +1,10 @@
 package br.com.fernando.browsewords.browsewords;
 
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.printRepeatedWordsInSite;
-import static br.com.fernando.browsewords.util.BrowseWordsUtils.printWordsNotInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.printRepeatedWordsInSite;
+import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.printWordsNotInSite;
 
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.time.StopWatch;
 import org.jsoup.Jsoup;
@@ -13,7 +12,7 @@ import org.jsoup.nodes.Element;
 
 import com.google.common.collect.ArrayListMultimap;
 
-import br.com.fernando.browsewords.util.BrowseWordsUtils;
+import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class BrowseWordsJSoups {
 
@@ -21,7 +20,7 @@ public class BrowseWordsJSoups {
 	
 	final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
 	
-        final var connect = Jsoup.connect(BrowseWordsUtils.URL).ignoreContentType(true);
+        final var connect = Jsoup.connect(BrowseWordsUtilsHtmlUnit.URL).ignoreContentType(true);
 
         final var watch = new StopWatch();
 
@@ -37,7 +36,7 @@ public class BrowseWordsJSoups {
 
         watch.start();
         
-        final var urlStudySets = BrowseWordsUtils.getUrlFromJson02(jsonString);
+        final var urlStudySets = BrowseWordsUtilsHtmlUnit.getUrlFromJson02(jsonString);
         
         watch.stop();
         System.out.println("JsonPath Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS) + " ms");
@@ -55,7 +54,7 @@ public class BrowseWordsJSoups {
                     .map(Element::text) //
                     .filter(x -> !"...".equals(x.trim())) //
                     // .collect(Collectors.mapping(mapper, downstream))
-                    .collect(Collectors.toList())//
+                    .toList() //
                     .forEach(w -> globalMap.put(w.trim(), urlStudySet));
 
         }
