@@ -15,7 +15,6 @@ import static org.apache.commons.lang3.StringUtils.trim;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.logging.Level;
 
 import org.apache.commons.lang3.time.StopWatch;
 
@@ -31,8 +30,6 @@ import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 public class FindWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
-
-	java.util.logging.Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF);
 
 	final var webClient = new WebClient(FIREFOX);
 	webClient.getOptions().setJavaScriptEnabled(false);

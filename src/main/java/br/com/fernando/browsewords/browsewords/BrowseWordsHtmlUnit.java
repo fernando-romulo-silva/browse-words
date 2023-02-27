@@ -14,10 +14,10 @@ import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.commons.lang3.StringUtils.trim;
 
 import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.apache.commons.lang3.time.StopWatch;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
@@ -29,10 +29,11 @@ import com.google.common.collect.ArrayListMultimap;
 import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class BrowseWordsHtmlUnit {
+    
+    private static final Logger LOGGER = LoggerFactory.getLogger(BrowseWordsHtmlUnit.class);
 
     public static void main(String[] args) throws Exception {
 
-	Logger.getLogger("com.gargoylesoftware").setLevel(Level.OFF); 
 	
 	final var webClient = new WebClient(FIREFOX);
 	webClient.getOptions().setJavaScriptEnabled(false);
@@ -54,19 +55,19 @@ public class BrowseWordsHtmlUnit {
 		    .getContentAsString();
 
 	    watch.stop();
-	    System.out.println("URL principal, Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
+	    LOGGER.info("URL principal, Time Elapsed: {} ms", watch.getTime(MILLISECONDS));
 	    watch.reset();
 
 	    watch.start();
 
 	    final var urlStudySets = BrowseWordsUtilsHtmlUnit.getUrlFromJson02(jsonString) //
 			    .stream() //
-			    .filter(f -> containsIgnoreCase(f, "english-words")) //
+			    .filter(f -> containsIgnoreCase(f, "multi-word")) //
 //			    .filter(f -> containsIgnoreCase(f, "English")) //
 			    .toList();
 
 	    watch.stop();
-	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
+	    LOGGER.info("JsonPath Time Elapsed: {} ms", watch.getTime(MILLISECONDS));
 	    watch.reset();
 
 	    watch.start();
@@ -88,7 +89,7 @@ public class BrowseWordsHtmlUnit {
 	    }
 
 	    watch.stop();
-	    System.out.println("URL with XPath: " + urlStudySets.size() + " requests, Time Elapsed: " + watch.getTime(SECONDS) + " s");
+	    LOGGER.info("URL with XPath: {} requests, Time Elapsed: {} s", urlStudySets.size(), watch.getTime(SECONDS));
 	    watch.reset();
 	}
 

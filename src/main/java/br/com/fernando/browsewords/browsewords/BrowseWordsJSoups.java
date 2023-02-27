@@ -9,12 +9,16 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.lang3.time.StopWatch;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.google.common.collect.ArrayListMultimap;
 
 import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class BrowseWordsJSoups {
+    
+    private static final Logger LOGGER = LoggerFactory.getLogger(BrowseWordsJSoups.class);
 
     public static void main(String[] args) throws Exception {
 	
@@ -31,7 +35,9 @@ public class BrowseWordsJSoups {
                 .body(); //
         
         watch.stop();
-        System.out.println("URL principal, Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS)+ " ms"); 
+        
+        LOGGER.info("URL principal, Time Elapsed: {} ms", watch.getTime(TimeUnit.MILLISECONDS)); 
+       
         watch.reset();        
 
         watch.start();
@@ -39,7 +45,7 @@ public class BrowseWordsJSoups {
         final var urlStudySets = BrowseWordsUtilsHtmlUnit.getUrlFromJson02(jsonString);
         
         watch.stop();
-        System.out.println("JsonPath Time Elapsed: " + watch.getTime(TimeUnit.MILLISECONDS) + " ms");
+        LOGGER.info("JsonPath Time Elapsed: {} ms", watch.getTime(TimeUnit.MILLISECONDS));
         watch.reset();
 
         watch.start();
@@ -60,7 +66,7 @@ public class BrowseWordsJSoups {
         }
         
         watch.stop();
-        System.out.println("URL with XPath: "+ urlStudySets.size() +" requests, Time Elapsed: " + watch.getTime(TimeUnit.SECONDS)+ " s");
+        LOGGER.info("URL with XPath: {} requests, Time Elapsed: {} s", urlStudySets.size(), watch.getTime(TimeUnit.SECONDS));
         watch.reset();        
 
         printWordsNotInSite(globalMap.asMap());

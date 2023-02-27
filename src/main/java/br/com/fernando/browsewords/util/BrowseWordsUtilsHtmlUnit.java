@@ -50,7 +50,7 @@ public class BrowseWordsUtilsHtmlUnit {
 	System.out.println("-------------------------------------------------------------------------------------------");
 	System.out.println("Print words that not in site:");
 
-	final Path words = Paths.get(BrowseWordsUtilsHtmlUnit.class.getClassLoader().getResource("words.txt").toURI());
+	final Path words = Paths.get(BrowseWordsUtilsHtmlUnit.class.getClassLoader().getResource("txt-files/multi-words.txt").toURI());
 
 	final Set<String> wordsOnSite = map.keySet() //
 			.stream() //
@@ -60,7 +60,7 @@ public class BrowseWordsUtilsHtmlUnit {
 	final var newWords = Files.lines(words) // reading file
 			.filter(s -> isNotBlank(s)) //
 			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.filter(w -> wordsOnSite.contains(trim(split(w, ':')[0].toLowerCase())) == false) // only words that not in site
+			.filter(w -> !wordsOnSite.contains(trim(split(w, ':')[0].toLowerCase()))) // only words that not in site
 			.distinct() //
 			.collect(partitioningBy(s -> StringUtils.contains(s, SPACE)));
 	
