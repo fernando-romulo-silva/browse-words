@@ -1,13 +1,6 @@
 
 
 
-
-
-
-
-
-
-
 =============================================================================================
 
 
@@ -17,15 +10,13 @@
 
 next time around
 think up
-think over
+
 
  
 
 
 
 
-switch on: switch on the computer.
-switch something on: switch the computer on.
 way to go: a new recreation room is the way to go
 lip service: Core values at my old company were just for signs on the wall. It was just lip service.
 in all: Hmmm in all, it wasn't too bad.
@@ -34,7 +25,7 @@ ground up: The chassis line builds the car from the ground up.
 conveyer belt: First, the frame is attached to a conveyer belt that runs along the ground.
 I'll have: I'll have someone go up now.
 on his way: He's on his way.
-prompt service: Thanks for the prompt service.
+
 took up: When I first took up tennis I was a terrible player, but I soon got the hang of it.
 hang of it:  When I first took up tennis I was a terrible player, but I soon got the hang of it.
 stand out: Um, anything stand out?
@@ -42,8 +33,6 @@ taken care of: So, is everything is taken care of?
 go over (really) well: go over really well
 tap on: With a smartphone, tap on the icon to open the program.
 sort something out: I'll sort the problem out.
-further ado: Without further ado
-each to their own: Well, each to their own, I guess.
 work something out: I worked it out well accounting for five years.
 way off: one of the numbers was way off.
 falling apart: The whole place is falling apart.

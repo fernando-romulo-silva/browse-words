@@ -16,6 +16,8 @@ import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.NodeList;
 
 import com.google.common.collect.ArrayListMultimap;
@@ -23,6 +25,8 @@ import com.google.common.collect.ArrayListMultimap;
 import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class BrowseWordsHttpComponents {
+    
+    private static final Logger LOGGER = LoggerFactory.getLogger(BrowseWordsHttpComponents.class);
 
     public static void main(String[] args) throws Exception {
 
@@ -58,7 +62,7 @@ public class BrowseWordsHttpComponents {
 
                 final var nodes = (NodeList) xPath.evaluate("//span[contains(@class,'lang-en')]", doc, NODESET);
 
-                System.out.println(nodes);
+                LOGGER.info("Nodes {}", nodes);
             }
         }
 
