@@ -4,7 +4,6 @@ import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.URL;
 import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
-import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.apache.commons.lang3.RegExUtils.removePattern;
 import static org.apache.commons.lang3.StringUtils.containsIgnoreCase;
 import static org.apache.commons.lang3.StringUtils.containsNone;
@@ -17,6 +16,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import org.apache.commons.lang3.time.StopWatch;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
@@ -28,6 +29,8 @@ import com.google.common.collect.ArrayListMultimap;
 import br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit;
 
 public class FindWordsHtmlUnit {
+    
+    private static final Logger LOGGER = LoggerFactory.getLogger(FindWordsHtmlUnit.class);
 
     public static void main(String[] args) throws Exception {
 
@@ -51,7 +54,7 @@ public class FindWordsHtmlUnit {
 			    .getContentAsString();
 
 	    watch.stop();
-	    System.out.println("URL principal, Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
+	    LOGGER.info("URL principal, Time Elapsed: {} ms", watch.getTime(MILLISECONDS));
 	    watch.reset();
 
 	    watch.start();
@@ -62,7 +65,7 @@ public class FindWordsHtmlUnit {
 			    .toList();
 
 	    watch.stop();
-	    System.out.println("JsonPath Time Elapsed: " + watch.getTime(MILLISECONDS) + " ms");
+	    LOGGER.info("JsonPath Time Elapsed: {} ms", watch.getTime(MILLISECONDS));
 	    watch.reset();
 
 	    watch.start();
@@ -84,7 +87,7 @@ public class FindWordsHtmlUnit {
 	    }
 
 	    watch.stop();
-	    System.out.println("URL with XPath: " + urlStudySets.size() + " requests, Time Elapsed: " + watch.getTime(SECONDS) + " s");
+	    LOGGER.info("URL with XPath: {} requests, Time Elapsed: {}", urlStudySets.size(), watch.getTime(MILLISECONDS));
 	    watch.reset();
 	}
 
@@ -101,9 +104,9 @@ public class FindWordsHtmlUnit {
 		final var w = trim(split(word, ':')[0].toLowerCase());
 
 		if (globalMap.containsKey(w)) {
-		    System.out.println(word + " ( " + globalMap.get(w) + " ) ");
+		    LOGGER.info("{} ( {} ) ", word, globalMap.get(w));
 		} else {
-		    System.out.println(word);
+		    LOGGER.info("{}", word);
 		}
 	    }
 	}

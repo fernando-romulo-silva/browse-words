@@ -20,6 +20,8 @@ import java.util.Map;
 import java.util.Set;
 
 import org.apache.commons.lang3.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -33,11 +35,13 @@ import br.com.fernando.browsewords.checkbase.CheckBaseWordHtmlUnit;
 
 public class BrowseWordsUtilsHtmlUnit {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(BrowseWordsUtilsHtmlUnit.class);
+
     public static final String URL = "https://quizlet.com/webapi/3.2/feed/65138028/created-sets?perPage=200&query=&sort=alphabetical&seenCreatedSetIds=&filters%5Bsets%5D%5BisPublished%5D=true&include%5Bset%5D%5B%5D=creator";
 
     public static void printRepeatedWordsInSite(final Map<String, Collection<String>> map) {
-	System.out.println("-------------------------------------------------------------------------------------------");
-	System.out.println("Looking for repeated words");
+	LOGGER.info("-------------------------------------------------------------------------------------------");
+	LOGGER.info("Looking for repeated words");
 
 	map.entrySet() //
 			.stream() //
@@ -47,8 +51,8 @@ public class BrowseWordsUtilsHtmlUnit {
 
     public static void printWordsNotInSite(final Map<String, Collection<String>> map) throws URISyntaxException, IOException {
 
-	System.out.println("-------------------------------------------------------------------------------------------");
-	System.out.println("Print words that not in site:");
+	LOGGER.info("-------------------------------------------------------------------------------------------");
+	LOGGER.info("Print words that not in site:");
 
 	final Path words = Paths.get(BrowseWordsUtilsHtmlUnit.class.getClassLoader().getResource("txt-files/multi-words.txt").toURI());
 
@@ -57,21 +61,24 @@ public class BrowseWordsUtilsHtmlUnit {
 			// .map(s -> StringUtils.removeStart(s, "(")) //
 			.collect(toSet());
 
-	final var newWords = Files.lines(words) // reading file
-			.filter(s -> isNotBlank(s)) //
-			.map(s -> trim(removePattern(s, "\\(.*"))) //
-			.filter(w -> !wordsOnSite.contains(trim(split(w, ':')[0].toLowerCase()))) // only words that not in site
-			.distinct() //
-			.collect(partitioningBy(s -> StringUtils.contains(s, SPACE)));
-	
-	
-	final var newWordsSimple = newWords.get(false);
-	
-	for (final var string : newWordsSimple) {
-	    System.out.println(CheckBaseWordHtmlUnit.conjugation(string));
+	try (final var linesStream = Files.lines(words)) {
+	    
+	    final var newWords = linesStream // reading file
+			    .filter(s -> isNotBlank(s)) //
+			    .map(s -> trim(removePattern(s, "\\(.*"))) //
+			    .filter(w -> !wordsOnSite.contains(trim(split(w, ':')[0].toLowerCase()))) // only words that not in site
+			    .distinct() //
+			    .collect(partitioningBy(s -> StringUtils.contains(s, SPACE)));
+	    
+	    final var newWordsSimple = newWords.get(false);
+
+	    for (final var string : newWordsSimple) {
+		LOGGER.info(CheckBaseWordHtmlUnit.conjugation(string));
+	    }
+
+	    newWords.get(true).forEach(LOGGER::info);
+
 	}
-	
-	newWords.get(true).forEach(System.out::println);;
     }
 
     public static final List<String> getUrlFromJson01(final String jsonString) {
