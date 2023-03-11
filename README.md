@@ -9,8 +9,8 @@ I use this project constantly, change words, and libs.
 
 # About
 
-So, I used the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English and Italian words. <br />
-The purpose of this project is to go through the decks and find repeat words.
+So, I use the [Quizlet](https://quizlet.com/fernando_romulo/recent) (flash cards) to learn English words, expressions, idioms, etc. <br />
+The purpose of this project is to go through the decks and find repeat words and practice programmatically web navigation. 
 
 # Technologies
 
@@ -23,7 +23,7 @@ The purpose of this project is to go through the decks and find repeat words.
 # Install
 
 requirements (environment variables configured): 
- - Java 11
+ - Java 17
  - Maven 3
  - Git
  
