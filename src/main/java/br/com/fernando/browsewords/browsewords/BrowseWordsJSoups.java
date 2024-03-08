@@ -24,7 +24,9 @@ public class BrowseWordsJSoups {
 	
 	final ArrayListMultimap<String, String> globalMap = ArrayListMultimap.create();
 	
-        final var connect = Jsoup.connect(BrowseWordsUtilsHtmlUnit.URL).ignoreContentType(true);
+        final var connect = Jsoup.connect(BrowseWordsUtilsHtmlUnit.URL)
+        		.userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36")
+        		.ignoreContentType(true);
 
         final var watch = new StopWatch();
 

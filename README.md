@@ -37,3 +37,22 @@ import it in your preferred ide
 # How to Use
 
 Execute some of the class on the br.com.fernando.browsewords package.
+
+
+https://scrapingant.com/blog/web-scraping-java
+https://www.zenrows.com/blog/web-scraping-java
+https://github.com/HtmlUnit/htmlunit/issues/353
+
+"htmlunit" "cloudflare"
+
+https://quizlet.com/search?query=deflect&type=sets&creator=65138028
+
+https://quizlet.com/webapi/3.9/users?f
+
+https://quizlet.com/webapi/3.9/feed/65138028/created-sets
+
+https://quizlet.com/webapi/3.9/users/65138028/created-sets
+
+https://quizlet.com/webapi/3.9/sets
+
+https://quizlet.com/webapi/3.9/feed/65138028/selected-terms
