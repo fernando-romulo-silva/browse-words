@@ -1,7 +1,6 @@
 package br.com.fernando.browsewords.findwords;
 
-import static br.com.fernando.browsewords.util.BrowseWordsUtilsHtmlUnit.URL;
-import static com.gargoylesoftware.htmlunit.BrowserVersion.FIREFOX;
+import static com.gargoylesoftware.htmlunit.BrowserVersion.CHROME;
 import static com.gargoylesoftware.htmlunit.HttpMethod.GET;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static org.apache.commons.lang3.RegExUtils.removePattern;
@@ -11,14 +10,36 @@ import static org.apache.commons.lang3.StringUtils.isNotBlank;
 import static org.apache.commons.lang3.StringUtils.split;
 import static org.apache.commons.lang3.StringUtils.trim;
 
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
 import java.net.URL;
+import java.net.UnknownHostException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.security.KeyManagementException;
+import java.security.KeyStore;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.UnrecoverableKeyException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSocketFactory;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 
 import org.apache.commons.lang3.time.StopWatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.gargoylesoftware.htmlunit.CookieManager;
+import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
+import com.gargoylesoftware.htmlunit.SilentCssErrorHandler;
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebRequest;
@@ -34,22 +55,53 @@ public class FindWordsHtmlUnit {
 
     public static void main(String[] args) throws Exception {
 
-	final var webClient = new WebClient(FIREFOX);
-	webClient.getOptions().setJavaScriptEnabled(false);
-	webClient.getOptions().setCssEnabled(false);
+	final var webClient = new WebClient(CHROME);
+	webClient.getOptions().setUseInsecureSSL(true);	
+//	webClient.getOptions().setJavaScriptEnabled(false);
+//	webClient.getOptions().setCssEnabled(false);
+	webClient.getOptions().setCssEnabled(true);
+	webClient.getOptions().setJavaScriptEnabled(true);
+	webClient.getOptions().setThrowExceptionOnScriptError(false);
+	webClient.getOptions().setThrowExceptionOnFailingStatusCode(false);
+	
+        webClient.getCache().clear();
+        webClient.getOptions().setUseInsecureSSL(true);
+        webClient.getOptions().setCssEnabled(false);
+        webClient.getOptions().setJavaScriptEnabled(true);
+        webClient.getOptions().setRedirectEnabled(true);
+        webClient.getOptions().setDownloadImages(false);
+        webClient.getOptions().setThrowExceptionOnScriptError(false);
+        webClient.getOptions().setThrowExceptionOnFailingStatusCode(false);
+        
+        webClient.setAjaxController(new NicelyResynchronizingAjaxController());
+        webClient.setCssErrorHandler(new SilentCssErrorHandler());	
+	
+	webClient.setAjaxController(new NicelyResynchronizingAjaxController());
+	webClient.waitForBackgroundJavaScript(10_000);
+	
+	webClient.getCookieManager().setCookiesEnabled(true);
+	webClient.getCookieManager().clearCookies();
+	webClient.setCookieManager(new CookieManager());
+        
+//	webClient.getCache().clear();
+//	webClient.getCache().setMaxSize(0);
 
 	final var globalMap = ArrayListMultimap.<String, String>create();
 	final var watch = new StopWatch();
 
+
 	try (webClient) {
 
-	    final var webRequest = new WebRequest(new URL(URL), GET);
+	    // https://quizlet.com/br/429494297/english-multi-words-0006-flash-cards/
+	    // https://quizlet.com/webapi/3.9/feed/65138028/created-sets
+	    // cloudflare 
+	    final var webRequest = new WebRequest(new URL("https://quizlet.com/webapi/3.9/feed/65138028/created-sets"), GET);
 	    webRequest.setAdditionalHeader("Accept", "*/*");
 	    webRequest.setAdditionalHeader("Content-Type", "application/json");
 
 	    watch.start();
 
-	    final var jsonString = webClient.<UnexpectedPage>getPage(webRequest) //
+	    final var jsonString = webClient.<HtmlPage>getPage(webRequest) //
 			    .getWebResponse() //
 			    .getContentAsString();
 
